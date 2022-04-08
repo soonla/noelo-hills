@@ -239,6 +239,7 @@
           }
         }
       }
+
       .sec0 {
         margin: 0;
         padding: 0;
@@ -290,13 +291,12 @@
                 padding-bottom: 0;
                 justify-content: center;
                 flex-wrap: wrap;
-
                 li {
                   margin: 0 10px 10px;
                   box-sizing: border-box;
                   a {
                     display: inline-block;
-                    width: 160px;
+                    width: 100px;
                     height: 50px;
                     padding: 0 20px;
                     text-align: center;
@@ -322,7 +322,7 @@
         padding: 0;
         letter-spacing: 0.5px;
         img {
-          width: 1000px;
+          width: 777px;
         }
         .inner {
           margin: 0 auto;
@@ -369,13 +369,14 @@
                 margin-top: 20px;
                 padding-bottom: 0;
                 justify-content: center;
-                flex-wrap: wrap;
+
                 box-sizing: border-box;
                 li {
                   margin: 0 10px 10px;
                   box-sizing: border-box;
                   a {
                     display: inline-block;
+                    box-sizing: border-box;
                     width: 160px;
                     height: 50px;
                     padding: 0 20px;
@@ -437,14 +438,13 @@
               font-size: 14px;
               color: #777777;
               a {
-                color: #ffcc00;
-                font-weight: 500;
+                color: #777777;
                 span {
                   color: #fff;
                   font-size: 10px;
                   border-radius: 50px;
                   padding: 3px;
-                  background: #ffcc00;
+                  background-color: #ffcc00;
                   vertical-align: top;
                 }
               }
@@ -454,10 +454,10 @@
       }
 
       .whoSec01 {
-        margin: 0;
         padding: 0;
         letter-spacing: 0.5px;
-
+        margin: 0 auto;
+        width: 777px;
         .smallContainer {
           margin: 0 auto;
           width: 777px;
@@ -510,7 +510,7 @@
                   box-sizing: border-box;
                   a {
                     display: inline-block;
-                    width: 160px;
+                    width: 100px;
                     height: 50px;
                     padding: 0 20px;
                     text-align: center;
@@ -531,60 +531,79 @@
         }
       }
       .whoSec02 {
-        position: relative;
-        display: flex;
-        height: 160px;
-        align-items: center;
+        padding: 0;
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
 
-        div {
-          padding: 0 0 0 140px;
-          background: url(../images/main/sub_whoweare_sec01.png);
-          h4 {
-            font-size: 14px;
-            font-weight: 600;
-            line-height: 1;
-            color: #777;
-            margin-top: -5px;
-          }
-          p {
-            margin-top: 20px;
-            font-size: 14px;
-            font-weight: 300;
-            line-height: 26px;
-            letter-spacing: -1px;
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/sub_whoweare_sec01.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
           }
         }
       }
       .whoSec03 {
-        display: flex;
-        height: 160px;
-        align-items: center;
-        div {
-          padding: 0 0 0 140px;
-          background: url(../images/main/sub_whoweare_sec02.png);
-          h4 {
-            font-size: 14px;
-            font-weight: 600;
-            line-height: 1;
-            color: #777;
-            margin-top: -5px;
-          }
-          p {
-            margin-top: 20px;
-            font-size: 14px;
-            font-weight: 300;
-            line-height: 26px;
-            letter-spacing: -1px;
+        padding: 0;
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
+
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/sub_whoweare_sec02.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
           }
         }
       }
-      .whoSec04 {
-        display: flex;
-        height: 160px;
-        align-items: center;
-        div {
-          padding: 0 0 0 140px;
+    }
+    .whoSec04 {
+      padding: 0;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
+        margin: 0 auto;
+        width: 777px;
+        .menu {
+          padding: 0px 0 0px 140px;
           background: url(../images/main/sub_whoweare_sec03.png);
+          background-repeat: no-repeat;
           h4 {
             font-size: 14px;
             font-weight: 600;
@@ -601,13 +620,20 @@
           }
         }
       }
-      .whoSec05 {
-        display: flex;
-        height: 160px;
-        align-items: center;
-        div {
-          padding: 0 0 0 140px;
+    }
+    .whoSec05 {
+      padding: 0;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
+        margin: 0 auto;
+        width: 777px;
+        .menu {
+          padding: 0px 0 0px 140px;
           background: url(../images/main/sub_whoweare_sec04.png);
+          background-repeat: no-repeat;
           h4 {
             font-size: 14px;
             font-weight: 600;
@@ -624,13 +650,20 @@
           }
         }
       }
-      .whoSec06 {
-        display: flex;
-        height: 160px;
-        align-items: center;
-        div {
-          padding: 0 0 0 140px;
+    }
+    .whoSec06 {
+      padding: 0;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
+        margin: 0 auto;
+        width: 777px;
+        .menu {
+          padding: 0px 0 0px 140px;
           background: url(../images/main/sub_whoweare_sec05.png);
+          background-repeat: no-repeat;
           h4 {
             font-size: 14px;
             font-weight: 600;
@@ -647,13 +680,20 @@
           }
         }
       }
-      .whoSec07 {
-        display: flex;
-        height: 160px;
-        align-items: center;
-        div {
-          padding: 0 0 0 140px;
+    }
+    .whoSec07 {
+      padding: 0;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
+        margin: 0 auto;
+        width: 777px;
+        .menu {
+          padding: 0px 0 0px 140px;
           background: url(../images/main/sub_whoweare_sec06.png);
+          background-repeat: no-repeat;
           h4 {
             font-size: 14px;
             font-weight: 600;
@@ -670,13 +710,20 @@
           }
         }
       }
-      .whoSec08 {
-        display: flex;
-        height: 160px;
-        align-items: center;
-        div {
-          padding: 0 0 0 140px;
+    }
+    .whoSec08 {
+      padding: 0;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
+        margin: 0 auto;
+        width: 777px;
+        .menu {
+          padding: 0px 0 0px 140px;
           background: url(../images/main/sub_whoweare_sec07.png);
+          background-repeat: no-repeat;
           h4 {
             font-size: 14px;
             font-weight: 600;
@@ -693,13 +740,20 @@
           }
         }
       }
-      .whoSec09 {
-        display: flex;
-        height: 160px;
-        align-items: center;
-        div {
-          padding: 0 0 0 140px;
+    }
+    .whoSec09 {
+      padding: 0;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
+        margin: 0 auto;
+        width: 777px;
+        .menu {
+          padding: 0px 0 0px 140px;
           background: url(../images/main/sub_whoweare_sec08.png);
+          background-repeat: no-repeat;
           h4 {
             font-size: 14px;
             font-weight: 600;
@@ -716,13 +770,20 @@
           }
         }
       }
-      .whoSec10 {
-        display: flex;
-        height: 160px;
-        align-items: center;
-        div {
-          padding: 0 0 0 140px;
+    }
+    .whoSec10 {
+      padding: 0;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
+        margin: 0 auto;
+        width: 777px;
+        .menu {
+          padding: 0px 0 0px 140px;
           background: url(../images/main/sub_whoweare_sec09.png);
+          background-repeat: no-repeat;
           h4 {
             font-size: 14px;
             font-weight: 600;
@@ -736,6 +797,139 @@
             font-weight: 300;
             line-height: 26px;
             letter-spacing: -1px;
+          }
+        }
+      }
+    }
+    //press menu start
+    .inner {
+      margin: 0 auto;
+      width: 777px;
+      color: #ffffff;
+      .xansBoard {
+        margin: 0 auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .responsiveTable {
+          display: block;
+          width: 100%;
+          overflow-x: auto;
+          .table {
+            width: 100%;
+            margin-top: 0;
+            border: 1px solid #c3cfd9;
+
+            .xansBody {
+              text-align: center;
+
+              tr {
+                background-color: #ffffff;
+                color: #333333;
+                width: 58px;
+                height: 106px;
+                border-bottom: 1px solid #c3cfd9;
+                .numberTag {
+                }
+                td {
+                  font-size: 16px;
+                  color: #676e73;
+                  border-color: #c3cfd9;
+                  border-left: none;
+                  border-right: none;
+                  background: #fbfafa;
+                  vertical-align: middle;
+                }
+                .thumb {
+                  width: 148px;
+                  background: #fff;
+                  li {
+                    list-style: none;
+
+                    a {
+                      overflow: hidden;
+                      img {
+                        width: 90px;
+                        border-radius: 20px;
+                      }
+                    }
+                    .writer {
+                      float: left;
+                      padding: 50px 30px 60px 8px;
+                      text-align: left;
+                    }
+                  }
+                }
+                .subjectLeftTxtBreak {
+                  position: relative;
+                  width: 570px;
+                  height: 106px;
+                  background: #fff;
+
+                  .hbBoardSubjectPrd {
+                    margin-bottom: 0;
+                    padding-right: 180px;
+                    a {
+                    }
+
+                    span {
+                      display: block;
+
+                      width: 84%;
+                      padding-top: 10px;
+                      font-size: 14px;
+                      font-weight: 400;
+                    }
+                    a {
+                      font-size: 16px;
+                      font-weight: 600;
+                      font: inherit;
+                      span {
+                        display: block;
+                        width: 84%;
+                        padding-top: 10px;
+                        font-size: 14px;
+                        font-weight: 400;
+                      }
+                    }
+                    .txtWarn {
+                      display: block;
+                      width: 84%;
+                      padding-top: 10px;
+                      font-size: 14px;
+                      font-weight: 400;
+                    }
+                    .writer {
+                      display: block;
+                      width: 84%;
+                      padding-top: 10px;
+                      font-size: 14px;
+                      font-weight: 400;
+                    }
+                  }
+                  .hbBoardSubjectTit {
+                    width: 539px;
+                    text-align: left;
+                    span {
+                      display: block;
+                      width: 84%;
+                      padding-top: 10px;
+                      font-size: 14px;
+                      font-weight: 400;
+
+                      img {
+                        float: right;
+                      }
+                    }
+                  }
+                  .hbBoardEtc {
+                    position: absolute;
+                    right: 50px;
+                    top: 80%;
+                    margin-top: -30px;
+                  }
+                }
+              }
+            }
           }
         }
       }

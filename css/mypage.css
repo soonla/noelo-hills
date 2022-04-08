@@ -1,0 +1,105 @@
+.titleBox { line-height: 1.5; }
+
+.titleBox h2 { margin-bottom: 50px; font-size: 3.6rem; font-weight: 600; }
+
+.titleBox p { font-size: 18px; }
+
+.btns { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.btns.center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.btns.right { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+
+.btns .btn { border: 1px solid #d9d9d9; border-radius: 100px; -webkit-transition: 0.25s ease; transition: 0.25s ease; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.btns .transition:hover { background-color: #111111; border-color: #111111; color: #fff; }
+
+.btns .large { height: 60px; padding: 0 50px; }
+
+main { padding-top: 70px; width: 100%; }
+
+main .myPageVisual { width: 1480px; margin: 0 auto; }
+
+main .myPageVisual .titleArea { padding: 40px 0; text-align: center; margin: 0 auto; width: 500px; height: 50px; font-size: 36px; font-weight: 500; line-height: 50px; color: #777777; }
+
+main .myPageVisual .myPoints { padding: 30px 0; margin-bottom: 50px; border: 1px solid #e1e7ec; }
+
+main .myPageVisual .myPoints ul { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+main .myPageVisual .myPoints ul li { width: 50%; height: 30px; margin: 3px 0; padding: 0 30px; line-height: 30px; }
+
+main .myPageVisual .myPoints ul li strong { width: 50%; font-size: 14px; color: #959ea6; }
+
+main .myPageVisual .myPoints ul li span { width: 50%; text-align: right; color: #676d73; font-weight: 400; font-size: 14px; }
+
+main .myPageVisual .myPoints ul li span a { display: inline-block; height: 30px; margin-left: 10px; padding: 0 20px; border: 1px solid #c3cfd9; line-height: 28px; }
+
+main .myPageVisual .myOrder { overflow: hidden; border: 1px solid #e1e7ec; }
+
+main .myPageVisual .myOrder .title { padding: 14px 20px; background: #fcfcfc; }
+
+main .myPageVisual .myOrder .title h3 { font-size: 18px; color: #676e73; font-weight: 500; }
+
+main .myPageVisual .myOrder .title h3 span { font-size: 14px; color: #959ea6; }
+
+main .myPageVisual .myOrder .deliver { padding: 25px 0 30px 0; }
+
+main .myPageVisual .myOrder .deliver .where { display: -webkit-box; display: -ms-flexbox; display: flex; text-align: center; width: 100%; }
+
+main .myPageVisual .myOrder .deliver .where li { width: 25%; margin: 0; padding: 0; border-right: none; }
+
+main .myPageVisual .myOrder .deliver .where li strong { margin: 0; font-size: 18px; color: #676e73; }
+
+main .myPageVisual .myOrder .deliver .where li a { display: -webkit-box; display: -ms-flexbox; display: flex; text-align: center; margin-top: 10px; font-size: 30px; color: #676e73; font-weight: 600; line-height: 1; }
+
+main .myPageVisual .myOrder .deliver .where li a span { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+main .myPageVisual .myOrder .deliver .backGoods { padding: 30px 0 0 0; text-align: center; }
+
+main .myPageVisual .myOrder .deliver .backGoods li { float: none; display: inline-block; height: 40px; margin: 0 5px; padding: 0 19px; border: 1px solid #c3cfd9; line-height: 38px; background: none; letter-spacing: 0; word-spacing: 0; }
+
+main .myPageVisual .myOrder .deliver .backGoods li a { display: block; padding: 0; font-size: 16px; color: #777777; font-weight: 500; }
+
+main .myPageVisual .myOrder .deliver .backGoods li a span { margin-left: 5px; }
+
+main .myPageVisual .myPageLink { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 50px; }
+
+main .myPageVisual .myPageLink div { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; text-align: center; background: #fffaeb; }
+
+main .myPageVisual .myPageLink div a { display: block; height: 225px; }
+
+main .myPageVisual .myPageLink div a .linkBox01 { background: url(../images/main/bg-mypage-linkbox01.png) center top 20px no-repeat; padding-top: 150px; border-right: 18px solid #fff; }
+
+main .myPageVisual .myPageLink div a .linkBox01 h3 { font-size: 18px; font-family: "Quicksand"; font-weight: 600; color: #f9ce42; letter-spacing: 2.5px; line-height: 1.8; }
+
+main .myPageVisual .myPageLink div a .linkBox01 p { font-size: 18px; color: #676e73; font-weight: 500; }
+
+main .myPageVisual .myPageLink div a .linkBox02 { background: url(../images/main/bg-mypage-linkbox02.png) center top 20px no-repeat; padding-top: 150px; border-right: 18px solid #fff; }
+
+main .myPageVisual .myPageLink div a .linkBox02 h3 { font-size: 18px; font-family: "Quicksand"; font-weight: 600; color: #f9ce42; letter-spacing: 2.5px; line-height: 1.8; }
+
+main .myPageVisual .myPageLink div a .linkBox02 p { font-size: 18px; color: #676e73; font-weight: 500; }
+
+main .myPageVisual .myPageLink div a .linkBox03 { background: url(../images/main/bg-mypage-linkbox03.png) center top 20px no-repeat; padding-top: 150px; }
+
+main .myPageVisual .myPageLink div a .linkBox03 h3 { font-size: 18px; font-family: "Quicksand"; font-weight: 600; color: #f9ce42; letter-spacing: 2.5px; line-height: 1.8; }
+
+main .myPageVisual .myPageLink div a .linkBox03 p { font-size: 18px; color: #676e73; font-weight: 500; }
+
+main .myPageVisual .myShopMain { margin-top: 50px; border-top: 1px solid #959ea6; }
+
+main .myPageVisual .myShopMain .bottomLine { height: auto; padding: 0px; border-bottom: 1px solid #c3cfd9; }
+
+main .myPageVisual .myShopMain .bottomLine a { display: block; padding-left: 30px; line-height: 80px; background: url(../images/main/myShopLink-arr.png) right 289x center no-repeat; }
+
+main .myPageVisual .myShopMain .bottomLine a strong { font-size: 16px; font-weight: 500; color: #676e73; }
+
+main .myPageVisual .myShopMain .bottomLine a span { padding-left: 10px; font-size: 14px; color: #959ea6; }
+
+main .myPageVisual .myShopMain .bottomLine1 { height: auto; padding: 0px; }
+
+main .myPageVisual .myShopMain .bottomLine1 a { display: block; padding-left: 30px; line-height: 80px; background: url(../images/main/myShopLink-arr.png) right 289x center no-repeat; }
+
+main .myPageVisual .myShopMain .bottomLine1 a strong { font-size: 16px; font-weight: 500; color: #676e73; }
+
+main .myPageVisual .myShopMain .bottomLine1 a span { padding-left: 10px; font-size: 14px; color: #959ea6; }

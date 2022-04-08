@@ -1,107 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>노엘로힐스</title>
-    <link rel="shortcut icon" href="../images/layout/favicon.png" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/swiper-bundle.css" />
-    <link rel="stylesheet" href="../css/layout.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/main_about.css" />
-    <script src="../js/swiper-bundle.min.js"></script>
-    <script src="../js/main.js" defer></script>
-  </head>
-  <body>
-    <header id="header">
-      <div class="container">
-        <h1 id="logo">
-          <a href="../html/index.html"><img src="../images/header/logo_new.png" alt="노엘로힐스 로고" /></a>
-        </h1>
-        <nav id="gnb">
-          <ul class="list">
-            <li>
-              <a href="">SHOP</a>
-              <ul class="depth02">
-                <li><a href="">BABY</a></li>
-                <li><a href="">KIDS & FAMILY</a></li>
-                <li><a href="">BATH GOODS</a></li>
-                <li><a href="">PRESENTS</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">ABOUT</a>
-              <ul class="depth02">
-                <li><a href="../html/about_brandStory.html">BRAND STORY</a></li>
-                <li><a href="../html/about_whoWeAre.html">WHO WE ARE</a></li>
-                <li><a href="../html/about_makeAWish.html">MAKE A WISH</a></li>
-                <li><a href="../html/about_press.html">PRESS</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">TRUST</a>
-              <ul class="depth02">
-                <li><a href="">FOOD GRADE</a></li>
-                <li><a href="">PENTACERA™</a></li>
-                <li><a href="">CERTIFICATIONS</a></li>
-                <li><a href="">INGREDIENT</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">STOCKISTS</a>
-            </li>
-            <li>
-              <a href="">REVIEW</a>
-            </li>
-            <li>
-              <a href="">BENEFITS</a>
-              <ul class="depth02">
-                <li><a href="">EVENTS</a></li>
-                <li><a href="">MEMBERS&복지</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-        <div class="myWrap">
-          <div id="top-cart">
-            <a href=""><span class ="tooltip" title="장바구니"><img src="../../images/header/ico-cart.png"></span></a>
-          </div>
-          <div id="top-account">
-            <a href="" id="ico-user"><span class ="tooltip" title="마이페이지"><img src="../../images/header/ico-user.png"></span></a>
-            <a href="" id="ico-login"><span class ="tooltip" title="로그인"><img src="../../images/header/ico-login.png"></span></a>
-          </div>
-        </div>
-        <!-- gnb end -->
-        <!-- <div class="etc">
-          <a href="" class="btn online">온라인 견적문의</a>
-          <button class="all">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button> -->
-        </div>
-      </div>
-    </header>
-
+<? include("../include/header.html"); ?>
     <main id="main">
       <div id="mainVisual">
         <ul>
           <li>
             <div class="aboutBanner">
             </div>
-            <p><strong>ABOUT</strong></p>
             <div class="middleMenu">
+              <p><strong>ABOUT</strong></p>
               <ul>
-                <li><a href="../../html/brandStory.html">BRAND STORY</a></li>
-                <li><a href="../../html/whoWeAre.html">WHO WE ARE</a></li>
-                <li><a href="../../html/makeAWish.html">MAKE A WISH</a></li>
-                <li><a href="../../html/press.html">PRESS</a></li>
+                <li><a href="../html/about_brandStory.html">BRAND STORY</a></li>
+                <li><a href="../html/about_whoWeAre.html">WHO WE ARE</a></li>
+                <li><a href="../html/about_makeAWish.html">MAKE A WISH</a></li>
+                <li><a href="../html/about_press.html">PRESS</a></li>
               </ul>
             </div>
             <div class="sec02">
@@ -117,7 +27,7 @@
                     </div>
                   </div>
                   <div class="right">
-                    <img src="../../images/main/sub_makeawish_sec01.png" alt="">
+                    <img src="../images/main/sub_makeawish_sec01.png" alt="">
                   </div>
                 </div>
               </div>
@@ -135,7 +45,7 @@
                       </div>
                     </div>
                     <div class="right">
-                      <img src="../../images/main/sub_makeawish_sec02.png" alt="">
+                      <img src="../images/main/sub_makeawish_sec02.png" alt="">
                     </div>
                     <div class="sec03">
                       <div>
@@ -146,7 +56,7 @@
                             <div>
                               백혈병을 앓고 있던 7살 크리스는 경찰관이 되고 싶은 간절한 소원이 있었습니다. 1980년 미국 경찰국의 도움으로 명예 경찰관이 된 크리스는 제복을 입고 경찰 선서를 했으며, 헬기를 타고 범인을 잡는 체험을 했습니다. 이날은 크리스에게 생애 최고의 날이었어요. 하지만 사흘 후, 그는 우리 곁을 떠나갔습니다.<br><br>                     
                               이 일은 1980년 메이크어위시 재단이 탄생한 계기가 되었고, 현재 전 세계 39개 지부에서 50만명 이상의 난치병 어린이들의 소원을 이루어주는 세계 최대 소원성취 전문기관입니다. 메이크어위시 코리아는 2003년에 설립되었으며, 지금까지 4,800명 이상 되는 국내 난치병 어린이들의 소원을 성취해줬습니다.<br><br><br>
-                              메이크어위시 코리아 홈페이지: www.wish.or.kr
+                              메이크어위시 코리아 홈페이지: <a class="makeAwishLink"href="www.wish.or.kr">www.wish.or.kr</a> 
                             </div>
                           </div>
                   </div>
@@ -158,123 +68,4 @@
       <!--2번째 파트 끝 -->
       </div>
     </main>
-
-    <footer>
-        <div class="container">
-          <div class="up_footer">
-            <ul class="site_gnb">
-              <li>
-                <a href="">SHOP</a>
-                <div class="subDepth">
-                  <ul>
-                    <li><a href="">BABY</a></li>
-                    <li><a href="">KIDS & FAMILY</a></li>
-                    <li><a href="">BATH GOODS</a></li>
-                    <li><a href="">PRESENTS</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <a href="">ABOUT</a>
-                <div class="subDepth">
-                  <ul>
-                    <li><a href="">BRAND STORY</a></li>
-                    <li><a href="">WHO WE ARE</a></li>
-                    <li><a href="">MAKE A WISH</a></li>
-                    <li><a href="">PRESS</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <a href="">TRUST</a>
-                <div class="subDepth">
-                  <ul>
-                    <li><a href="">FOOD GRADE</a></li>
-                    <li><a href="">PENTACERA™></a></li>
-                    <li><a href="">CERTIFICATIONS</a></li>
-                    <li><a href="">INGRADIENT</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li><a href="">STOCKISTS</a></li>
-              <li><a href="">REVIEW</a></li>
-              <li>
-                <a href="">BENEFITS</a>
-                <div class="subDepth">
-                  <ul>
-                    <li><a href="">EVENTS</a></li>
-                    <li><a href="">MEMBERS</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="middle_footer">
-            <div class="footer_menu2">
-              <ul class="footer_info clear">
-                <li>
-                  <span>상호</span>
-                  <span>주식회사 세손</span>
-                </li>
-                <li>
-                  <span>대표자명</span>
-                  <span>임정아</span>
-                </li>
-                <li>
-                  <span>대표전화번호</span>
-                  <strong><a href="" alt="링크">1600-6274</a></strong>
-                </li>
-                <li>
-                  <span>개인정보관련책임자</span>
-                  <strong><a href="" alt="링크">임지은(help@session.com)</a></strong>
-                </li>
-                <li>
-                  <span>사업장 소재지</span>
-                  <strong>04378 서울특별시 용산구 한강대로 95(한강로2가) 제에이동 15층 1515호</strong>
-                </li>
-                <li>
-                  <span>사업장 등록번호</span>
-                  <strong>183-86-01860</strong>
-                </li>
-                <li>
-                  <span>통신판매업 신고번호</span>
-                  <strong>제2021-서을용산-0634호</strong>
-                </li>
-                <div class="sns">
-                  <a href="" class="instagram">
-                    &nbsp;
-                    <img src="../../images/footer/ico_insta.png" alt="인스타그램" />
-                  </a>
-                </div>
-              </ul>
-            </div>
-          </div>
-          <div class="down_footer">
-            <div class="down_footer_wrap">
-              <div class="down_footer_left">
-                <ul>
-                  <li>
-                    CopyRight<!--c문자넣기-->
-                    <span>Session Inc.</span>
-                    " All rights reserved. "
-                  </li>
-                </ul>
-              </div>
-              <div class="down_footer_right">
-                <ul>
-                  <li>
-                    <a href="" alt="링크">CS Center</a>
-                  </li>
-                  <li>
-                    <a href="" alt="링크">Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="" alt="링크">Terms & Condition</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </div>
-      </footer>
-  </body>
-</html>
+<? include("../include/footer.html"); ?>

@@ -1,0 +1,285 @@
+@import "vars";
+@import "mixins";
+.titleBox {
+  line-height: 1.5;
+  h2 {
+    margin-bottom: 50px;
+    font-size: $h2;
+    font-weight: 600;
+  }
+  p {
+    font-size: $medium-size;
+  }
+}
+
+.btns {
+  display: flex;
+  &.center {
+    justify-content: center;
+  }
+  &.right {
+    justify-content: flex-end;
+  }
+  .btn {
+    border: 1px solid $border-color;
+    border-radius: 100px;
+    transition: 0.25s ease;
+    @include flexCenter();
+  }
+  .transition:hover {
+    background-color: $text-color;
+    border-color: $text-color;
+    color: #fff;
+  }
+  .large {
+    height: 60px;
+    padding: 0 50px;
+  }
+}
+
+main {
+  padding-top: 70px;
+
+  width: 100%;
+  .myPageVisual {
+    width: 1480px;
+    margin: 0 auto;
+    // border: 1px solid #ccc;
+    .titleArea {
+      padding: 40px 0;
+      text-align: center;
+      margin: 0 auto;
+      width: 500px;
+      height: 50px;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 50px;
+      color: #777777;
+    }
+    .myPoints {
+      padding: 30px 0;
+      margin-bottom: 50px;
+      border: 1px solid #e1e7ec;
+      ul {
+        display: flex;
+        li {
+          width: 50%;
+          height: 30px;
+          margin: 3px 0;
+          padding: 0 30px;
+          line-height: 30px;
+          strong {
+            width: 50%;
+            font-size: 14px;
+            color: #959ea6;
+          }
+          span {
+            width: 50%;
+            text-align: right;
+            color: #676d73;
+            font-weight: 400;
+            font-size: 14px;
+            a {
+              display: inline-block;
+              height: 30px;
+              margin-left: 10px;
+              padding: 0 20px;
+              border: 1px solid #c3cfd9;
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+    .myOrder {
+      overflow: hidden;
+      border: 1px solid #e1e7ec;
+      .title {
+        padding: 14px 20px;
+        background: #fcfcfc;
+        h3 {
+          font-size: 18px;
+          color: #676e73;
+          font-weight: 500;
+          span {
+            font-size: 14px;
+            color: #959ea6;
+          }
+        }
+      }
+      .deliver {
+        padding: 25px 0 30px 0;
+
+        .where {
+          display: flex;
+
+          text-align: center;
+          width: 100%;
+          li {
+            width: 25%;
+            margin: 0;
+            padding: 0;
+            border-right: none;
+            strong {
+              margin: 0;
+              font-size: 18px;
+              color: #676e73;
+            }
+            a {
+              display: flex;
+              text-align: center;
+              margin-top: 10px;
+              font-size: 30px;
+              color: #676e73;
+              font-weight: 600;
+              line-height: 1;
+
+              //text-align: center; 이게아닌가 숫자 0 옮기기
+              span {
+                box-sizing: border-box;
+              }
+            }
+          }
+        }
+        .backGoods {
+          padding: 30px 0 0 0;
+          text-align: center;
+          li {
+            float: none;
+            display: inline-block;
+            height: 40px;
+            margin: 0 5px;
+            padding: 0 19px;
+            border: 1px solid #c3cfd9;
+            line-height: 38px;
+            background: none;
+            letter-spacing: 0;
+            word-spacing: 0;
+            a {
+              display: block;
+              padding: 0;
+              font-size: 16px;
+              color: #777777;
+              font-weight: 500;
+              span {
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .myPageLink {
+      display: flex;
+      margin-top: 50px;
+      div {
+        flex: 1;
+        text-align: center;
+        background: #fffaeb;
+        a {
+          display: block;
+          height: 225px;
+          .linkBox01 {
+            background: url(../images/main/bg-mypage-linkbox01.png) center top 20px no-repeat;
+            padding-top: 150px;
+            border-right: 18px solid #fff;
+            h3 {
+              font-size: 18px;
+              font-family: "Quicksand";
+              font-weight: 600;
+              color: #f9ce42;
+              letter-spacing: 2.5px;
+              line-height: 1.8;
+            }
+            p {
+              font-size: 18px;
+              color: #676e73;
+              font-weight: 500;
+            }
+          }
+          .linkBox02 {
+            background: url(../images/main/bg-mypage-linkbox02.png) center top 20px no-repeat;
+            padding-top: 150px;
+            border-right: 18px solid #fff;
+            h3 {
+              font-size: 18px;
+              font-family: "Quicksand";
+              font-weight: 600;
+              color: #f9ce42;
+              letter-spacing: 2.5px;
+              line-height: 1.8;
+            }
+            p {
+              font-size: 18px;
+              color: #676e73;
+              font-weight: 500;
+            }
+          }
+          .linkBox03 {
+            background: url(../images/main/bg-mypage-linkbox03.png) center top 20px no-repeat;
+            padding-top: 150px;
+            h3 {
+              font-size: 18px;
+              font-family: "Quicksand";
+              font-weight: 600;
+              color: #f9ce42;
+              letter-spacing: 2.5px;
+              line-height: 1.8;
+            }
+            p {
+              font-size: 18px;
+              color: #676e73;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+    .myShopMain {
+      margin-top: 50px;
+      border-top: 1px solid #959ea6;
+      .bottomLine {
+        height: auto;
+        padding: 0px;
+        border-bottom: 1px solid #c3cfd9;
+        a {
+          display: block;
+          padding-left: 30px;
+          line-height: 80px;
+          background: url(../images/main/myShopLink-arr.png) right 289x center no-repeat;
+          strong {
+            font-size: 16px;
+            font-weight: 500;
+            color: #676e73;
+          }
+          span {
+            padding-left: 10px;
+            font-size: 14px;
+            color: #959ea6;
+          }
+        }
+      }
+      .bottomLine1 {
+        height: auto;
+        padding: 0px;
+
+        a {
+          display: block;
+          padding-left: 30px;
+          line-height: 80px;
+          background: url(../images/main/myShopLink-arr.png) right 289x center no-repeat;
+          strong {
+            font-size: 16px;
+            font-weight: 500;
+            color: #676e73;
+          }
+          span {
+            padding-left: 10px;
+            font-size: 14px;
+            color: #959ea6;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+새 html 전용
+<? include("../include/header.html"); ?>
+<? include("../include/footer.html"); ?>
+
+include-header 추가
+<link rel="stylesheet" href="../css/.css" />

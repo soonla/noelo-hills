@@ -1,85 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>노엘로힐스</title>
-    <link rel="shortcut icon" href="../images/layout/favicon.png" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/swiper-bundle.css" />
-    <link rel="stylesheet" href="../css/layout.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/main_about.css" />
-    <script src="../js/swiper-bundle.min.js"></script>
-    <script src="../js/main.js" defer></script>
-  </head>
-  <body>
-    <header id="header">
-      <div class="container">
-        <h1 id="logo">
-          <a href="../html/index.html"><img src="../images/header/logo_new.png" alt="노엘로힐스 로고" /></a>
-        </h1>
-        <nav id="gnb">
-          <ul class="list">
-            <li>
-              <a href="">SHOP</a>
-              <ul class="depth02">
-                <li><a href="">BABY</a></li>
-                <li><a href="">KIDS & FAMILY</a></li>
-                <li><a href="">BATH GOODS</a></li>
-                <li><a href="">PRESENTS</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">ABOUT</a>
-              <ul class="depth02">
-                <li><a href="../html/brandStory.html">BRAND STORY</a></li>
-                <li><a href="../html/whoWeAre.html">WHO WE ARE</a></li>
-                <li><a href="../html/makeAWish.html">MAKE A WISH</a></li>
-                <li><a href="../html/press.html">PRESS</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">TRUST</a>
-              <ul class="depth02">
-                <li><a href="">FOOD GRADE</a></li>
-                <li><a href="">PENTACERA™</a></li>
-                <li><a href="">CERTIFICATIONS</a></li>
-                <li><a href="">INGREDIENT</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">STOCKISTS</a>
-            </li>
-            <li>
-              <a href="">REVIEW</a>
-            </li>
-            <li>
-              <a href="">BENEFITS</a>
-              <ul class="depth02">
-                <li><a href="">EVENTS</a></li>
-                <li><a href="">MEMBERS&복지</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-        <div class="myWrap">
-          <div id="top-cart">
-            <a href=""><span class ="tooltip" title="장바구니"><img src="../images/header/ico-cart.png"></span></a>
-          </div>
-          <div id="top-account">
-            <a href="" id="ico-user"><span class ="tooltip" title="마이페이지"><img src="../images/header/ico-user.png"></span></a>
-            <a href="" id="ico-login"><span class ="tooltip" title="로그인"><img src="../images/header/ico-login.png"></span></a>
-          </div>
-        </div>
-        </div>
-      </div>
-    </header>
+<? include("../include/header.html"); ?>
     <main id="main">
       <div id="mainVisual">
         <ul>
@@ -87,12 +6,12 @@
             <div class="aboutBanner">
             </div>
             <div class="middleMenu">
+              <p><strong>ABOUT</strong></p>
               <ul>
-                <p><strong>ABOUT</strong></p>
-                <li><a href="../html/brandStory.html">BRAND STORY</a></li>
-                <li><a href="../html/whoWeAre.html">WHO WE ARE</a></li>
-                <li><a href="../html/makeAWish.html">MAKE A WISH</a></li>
-                <li><a href="../html/press.html">PRESS</a></li>
+                <li><a href="../html/about_brandStory.html">BRAND STORY</a></li>
+                <li><a href="../html/about_whoWeAre.html">WHO WE ARE</a></li>
+                <li><a href="../html/about_makeAWish.html">MAKE A WISH</a></li>
+                <li><a href="../html/about_press.html">PRESS</a></li>
               </ul>
             </div>
             <div class="sec01">
@@ -130,7 +49,7 @@
             <div class="whoSec02">
               <div>
                 <div class="smallContainer">
-                  <div>
+                  <div class="menu">
                     <h4>Chief Executive Officer 임정아</h4>
                     <p>그녀를 한마디로 표현하자면, Chief Mom입니다. Noelo Hills를 진두지휘하는 회사의 Mom이자, 귀여운 딸과 잘생긴 남편, 장난꾸러기 고양이 체다를 돌보는 가정의 Mom이기도 하죠. 최근까지 AHC 카버코리아 부대표로 재직하면서 회사 리브랜딩을 통해 Unilever에 M&A하는 성과를 이끌어냈고, 그 전에는 아모레퍼시픽 럭셔리 화장품 브랜드 임원으로도 활동했습니다.</p>
                     <br><br>                    
@@ -139,9 +58,9 @@
               </div>
             </div>
             <div class="whoSec03">
-              <div>
+              <div >
                 <div class="smallContainer">
-                  <div>
+                  <div class="menu">
                     <h4>Product Creative Director 정승은</h4>
                     <p>정승은 CD는 우리의 Magic Hands로 통합니다. Noelo Hills의 제품을 개발하는 한편, 집에서는 시크한 딸과 귀여운 아들, 응석받이 막내 냥이를 멋진 남편과 함께 길러내는 놀라운 능력을 갖고 있죠. 노엘로힐스 창업 전까지 CJ 오쇼핑 뷰티브랜드 사업부장을 맡았으며, 이전에는 아모레퍼시픽, 네이처리퍼블릭, 리엔케이에서 브랜드메니저로 활동했습니다.</p>
                     <br><br>                    
@@ -150,9 +69,9 @@
               </div>
             </div>
             <div class="whoSec04">
-              <div>
+              <div >
                 <div class="smallContainer">
-                  <div>
+                  <div class="menu">
                     <h4>Design Creative Director 이원희</h4>
                     <p>이원희 CD는 Noelo Hills의 디자인을 총괄하는 동시에, 지치지않는 열정으로 사무실의 액티브한 무드까지 디자인합니다. 차분하며 배려심 많은 남편이 그녀를 지지해준다고 해요. 이원희 CD는 최근까지 AHC 카버코리아에서 디자인 임원으로 리브랜딩 디자인 작업을 이끌었으며, 이전에는 코웨이와 코리아나에서 코스메틱 디자인팀을 총괄했습니다.</p>
                     <br><br>                    
@@ -163,7 +82,7 @@
             <div class="whoSec05">
               <div>
                 <div class="smallContainer">
-                  <div>
+                  <div class="menu"> 
                     <h4>Digital Creative Director 임지은</h4>
                     <p>임지은 CD는 고객이 브랜드와 만나는 디지털 접점에서 행복한 경험을 구현하는 일을 맡고 있으며 집에서는 애교 많은 딸과 가정적인 남편의 응원 안에 행복하게 일하는 엄마로 활동 중입니다. 커리어 초기부터 디지털마케팅을 중심적으로 해온 전문가로써, AHC 카버코리아, 한샘, CJ와 같은 대기업의 소비재 브랜드 디지털화 작업을 이끌었습니다.</p>
                     <br><br>                    
@@ -182,11 +101,10 @@
                 </div>
               </div>
             </div>
-            
             <div class="whoSec06">
               <div>
                 <div class="smallContainer">
-                  <div>
+                  <div class="menu">
                     <h4>피부과 전문지식 패널 Dr. Jason Fung</h4>
                     <p>Fung 박사는 미국 캘리포니아 샌프란시스코 지역의 성공적인 피부과 병원의 원장입니다. 20년 넘는 경력을 보유하고 있으며, 특히 어린 피부에 미치는 자외선의 영향에 대해 큰 관심을 갖고있습니다. American Academy of Dermatology의 회원이며, Yale University와 University of Rochester School of Medicine을 졸업했습니다.</p>
                     <br><br>                    
@@ -197,7 +115,7 @@
             <div class="whoSec07">
               <div>
                 <div class="smallContainer">
-                  <div>
+                  <div class="menu">
                     <h4>소아과 전문지식 패널 Dr. Mina Kim</h4>
                     <p>Mina Kim 박사는 소아 내분비학 전문의입니다. Yale University Hospital에서 레지던트 프로그램을 마치고, 이후 같은 병원에서 수년간 근무했습니다. Boston University 학부 및 Boston University School of Medicine을 졸업했습니다.</p>
                     <br><br>                    
@@ -208,7 +126,7 @@
             <div class="whoSec08">
               <div>
                 <div class="smallContainer">
-                  <div>
+                  <div class="menu">
                     <h4>산부인과 전문지식 패널 Dr. Alice Lee</h4>
                     <p>Alice Lee 박사는 미국 로스앤젤레스에 위치한 병원의 원장인 동시에, University of Southern California (USC), Huntington Memorial 병원과 협업하고 있습니다. American Board of Obstetrics and Gynecology의 회원이며 Northwestern University 학부와 의과대학을 졸업했습니다.</p>
                     <br><br>                    
@@ -219,7 +137,7 @@
             <div class="whoSec09">
               <div>
                 <div class="smallContainer">
-                  <div>
+                  <div class="menu">
                     <h4>비뇨기과 전문지식 패널 Dr. Young M. Kang</h4>
                     <p>Kang 박사는 샌프란시스코 지역 병원 원장인 동시에 Stanford와 UCSF 병원과 협업하고 있습니다. Columbia University College of Physicians and Surgeons와 Cedars-Sinai Beverly Hills에서 경력을 쌓았으며, Johns Hopkins University와 University of Rochester School of Medicine을 졸업했습니다.</p>
                     <br><br>                    
@@ -230,7 +148,7 @@
             <div class="whoSec10">
               <div>
                 <div class="smallContainer">
-                  <div>
+                  <div class="menu">
                     <h4>연구개발 전문지식 패널 Director H.T. Hahn</h4>
                     <p>한현탁 원장은 LG생활건강, SK바이오랜드 등 업계 최고 기업에서 20년 이상 화장품 연구를 해온 전문가입니다. 원료, 처방, 그리고 제형에 대한 지식과 통찰력을 기반으로 제품이 안전하게 만들어질 수 있도록 자문을 아끼지 않습니다. 연세대학교 화학과와 연세대학교 대학원 화학과를 졸업했습니다.</p>
                     <br><br>                    
@@ -244,122 +162,4 @@
       <!--2번째 파트 끝 -->
       </div>
     </main>
-    <footer>
-      <div class="container">
-        <div class="up_footer">
-          <ul class="site_gnb">
-            <li>
-              <a href="">SHOP</a>
-              <div class="subDepth">
-                <ul>
-                  <li><a href="">BABY</a></li>
-                  <li><a href="">KIDS & FAMILY</a></li>
-                  <li><a href="">BATH GOODS</a></li>
-                  <li><a href="">PRESENTS</a></li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <a href="">ABOUT</a>
-              <div class="subDepth">
-                <ul>
-                  <li><a href="">BRAND STORY</a></li>
-                  <li><a href="">WHO WE ARE</a></li>
-                  <li><a href="">MAKE A WISH</a></li>
-                  <li><a href="">PRESS</a></li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <a href="">TRUST</a>
-              <div class="subDepth">
-                <ul>
-                  <li><a href="">FOOD GRADE</a></li>
-                  <li><a href="">PENTACERA™></a></li>
-                  <li><a href="">CERTIFICATIONS</a></li>
-                  <li><a href="">INGRADIENT</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="">STOCKISTS</a></li>
-            <li><a href="">REVIEW</a></li>
-            <li>
-              <a href="">BENEFITS</a>
-              <div class="subDepth">
-                <ul>
-                  <li><a href="">EVENTS</a></li>
-                  <li><a href="">MEMBERS</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="middle_footer">
-          <div class="footer_menu2">
-            <ul class="footer_info clear">
-              <li>
-                <span>상호</span>
-                <span>주식회사 세손</span>
-              </li>
-              <li>
-                <span>대표자명</span>
-                <span>임정아</span>
-              </li>
-              <li>
-                <span>대표전화번호</span>
-                <strong><a href="" alt="링크">1600-6274</a></strong>
-              </li>
-              <li>
-                <span>개인정보관련책임자</span>
-                <strong><a href="" alt="링크">임지은(help@session.com)</a></strong>
-              </li>
-              <li>
-                <span>사업장 소재지</span>
-                <strong>04378 서울특별시 용산구 한강대로 95(한강로2가) 제에이동 15층 1515호</strong>
-              </li>
-              <li>
-                <span>사업장 등록번호</span>
-                <strong>183-86-01860</strong>
-              </li>
-              <li>
-                <span>통신판매업 신고번호</span>
-                <strong>제2021-서을용산-0634호</strong>
-              </li>
-              <div class="sns">
-                <a href="" class="instagram">
-                  &nbsp;
-                  <img src="../images/footer/ico_insta.png" alt="인스타그램" />
-                </a>
-              </div>
-            </ul>
-          </div>
-        </div>
-        <div class="down_footer">
-          <div class="down_footer_wrap">
-            <div class="down_footer_left">
-              <ul>
-                <li>
-                  CopyRight<!--c문자넣기-->
-                  <span>Session Inc.</span>
-                  " All rights reserved. "
-                </li>
-              </ul>
-            </div>
-            <div class="down_footer_right">
-              <ul>
-                <li>
-                  <a href="" alt="링크">CS Center</a>
-                </li>
-                <li>
-                  <a href="" alt="링크">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="" alt="링크">Terms & Condition</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-      </div>
-    </footer>
-  </body>
-</html>
+<? include("../include/footer.html"); ?>

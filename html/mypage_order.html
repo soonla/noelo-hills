@@ -1,0 +1,111 @@
+<? include("../include/header.html"); ?>
+<main id="main">
+  <div class="order_info">
+    <div class="titleArea">
+      <h1>주문조회</h1>
+    </div>
+    <div class="order_menu">
+      <div class="basetab">
+        <ul>
+          <li id="first_li" class="selected">
+            <a>
+              주문내역조회(
+              <span id="order_list">0</span>
+              )
+            </a>
+          </li>
+          <li id="first_li_2">
+            <a>
+              취소/반품/교환 내역(
+              <span id="order_list">0</span>
+              )
+            </a>
+          </li>
+        </ul>
+      </div>
+      <form action="">
+        <div class="order-history">
+          <fieldset>
+            <div class="state_select">
+              <select name="" id="order_status">
+                <option value="all">전체 주문처리상태</option>
+                <option value="shipped_before">입금전</option>
+                <option value="shipped_before">배송준비중</option>
+                <option value="shipped_before">배송중</option>
+                <option value="shipped_before">배송완료</option>
+              </select>
+            </div>
+            <div class="period">
+              <span class="date-period">
+                <a href="">오늘</a>
+                <a href="">1주일</a>
+                <a href="">1개월</a>
+                <a href="">3개월</a>
+                <a href="">6개월</a>
+              </span>
+            </div>
+            <div class="date">
+              <input id="history_start_date" name="history_start_date" type="text" value="" />
+              <button><img src="../images/mypage/order/ico-datepicker.png" alt="" /></button>
+            </div>
+            <span style="line-height: 40px">~</span>
+            <div class="date">
+              <input id="history_end_date" name="history_end_date" type="text" value="" />
+              <button><img src="../images/mypage/order/ico-datepicker.png" alt="" /></button>
+            </div>
+            <div class="btnWrap">
+              <a href=""><span>조회</span></a>
+            </div>
+          </fieldset>
+          <ul>
+            <li>기본적으로 최근 3개월간의 자료가 조회되며, 기간 검색시 지난 주문내역을 조회하실 수 있습니다.</li>
+            <li>주문번호를 클릭하시면 해당 주문에 대한 상세내역을 확인하실 수 있습니다.</li>
+            <li>취소/교환/반품 신청은 주문완료일 기준 30일까지 가능합니다.</li>
+          </ul>
+        </div>
+      </form>
+    </div>
+    <div class="order_list_table">
+      <table border="1">
+        <colgroup>
+          <col stype="width:20%" />
+          <col stype="width:40%" />
+          <col stype="width:20%" />
+          <col stype="width:20%" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">주문일자<br />[주문번호]</th>
+            <th scope="col">상품정보</th>
+            <th scope="col">상품구매금액</th>
+            <th scope="col">주문상태</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">97,000</td>
+            <td scope="row">갤럭시 워치 40mm</td>
+            <td scope="row">=97,000</td>
+            <td scope="row">=97,000</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 주문내역이 없을 경우
+        <p class="message">주문 내역이 없습니다.</p> -->
+      <div class="order_page">
+        <a href=""><img src="../images/common/page_bottom/btn_page_first.png" alt="" /></a>
+        <a href=""><img src="../images/common/page_bottom/btn_page_prev.png" alt="" /></a>
+        <ol>
+          <li><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+          <li><a href="">5</a></li>
+        </ol>
+        <a href=""><img src="../images/common/page_bottom/btn_page_next.png" alt="" /></a>
+        <a href=""><img src="../images/common/page_bottom/btn_page_last.png" alt="" /></a>
+      </div>
+    </div>
+  </div>
+</main>
+<? include("../include/footer.html"); ?>

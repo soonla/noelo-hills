@@ -1,0 +1,173 @@
+#main {
+  .order_info {
+    width: 1480px;
+    height: 1500px;
+    margin: 0 auto;
+    .titleArea {
+      padding: 40px 0;
+      text-align: center;
+      margin: 0 auto;
+      width: 500px;
+      height: 50px;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 50px;
+      color: #777777;
+    }
+    .order_menu {
+      width: 100%;
+      margin-top: 40px;
+      .basetab {
+        border-bottom: 1px solid #777777;
+        ul {
+          li {
+            width: 180px;
+            display: inline-block;
+            border: 1px solid #777777;
+            border-bottom: none;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 15px 15px 0 0;
+            z-index: 10;
+            cursor: pointer;
+            a {
+              display: block;
+            }
+            &.selected {
+              background-color: #777777;
+              a {
+                color: #fff;
+              }
+            }
+            //주문내역 li 클릭시 selected Class 추가
+          }
+        }
+      }
+      .order-history {
+        margin: 40px 0;
+        fieldset {
+          padding: 30px;
+          border: 1px solid #c3cfd9;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          .state_select {
+            select {
+              width: 200px;
+              height: 40px;
+              border-color: #c3cfd9;
+              font-size: 16px;
+              padding-left: 10px;
+              appearance: none;
+              background-image: url("../images/common/arr-select.png");
+              background-repeat: no-repeat;
+              background-position: 95%;
+            }
+            &.off {
+              display: none;
+            }
+          }
+          .period {
+            margin: 0 30px;
+            height: 40px;
+            span {
+              a {
+                display: inline-block;
+                width: 60px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border: 1px solid #c3cfd9;
+              }
+            }
+          }
+          .date {
+            position: relative;
+            width: 140px;
+            height: 40px;
+            border: 1px solid #c3cfd9;
+            input {
+              box-sizing: border-box;
+              width: 140px;
+              height: 40px;
+              display: block;
+              padding-left: 20px;
+              border: none;
+            }
+            button {
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              right: 2px;
+            }
+          }
+          .btnWrap {
+            margin-top: 30px;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+            cursor: pointer;
+            background-color: #ffcc00;
+            a {
+              span {
+                color: #fff;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+        ul {
+          margin-top: 20px;
+          padding-left: 30px;
+          list-style: disc;
+          line-height: 30px;
+        }
+      }
+    }
+    .order_list_table {
+      table {
+        width: 100%;
+        border-top: 1px solid #c3cfd9 !important;
+        vertical-align: middle;
+        padding: 20px 20px;
+        thead {
+          tr {
+            border-bottom: 1px solid #c3cfd9 !important;
+            th {
+              padding: 15px 0;
+              line-height: 1.5;
+              vertical-align: middle;
+            }
+          }
+        }
+        tbody {
+          text-align: center;
+          tr {
+            border-bottom: 1px solid #c3cfd9 !important;
+            td {
+              padding: 15px 0;
+              line-height: 1.5;
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+    .order_page {
+      margin-top: 40px;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      a {
+        margin: 0 5px;
+      }
+      ol {
+        li {
+          a {
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

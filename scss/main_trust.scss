@@ -1,0 +1,460 @@
+@import "vars";
+@import "mixins";
+.titleBox {
+  line-height: 1.5;
+  h2 {
+    margin-bottom: 50px;
+    font-size: $h2;
+    font-weight: 600;
+  }
+  p {
+    font-size: $medium-size;
+  }
+}
+
+.btns {
+  display: flex;
+  &.center {
+    justify-content: center;
+  }
+  &.right {
+    justify-content: flex-end;
+  }
+  .btn {
+    border: 1px solid $border-color;
+    border-radius: 100px;
+    transition: 0.25s ease;
+    @include flexCenter();
+  }
+  .transition:hover {
+    background-color: $text-color;
+    border-color: $text-color;
+    color: #fff;
+  }
+  .large {
+    height: 60px;
+    padding: 0 50px;
+  }
+}
+
+#main {
+  padding-top: 70px;
+  #trustVisual {
+    width: 100%;
+    li {
+      .trustBanner {
+        margin: 0 auto;
+        width: 100%;
+        height: 260px;
+        background-color: #ccc;
+        background-position: 50%;
+        background-size: cover;
+        background-image: url("../images/main/banner/subimage_trust.png");
+        cursor: pointer;
+        position: relative;
+      }
+      .middleMenu {
+        background-color: #faf8f2;
+        p {
+          padding: 10px;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          font-size: 18px;
+        }
+
+        ul {
+          display: flex;
+          justify-content: center;
+          li {
+            a {
+              display: block;
+              padding: 30px;
+              font-size: 14px;
+              position: relative;
+              z-index: 2;
+            }
+          }
+        }
+      }
+
+      .sec01 {
+        letter-spacing: 0.5px;
+        img {
+          width: 777px;
+        }
+        .mainBox {
+          margin: 0 auto;
+          width: 777px;
+          .left {
+            padding: 35px 0 80px 0;
+            strong {
+              color: #777777;
+              font-size: 18px;
+              padding-bottom: 10px;
+              font-weight: 600;
+            }
+            div {
+              font-size: 14px;
+              color: #777777;
+            }
+          }
+
+          .ingredientTab {
+            display: flex;
+            margin-top: 20px;
+            padding-bottom: 0;
+            justify-content: center;
+            flex-wrap: wrap;
+            li {
+              margin: 0 10px;
+              text-align: center;
+              a {
+                display: block;
+                font-size: 14px;
+                font-weight: 400;
+                color: #777777;
+                img {
+                  width: 120px;
+                  height: 120px;
+                }
+              }
+            }
+          }
+          h4 {
+            margin: 50px 0 30px;
+            font-size: 18px;
+            color: #676e73;
+            font-weight: 500;
+          }
+        }
+      }
+      .sec02 {
+        letter-spacing: 0.5px;
+
+        .mainBox {
+          margin: 0 auto;
+          width: 777px;
+          .left {
+            padding: 35px 0 40px 0;
+            strong {
+              font-size: 18px;
+              padding-bottom: 10px;
+              color: #777777;
+              font-weight: 600;
+            }
+            div {
+              font-size: 14px;
+              line-height: 24px;
+              font-weight: 300;
+              word-break: keep-all;
+              word-wrap: break-word;
+            }
+          }
+        }
+      }
+      .sec03 {
+        letter-spacing: 0.5px;
+
+        .mainBox {
+          margin: 0 auto;
+          width: 777px;
+          .left {
+            padding: 35px 0 20px 0;
+            strong {
+              font-size: 18px;
+              padding-bottom: 10px;
+              color: #777777;
+              font-weight: 600;
+            }
+            div {
+              font-size: 14px;
+              line-height: 24px;
+              font-weight: 300;
+              word-wrap: break-word;
+
+              a {
+                color: #777777;
+                span {
+                  color: #fff;
+                  font-size: 10px;
+                  border-radius: 50px;
+                  padding: 3px;
+                  background-color: #ffcc00;
+                  vertical-align: top;
+                }
+              }
+            }
+          }
+        }
+      }
+      .secLogo01 {
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
+
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/trust/certifications/sub_certifications_sec01.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
+          }
+        }
+      }
+      .secLogo02 {
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
+
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/trust/certifications/sub_certifications_sec02.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
+          }
+        }
+      }
+      .secLogo03 {
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
+
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/trust/certifications/sub_certifications_sec03.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
+          }
+        }
+      }
+      .secLogo04 {
+        padding: 14px;
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
+
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/trust/certifications/sub_certifications_sec04.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
+          }
+        }
+      }
+      .secLogo05 {
+        padding: 14px;
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
+
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/trust/certifications/sub_certifications_sec05.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
+          }
+        }
+      }
+      .secLogo06 {
+        padding: 14px;
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
+
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/trust/certifications/sub_certifications_sec06.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
+          }
+        }
+      }
+      .secLogo07 {
+        padding: 14px;
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
+
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/trust/certifications/sub_certifications_sec07.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
+          }
+        }
+      }
+      .secLogo08 {
+        padding: 14px;
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
+
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/trust/certifications/sub_certifications_sec08.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
+          }
+        }
+      }
+      .secLogo09 {
+        padding: 14px;
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        width: 777px;
+
+        .smallContainer {
+          margin: 0 auto;
+          width: 777px;
+          .menu {
+            padding: 0px 0 0px 140px;
+            background: url(../images/main/trust/certifications/sub_certifications_sec09.png);
+            background-repeat: no-repeat;
+            h4 {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              color: #777;
+              margin-top: -5px;
+            }
+            p {
+              margin-top: 20px;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 26px;
+              letter-spacing: -1px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

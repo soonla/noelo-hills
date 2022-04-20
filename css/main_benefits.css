@@ -18,41 +18,161 @@
 
 #main { padding-top: 70px; width: 100%; }
 
-#main #mainVisual { width: 100%; }
+#main #eventsVisual { width: 1480px; margin: 0 auto; }
 
-#main #mainVisual li .eventsBanner { margin: 0 auto; text-align: center; width: 100%; height: 260px; background-repeat: no-repeat; background-position: 50%; background-size: cover; background-image: url("../images/main/banner/subimage_benefits.png"); }
+#main #eventsVisual .eventsBanner { margin: 0 auto; text-align: center; width: 100%; height: 260px; background-repeat: no-repeat; background-position: 50%; background-size: cover; background-image: url("../images/main/banner/subimage_benefits.png"); }
 
-#main #mainVisual li .middleMenu { background-color: #faf8f2; border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+#main #eventsVisual .middleMenu { background-color: #faf8f2; height: 120px; }
 
-#main #mainVisual li .middleMenu p { padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; font-size: 18px; }
+#main #eventsVisual .middleMenu p { padding: 18px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; font-size: 18px; }
 
-#main #mainVisual li .middleMenu ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+#main #eventsVisual .middleMenu ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-#main #mainVisual li .middleMenu ul li:first-child a:before { display: none; }
+#main #eventsVisual .middleMenu ul li { margin: 10px; }
 
-#main #mainVisual li .middleMenu ul li a { display: block; padding: 30px; font-size: 14px; position: relative; }
+#main #eventsVisual .eventsContainer { position: relative; letter-spacing: -0.45px; }
 
-#main #mainVisual li .middleMenu ul li a:before { content: ""; display: block; position: absolute; width: 1px; height: 10px; background-color: #fff; left: 0; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+#main #eventsVisual .eventsContainer .eventsBox { padding-top: 20px; }
 
-#main #mainVisual li .eventsContainer { position: relative; letter-spacing: -0.45px; }
+#main #eventsVisual .eventsContainer .eventsBox ul { -webkit-box-pack: left; -ms-flex-pack: left; justify-content: left; width: 100%; margin: 20px 100px 50px; font-size: 0; line-height: 2; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-#main #mainVisual li .eventsContainer .eventsBox { padding-top: 20px; }
+#main #eventsVisual .eventsContainer .eventsBox ul li { width: 343px; padding: 0; margin: 0 20px 0 0; }
 
-#main #mainVisual li .eventsContainer .eventsBox ul { -webkit-box-pack: left; -ms-flex-pack: left; justify-content: left; width: 100%; margin: 20px 100px 50px; font-size: 0; line-height: 2; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; }
+#main #eventsVisual .eventsContainer .eventsBox ul li a { overflow: hidden; width: 345px; height: 345px; }
 
-#main #mainVisual li .eventsContainer .eventsBox ul li { width: 343px; padding: 0; margin: 0 20px 0 0; }
+#main #eventsVisual .eventsContainer .eventsBox ul li a img { width: 343px; height: 343px; }
 
-#main #mainVisual li .eventsContainer .eventsBox ul li a { overflow: hidden; width: 345px; height: 345px; }
+#main #eventsVisual .eventsContainer .eventsBox ul li .txt { font-size: 16px; color: #676e73; font-weight: 500; }
 
-#main #mainVisual li .eventsContainer .eventsBox ul li a img { width: 343px; height: 343px; }
+#main #eventsVisual .eventsContainer .eventsBox ul li span { font-size: 14px; display: inline-block; }
 
-#main #mainVisual li .eventsContainer .eventsBox ul li .txt { font-size: 16px; color: #676e73; font-weight: 500; }
+#main #eventsVisual .eventsContainer .eventsBox ul li span strong { margin: 30px; border-right: 1px solid #757575; }
 
-#main #mainVisual li .eventsContainer .eventsBox ul li span { font-size: 14px; display: inline-block; }
+#main #eventsVisual .eventsContainer .eventsBox ul li span em { font-weight: normal; display: inline-block; }
 
-#main #mainVisual li .eventsContainer .eventsBox ul li span strong { margin: 30px; border-right: 1px solid #757575; }
+#main #eventsVisual .event_detail { width: 1470px; margin: 40px auto; }
 
-#main #mainVisual li .eventsContainer .eventsBox ul li span em { font-weight: normal; display: inline-block; }
+#main #eventsVisual .event_detail table { width: 100%; border: 1px solid #c3cfd9; }
+
+#main #eventsVisual .event_detail table tbody tr { border-bottom: 1px solid #c3cfd9; }
+
+#main #eventsVisual .event_detail table tbody tr th { padding: 20px; font-size: 16px; color: #676e73; background-color: #fbfafa; border-color: #c3cfd9 !important; border-left: none !important; border-right: none !important; }
+
+#main #eventsVisual .event_detail table tbody tr td { padding: 20px; }
+
+#main #eventsVisual .event_detail table tbody tr:nth-child(2) { margin: 0 auto; text-align: center; }
+
+#main #eventsVisual .event_detail table tbody tr:nth-child(2) .detail p { text-align: center; }
+
+#main #eventsVisual .event_detail .base_button { margin: 10px 0; text-align: right; }
+
+#main #eventsVisual .event_detail .base_button button { padding: 15px 35px; background-color: #ffcc00; color: #fff; }
+
+#main #eventsVisual .event_detail .e_prev_next { width: 100%; }
+
+#main #eventsVisual .event_detail .e_prev_next ul { border: 1px solid #e9e9e9; }
+
+#main #eventsVisual .event_detail .e_prev_next ul li { border-color: #ececec; color: #676e73; height: 40px; -webkit-box-sizing: border-box; box-sizing: border-box; overflow: hidden; vertical-align: middle; line-height: 40px; border-bottom: 1px solid #e9e9e9; }
+
+#main #eventsVisual .event_detail .e_prev_next ul li strong { background-color: #fafafa; width: 120px; height: 20px; padding: 20px; font-size: 16px; }
+
+#main #eventsVisual .event_detail .e_prev_next ul li a { padding-left: 20px; }
+
+#main #eventsVisual .event_detail .e_prev_next ul li:nth-child(2) { border-bottom: none; }
+
+#main #eventsVisual .event_detail .e_prev_next ul .prev strong { background: #fafafa url("../images/event/ico_move_prev.png") 5px center no-repeat; width: 10px; height: 10px; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#main #eventsVisual .event_detail .e_prev_next ul .next strong { background: #fafafa url("../images/event/ico_move_next.png") 5px center no-repeat; width: 10px; height: 10px; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#main #memberVisual { width: 1480px; margin: 0 auto; }
+
+#main #memberVisual .eventsBanner { margin: 0 auto; text-align: center; width: 100%; height: 260px; background-repeat: no-repeat; background-position: 50%; background-size: cover; background-image: url("../images/main/banner/subimage_benefits.png"); }
+
+#main #memberVisual .middleMenu { background-color: #faf8f2; height: 120px; }
+
+#main #memberVisual .middleMenu p { padding: 18px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; font-size: 18px; }
+
+#main #memberVisual .middleMenu ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#main #memberVisual .middleMenu ul li { margin: 10px; }
+
+#main #memberVisual .membersContainer { margin-top: 50px; width: 100%; text-align: center; height: 1100px; position: relative; letter-spacing: -0.45px; }
+
+#main #memberVisual .membersContainer .welcome { height: 960px; border: 1px solid #c3cfd9; background: url(../images/main/benefits/members/bg-benefit-welcome01.png) center 50px no-repeat; background-color: #fff; float: left; width: 476px; text-align: center; letter-spacing: -1px; position: relative; }
+
+#main #memberVisual .membersContainer .welcome .firstSec h3 { margin-bottom: 30px; position: absolute; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); top: 20%; }
+
+#main #memberVisual .membersContainer .welcome .firstSec h3 strong { display: block; font-size: 24px; font-weight: 600; color: #777777; letter-spacing: 0; }
+
+#main #memberVisual .membersContainer .welcome .firstSec h3 span { display: block; font-size: 18px; color: #777777; font-weight: 500; }
+
+#main #memberVisual .membersContainer .welcome .firstSec h4 { position: relative; display: inline-block; margin-top: 150px; font-size: 24px; font-weight: 500; color: #777777; }
+
+#main #memberVisual .membersContainer .welcome .firstSec .pic1 { line-height: 1.8; padding-bottom: 175px; background: url(../images/main/benefits/members/bg-benefit-welcome02.png) center bottom no-repeat; font-size: 16px; line-height: 24px; color: #777777; }
+
+#main #memberVisual .membersContainer .welcome .firstSec .pic2 { line-height: 1.8; padding-bottom: 175px; background: url(../images/main/benefits/members/bg-benefit-welcome03.png) center bottom no-repeat; font-size: 16px; line-height: 24px; color: #777777; }
+
+#main #memberVisual .membersContainer .welcome .middleSec h4 { position: relative; display: inline-block; margin-top: 300px; font-size: 24px; font-weight: 500; color: #777777; }
+
+#main #memberVisual .membersContainer .welcome .middleSec .pic1 { line-height: 1.8; padding-bottom: 175px; background: url(../images/main/benefits/members/bg-benefit-welcome02.png) center bottom no-repeat; font-size: 16px; line-height: 24px; color: #777777; margin: 30px; }
+
+#main #memberVisual .membersContainer .welcome .middleSec .pic2 { line-height: 1.8; padding-bottom: 175px; background: url(../images/main/benefits/members/bg-benefit-welcome03.png) center bottom no-repeat; font-size: 16px; line-height: 24px; color: #777777; }
+
+#main #memberVisual .membersContainer .welcome .lastSec h4 { position: relative; display: inline-block; margin-top: 60px; margin-bottom: 20px; font-size: 24px; font-weight: 500; color: #777777; }
+
+#main #memberVisual .membersContainer .welcome .lastSec .pic1 { line-height: 1.8; padding-bottom: 175px; background: url(../images/main/benefits/members/bg-benefit-welcome02.png) center bottom no-repeat; font-size: 16px; line-height: 24px; color: #777777; }
+
+#main #memberVisual .membersContainer .welcome .lastSec .pic2 { line-height: 1.8; padding-bottom: 175px; background: url(../images/main/benefits/members/bg-benefit-welcome03.png) center bottom no-repeat; font-size: 16px; line-height: 24px; color: #777777; }
+
+#main #memberVisual .membersContainer .purchase { background: #fffaeb url(../images/main/benefits/members/bg-benefit-purchase.png) center 50px no-repeat; float: left; width: 476px; height: 470px; padding: 200px 10px 0 10px 0; margin-left: 20px; text-align: center; letter-spacing: -1px; }
+
+#main #memberVisual .membersContainer .purchase .giftBox { margin-bottom: 20px; position: absolute; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); top: 20%; }
+
+#main #memberVisual .membersContainer .purchase .giftBox strong { font-size: 24px; font-weight: 600; color: #777777; letter-spacing: 0; }
+
+#main #memberVisual .membersContainer .purchase .giftBox span { margin-top: 15px; display: block; font-size: 18px; color: #777777; font-weight: 500; }
+
+#main #memberVisual .membersContainer .purchase h4 { position: relative; display: inline-block; margin-top: 330px; font-size: 24px; font-weight: 500; color: #777777; border-bottom: 5px solid #f9ce42; opacity: 0.5; }
+
+#main #memberVisual .membersContainer .purchase p { margin-top: 10px; font-size: 16px; color: #777777; }
+
+#main #memberVisual .membersContainer .friend { background: #fffaeb url(../images/main/benefits/members/bg-benefit-friend.png) center 50px no-repeat; float: left; width: 476px; height: 470px; padding: 200px 10px 0 10px px; margin-left: 20px; margin-bottom: 20px; text-align: center; letter-spacing: -1px; background-color: #f2f7fa; }
+
+#main #memberVisual .membersContainer .friend h3 { margin-bottom: 220px; position: absolute; left: 83%; -webkit-transform: translateX(-50%); transform: translateX(-50%); top: 20%; width: 100%; }
+
+#main #memberVisual .membersContainer .friend h3 strong { display: block; font-size: 24px; font-weight: 600; color: #777777; letter-spacing: 0; }
+
+#main #memberVisual .membersContainer .friend h3 span { margin-top: 15px; display: block; font-size: 18px; color: #777777; font-weight: 500; }
+
+#main #memberVisual .membersContainer .friend h4 { position: relative; display: inline-block; margin-top: 330px; font-size: 24px; font-weight: 500; color: #777777; border-bottom: 5px solid #f9ce42; opacity: 0.5; }
+
+#main #memberVisual .membersContainer .friend p { margin-top: 10px; font-size: 16px; color: #777777; }
+
+#main #memberVisual .membersContainer .birth { background: #fffaeb url(../images/main/benefits/members/bg-benefit-birthday.png) center 50px no-repeat; float: left; width: 476px; height: 470px; padding: 200px 10px 0 10px px; margin-left: 20px; margin-bottom: 20px; text-align: center; letter-spacing: -1px; background-color: #f2f1ed; }
+
+#main #memberVisual .membersContainer .birth h3 { margin-bottom: 220px; position: absolute; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); top: 65%; width: 100%; }
+
+#main #memberVisual .membersContainer .birth h3 strong { display: block; font-size: 24px; font-weight: 600; color: #777777; letter-spacing: 0; }
+
+#main #memberVisual .membersContainer .birth h3 span { margin-top: 15px; display: block; font-size: 18px; color: #777777; font-weight: 500; }
+
+#main #memberVisual .membersContainer .birth h4 { margin-top: 330px; position: relative; display: inline-block; margin-bottom: 40px; font-size: 24px; font-weight: 500; color: #777777; border-bottom: 5px solid #f9ce42; opacity: 0.5; }
+
+#main #memberVisual .membersContainer .birth p { margin-top: 10px; font-size: 16px; color: #777777; }
+
+#main #memberVisual .membersContainer .review { background: #fffaeb url(../images/main/benefits/members/bg-benefit-review.png) center 50px no-repeat; float: left; width: 476px; height: 470px; padding: 200px 10px 0 10px px; margin-left: 20px; margin-bottom: 20px; text-align: center; letter-spacing: -1px; background-color: #f2f7fa; }
+
+#main #memberVisual .membersContainer .review h3 { position: absolute; left: 83%; -webkit-transform: translateX(-50%); transform: translateX(-50%); top: 65%; width: 100%; }
+
+#main #memberVisual .membersContainer .review h3 strong { display: block; font-size: 24px; font-weight: 600; color: #777777; letter-spacing: 0; }
+
+#main #memberVisual .membersContainer .review h3 span { display: block; font-size: 18px; color: #777777; font-weight: 500; }
+
+#main #memberVisual .membersContainer .review .normalReview { margin-top: 300px; position: relative; display: inline-block; margin-bottom: 40px; font-size: 24px; font-weight: 500; border-bottom: 5px solid #f9ce42; opacity: 0.5; color: #777777; }
+
+#main #memberVisual .membersContainer .review .photoReview { position: relative; display: block; margin-bottom: 40px; font-size: 24px; font-weight: 500; color: #777777; }
+
+#main #memberVisual .membersContainer .review p { margin-top: 10px; font-size: 16px; color: #777777; }
 
 #main .pagination { text-align: center; margin-bottom: 250px; }
 

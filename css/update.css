@@ -1,0 +1,51 @@
+body { overflow-x: hidden; }
+
+table tr { border-top: 1px solid #959ea6; border-bottom: 1px solid #959ea6; }
+
+table td { border-top: 1px solid #959ea6; border-bottom: 1px solid #959ea6; }
+
+.title { text-align: center; font-size: 36px; font-weight: 500; color: #777777; margin-bottom: 50px; }
+
+input[type="text"], input[type="number"], input[type="password"] { border: none; font-size: 15px; border-bottom: 1px solid #959ea6; padding: 5px; width: 500px; height: 30px; outline: none; }
+
+.inner { width: 900px; margin: 0 auto; }
+
+.inner h2 { text-align: center; }
+
+.field { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.field fieldset { border: none; }
+
+.field fieldset .save { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 10px 0; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.btns { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#joinSection .container, #LoginSection .container { width: 1470px; margin: auto; }
+
+#joinSection .container .title, #LoginSection .container .title { margin-top: 50px; }
+
+#joinSection .container p, #LoginSection .container p { margin-top: 15px; }
+
+#joinSection .container table, #LoginSection .container table { width: 100%; margin-bottom: 30px; }
+
+#joinSection .container table tr, #LoginSection .container table tr { width: 100%; }
+
+#joinSection .container table tr th, #LoginSection .container table tr th { width: 150px; padding: 20px; background-color: #fbfafa; vertical-align: middle; text-align: center; }
+
+#joinSection .container table tr td, #LoginSection .container table tr td { padding: 30px; }
+
+#joinSection .container table #phoneFirst, #LoginSection .container table #phoneFirst { padding: 5px; height: 30px; }
+
+#joinSection .container table .short, #LoginSection .container table .short { width: 100px; border: none; border-bottom: 1px solid #959ea6; font-size: 15px; }
+
+#joinSection .container .baseTable, #LoginSection .container .baseTable { margin-bottom: 50px; }
+
+#joinSection .container .baseTable .mobileCheckLink, #LoginSection .container .baseTable .mobileCheckLink { margin-top: 10px; display: inline-block; border: none; text-decoration: none; color: #fff; background-color: #dad613; padding: 0 20px; height: 38px; line-height: 38px; text-align: center; }
+
+#joinSection .container .agreeCheckBox, #LoginSection .container .agreeCheckBox { background-color: #fbfafa; padding: 30px; }
+
+#joinSection .container .agreeCheckBox .agreeBox, #LoginSection .container .agreeCheckBox .agreeBox { margin-bottom: 20px; }
+
+#joinSection .container .agreeCheckBox .contents, #LoginSection .container .agreeCheckBox .contents { background-color: #fff; padding: 20px; height: 90px; overflow-y: auto; font-size: 13px; }
+
+#LoginSection { margin-top: 100px; }

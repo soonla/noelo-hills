@@ -1,0 +1,116 @@
+<? include("../include/header.html"); ?>
+<main id="main">
+  <div class="reviewPostScript">
+    <div class="path"></div>
+    <div class="title">
+      <h2>
+        상품 사용후기
+        <p>상품 사용후기입니다.</p>
+      </h2>
+    </div>
+    <div class="btnBox">
+      <div>
+        <p class="thumbnail">
+          <a href="">
+            <img src="../images/main/review/75x75.gif" alt="" />
+          </a>
+        </p>
+      </div>
+      <div>
+        <p>
+          <span>
+            <a href="">
+              <img src="../images/main/review/btn_prd_detail.gif" alt="" />
+            </a>
+          </span>
+          <span>
+            <a href="">
+              <img src="../images/main/review/btn_prd_select.gif" alt="" />
+            </a>
+          </span>
+          <span>
+            <a href="">
+              <img src="../images/main/review/btn_prd_order.gif" alt="" />
+            </a>
+          </span>
+        </p>
+      </div>
+    </div>
+    <form action="">
+      <div class="goodsMainBox">
+        <table>
+          <tbody class="upBox">
+            <tr class="upSector">
+              <th>제목</th>
+              <td>
+                <input type="text" size="55" />
+              </td>
+            </tr>
+            <tr class="upSector">
+              <th>평점</th>
+              <td>
+                <p class="button01">
+                  <span> <input type="radio" id="id_save1" name="1" /><label class="save" for="id_save1"></label><em>★★★★★ </em></span>
+                  <span> <input type="radio" id="id_save2" name="1" /><label class="save" for="id_save2"></label><em>★★★★ </em></span>
+                  <span> <input type="radio" id="id_save3" name="1" /><label class="save" for="id_save3"></label><em>★★★ </em></span>
+                  <span> <input type="radio" id="id_save4" name="1" /><label class="save" for="id_save4"></label><em>★★ </em></span>
+                  <span> <input type="radio" id="id_save5" name="1" /><label class="save" for="id_save5"></label><em>★ </em></span>
+                </p>
+              </td>
+            </tr>
+            <tr class="txtArea">
+              <td colspan="2">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+              </td>
+            </tr>
+          </tbody>
+          <tbody class="downBox">
+            <tr class="upSector">
+              <th>UCC URL</th>
+              <td>
+                <input type="text" class="uccBox" size="55" />
+              </td>
+            </tr>
+            <tr class="upSector">
+              <th>첨부파일1</th>
+              <td>
+                <input name="attach_file[]" type="file" />
+              </td>
+            </tr>
+            <tr class="upSector">
+              <th>첨부파일2</th>
+              <td>
+                <input name="attach_file[]" type="file" />
+              </td>
+            </tr>
+            <tr class="upSector">
+              <th>첨부파일3</th>
+              <td>
+                <input name="attach_file[]" type="file" />
+              </td>
+            </tr>
+            <tr class="upSector">
+              <th>첨부파일4</th>
+              <td>
+                <input name="attach_file[]" type="file" />
+              </td>
+            </tr>
+            <tr class="upSector">
+              <th>첨부파일5</th>
+              <td>
+                <input name="attach_file[]" type="file" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </form>
+    <div class="base_btn after">
+      <span class="gRight">
+        <a href="">등록</a>
+        <a href="">취소</a>
+      </span>
+    </div>
+  </div>
+</main>
+<? include("../include/footer.html"); ?>

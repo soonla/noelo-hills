@@ -1,0 +1,87 @@
+<? include("../include/header.html"); ?>
+<main id="main">
+  <div class="consult">
+    <div class="titleArea">
+      <h1>1:1맞춤상담</h1>
+    </div>
+
+    <div class="consult_list_table">
+      <table border="1">
+        <colgroup>
+          <col style="width: 70px" />
+          <col style="width: auto" />
+          <col style="width: 100px" />
+          <col style="width: 100px" />
+          <col style="width: 90px" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">번호</th>
+            <th scope="col">제목</th>
+            <th scope="col">작성자</th>
+            <th scope="col">작성일</th>
+            <th scope="col">답변</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">1</td>
+            <td scope="row">아기로션 저자극인가요?</td>
+            <td scope="row">홍길동</td>
+            <td scope="row">2022.04.08</td>
+            <td scope="row">No</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 주문내역이 없을 경우
+        <p class="message">주문 내역이 없습니다.</p> -->
+      <div class="order_page">
+        <a href=""><img src="../images/common/page_bottom/btn_page_first.png" alt="" /></a>
+        <a href=""><img src="../images/common/page_bottom/btn_page_prev.png" alt="" /></a>
+        <ol>
+          <li><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+          <li><a href="">5</a></li>
+        </ol>
+        <a href=""><img src="../images/common/page_bottom/btn_page_next.png" alt="" /></a>
+        <a href=""><img src="../images/common/page_bottom/btn_page_last.png" alt="" /></a>
+      </div>
+      <div class="consult_write">
+        <span class="gRight after"><a href="mp_consult_write.html">글쓰기</a></span>
+      </div>
+    </div>
+    <form action="" class="consult_inputbox">
+      <fieldset class="boardsearch">
+        <div class="wide">
+          <select name="" id="">
+            <option value="" selected="selected">전체</option>
+            <option value="">미답변</option>
+            <option value="">답변완료</option>
+          </select>
+        </div>
+        <div class="date_title">
+          <select name="" id="">
+            <option value="" selected="selected">일주일</option>
+            <option value="">한달</option>
+            <option value="">세달</option>
+            <option value="">전체</option>
+          </select>
+          <select name="" id="">
+            <option value="" selected="selected">제목</option>
+            <option value="">내용</option>
+            <option value="">글쓴이</option>
+            <option value="">아이디</option>
+            <option value="">별명</option>
+          </select>
+        </div>
+        <div class="consult_search">
+          <input type="text" name="" id="" />
+          <a href="">검색</a>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</main>
+<? include("../include/footer.html"); ?>

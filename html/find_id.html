@@ -1,0 +1,70 @@
+<? include("../include/header.html"); ?>
+<main>
+  <div id="findSection">
+    <div class="container">
+      <div class="inner">
+        <h2>아이디 찾기</h2>
+        <form method="post" action="LoginProcess.do" id="find_form">
+          <div class="field_03">
+            <fieldset>
+              <div class="id_find_checkBox">
+                <input type="radio" id="e_check" name="checkmethod" checked="checked" />
+                <label for="e_check">이메일</label>
+                <input type="radio" id="p_check" name="checkmethod" />
+                <label for="p_check">휴대폰번호</label>
+                <input type="radio" id="pi_check" name="checkmethod" />
+                <label for="pi_check">휴대폰인증</label>
+              </div>
+              <div class="input_e_form">
+                <input type="text" name="name" placeholder="  가입하신 이름을 입력하세요." />
+                <input type="text" name="email" placeholder="  가입하신 이메일을 입력하세요." />
+              </div>
+              <div class="input_p_form">
+                <input type="text" name="name" placeholder="  가입하신 이름을 입력하세요." />
+                <p>* 가입하신 전화번호를 입력하세요</p>
+                <input type="number" name="phone" />
+                <strong>-</strong>
+                <input type="number" name="phone" />
+                <strong>-</strong>
+                <input type="number" name="phone" />
+              </div>
+              <div class="input_pi_form">
+                <input type="text" name="name" placeholder="  가입하신 이름을 입력하세요." />
+                <div class="text_pimg">
+                  <p>
+                    휴대폰인증으로 찾기 본인 명의의 휴대폰으로 아이디 찾기를 진행할 수 있습니다.<br />
+                    휴대폰 명의자의 정보로 가입한 아이디 찾기가 가능합니다
+                  </p>
+                  <a href=""><img src="../images/Login/btn_check5.gif" alt="" /></a>
+                </div>
+              </div>
+              <div class="btns">
+                <button type="submit" class="login_btn">확인</button>
+              </div>
+            </fieldset>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+<? include("../include/footer.html"); ?>
+<script>
+  $(document).ready(function () {
+    $("input[type=radio][name=checkmethod]").change(function () {
+      if (this.id == "e_check") {
+        $(".input_e_form").css("display", "block");
+        $(".input_p_form").css("display", "none");
+        $(".input_pi_form").css("display", "none");
+      } else if (this.id == "p_check") {
+        $(".input_e_form").css("display", "none");
+        $(".input_p_form").css("display", "block");
+        $(".input_pi_form").css("display", "none");
+      } else {
+        $(".input_e_form").css("display", "none");
+        $(".input_p_form").css("display", "none");
+        $(".input_pi_form").css("display", "block");
+      }
+    });
+  });
+</script>

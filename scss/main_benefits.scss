@@ -39,110 +39,545 @@
 
 #main {
   padding-top: 70px;
-
   width: 100%;
-
-  #mainVisual {
-    width: 100%;
-
-    li {
-      .eventsBanner {
-        margin: 0 auto;
+  #eventsVisual {
+    width: 1480px;
+    margin: 0 auto;
+    .eventsBanner {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      height: 260px;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      background-image: url("../images/main/banner/subimage_benefits.png");
+    }
+    .middleMenu {
+      background-color: #faf8f2;
+      height: 120px;
+      p {
+        padding: 18px;
+        display: flex;
+        justify-content: center;
         text-align: center;
-        width: 100%;
-        height: 260px;
-        background-repeat: no-repeat;
-        background-position: 50%;
-        background-size: cover;
-        background-image: url("../images/main/banner/subimage_benefits.png");
+        font-size: 18px;
       }
-      .middleMenu {
-        background-color: #faf8f2;
-        p {
-          padding: 10px;
-          display: flex;
-          justify-content: center;
-          text-align: center;
-          font-size: 18px;
+
+      ul {
+        display: flex;
+        justify-content: center;
+        li {
+          margin: 10px;
         }
-        border-bottom: 1px solid transparentize($white-color, 0.5);
+      }
+    }
+    .eventsContainer {
+      position: relative;
+      letter-spacing: -0.45px;
+      .eventsBox {
+        padding-top: 20px;
         ul {
+          justify-content: left;
+          width: 100%;
+          margin: 20px 100px 50px;
+          font-size: 0;
+          line-height: 2;
+          text-align: center;
           display: flex;
-          justify-content: center;
           li {
-            &:first-child a:before {
-              display: none;
-            }
+            width: 343px;
+            padding: 0;
+            margin: 0 20px 0 0;
+
             a {
-              display: block;
-              padding: 30px;
-              font-size: 14px;
-              position: relative;
-              &:before {
-                @include pseudo();
-                @include box(1px, 10px);
-                background-color: $white-color;
-                left: 0;
-                top: 50%;
-                transform: translateY(-50%);
+              overflow: hidden;
+              width: 345px;
+              height: 345px;
+
+              img {
+                width: 343px;
+                height: 343px;
               }
             }
-          }
-        }
-      }
-      .eventsContainer {
-        position: relative;
-        letter-spacing: -0.45px;
-        .eventsBox {
-          padding-top: 20px;
+            .txt {
+              font-size: 16px;
+              color: #676e73;
+              font-weight: 500;
+            }
+            span {
+              font-size: 14px;
+              display: inline-block;
 
-          ul {
-            justify-content: left;
-            width: 100%;
-            margin: 20px 100px 50px;
-            font-size: 0;
-            line-height: 2;
-            text-align: center;
-            display: flex;
-
-            li {
-              width: 343px;
-              padding: 0;
-              margin: 0 20px 0 0;
-
-              a {
-                overflow: hidden;
-                width: 345px;
-                height: 345px;
-
-                img {
-                  width: 343px;
-                  height: 343px;
-                }
+              strong {
+                margin: 30px;
+                border-right: 1px solid #757575;
               }
-              .txt {
-                font-size: 16px;
-                color: #676e73;
-                font-weight: 500;
-              }
-              span {
-                font-size: 14px;
+              em {
+                font-weight: normal;
                 display: inline-block;
-
-                strong {
-                  margin: 30px;
-                  border-right: 1px solid #757575;
-                }
-                em {
-                  font-weight: normal;
-                  display: inline-block;
-                }
               }
             }
           }
         }
       }
     }
+    // 이벤트 상세 페이지 추가 0420
+    .event_detail {
+      width: 1470px;
+      margin: 40px auto;
+      table {
+        width: 100%;
+        border: 1px solid #c3cfd9;
+        tbody {
+          tr {
+            border-bottom: 1px solid #c3cfd9;
+            th {
+              padding: 20px;
+              font-size: 16px;
+              color: #676e73;
+              background-color: #fbfafa;
+              border-color: #c3cfd9 !important;
+              border-left: none !important;
+              border-right: none !important;
+            }
+            td {
+              padding: 20px;
+            }
+            &:nth-child(2) {
+              .detail {
+                p {
+                  text-align: center;
+                }
+              }
+              margin: 0 auto;
+              text-align: center;
+            }
+          }
+        }
+      }
+      //목록버튼
+      .base_button {
+        margin: 10px 0;
+        text-align: right;
+        button {
+          padding: 15px 35px;
+          background-color: #ffcc00;
+          color: #fff;
+        }
+      }
+      //이벤트 이전글 다음글
+      .e_prev_next {
+        width: 100%;
+        ul {
+          border: 1px solid #e9e9e9;
+          li {
+            border-color: #ececec;
+            color: #676e73;
+            height: 40px;
+            box-sizing: border-box;
+            overflow: hidden;
+            vertical-align: middle;
+            line-height: 40px;
+            border-bottom: 1px solid #e9e9e9;
+            strong {
+              background-color: #fafafa;
+              width: 120px;
+              height: 20px;
+              padding: 20px;
+              font-size: 16px;
+            }
+            a {
+              padding-left: 20px;
+            }
+            &:nth-child(2) {
+              border-bottom: none;
+            }
+          }
+          .prev strong {
+            background: #fafafa url("../images/event/ico_move_prev.png") 5px center no-repeat;
+            width: 10px;
+            height: 10px;
+            overflow: hidden;
+            box-sizing: border-box;
+          }
+          .next strong {
+            background: #fafafa url("../images/event/ico_move_next.png") 5px center no-repeat;
+            width: 10px;
+            height: 10px;
+            overflow: hidden;
+            box-sizing: border-box;
+          }
+        }
+      }
+    } //이벤트 상세페이지 종료
+  }
+  #memberVisual {
+    width: 1480px;
+    margin: 0 auto;
+    .eventsBanner {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      height: 260px;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      background-image: url("../images/main/banner/subimage_benefits.png");
+    }
+    .middleMenu {
+      background-color: #faf8f2;
+      height: 120px;
+      p {
+        padding: 18px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      ul {
+        display: flex;
+        justify-content: center;
+        li {
+          margin: 10px;
+        }
+      }
+    }
+
+    .membersContainer {
+      margin-top: 50px;
+      width: 100%;
+      text-align: center;
+      height: 1100px;
+      position: relative;
+      letter-spacing: -0.45px;
+      .welcome {
+        height: 960px;
+        border: 1px solid #c3cfd9;
+        background: url(../images/main/benefits/members/bg-benefit-welcome01.png) center 50px no-repeat;
+        background-color: #fff;
+        float: left;
+        width: 476px;
+        text-align: center;
+        letter-spacing: -1px;
+        position: relative;
+        .firstSec {
+          h3 {
+            margin-bottom: 30px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 20%;
+            strong {
+              display: block;
+              font-size: 24px;
+              font-weight: 600;
+              color: #777777;
+              letter-spacing: 0;
+            }
+            span {
+              display: block;
+              font-size: 18px;
+              color: #777777;
+              font-weight: 500;
+            }
+          }
+          h4 {
+            position: relative;
+            display: inline-block;
+            margin-top: 150px;
+            font-size: 24px;
+            font-weight: 500;
+            color: #777777;
+          }
+          .pic1 {
+            line-height: 1.8;
+            padding-bottom: 175px;
+            background: url(../images/main/benefits/members/bg-benefit-welcome02.png) center bottom no-repeat;
+            font-size: 16px;
+            line-height: 24px;
+            color: #777777;
+          }
+          .pic2 {
+            line-height: 1.8;
+            padding-bottom: 175px;
+            background: url(../images/main/benefits/members/bg-benefit-welcome03.png) center bottom no-repeat;
+            font-size: 16px;
+            line-height: 24px;
+            color: #777777;
+          }
+        }
+        .middleSec {
+          h4 {
+            position: relative;
+            display: inline-block;
+            margin-top: 300px;
+            font-size: 24px;
+            font-weight: 500;
+
+            color: #777777;
+          }
+          .pic1 {
+            line-height: 1.8;
+            padding-bottom: 175px;
+            background: url(../images/main/benefits/members/bg-benefit-welcome02.png) center bottom no-repeat;
+            font-size: 16px;
+            line-height: 24px;
+            color: #777777;
+            margin: 30px;
+          }
+          .pic2 {
+            line-height: 1.8;
+            padding-bottom: 175px;
+            background: url(../images/main/benefits/members/bg-benefit-welcome03.png) center bottom no-repeat;
+            font-size: 16px;
+            line-height: 24px;
+            color: #777777;
+          }
+        }
+        .lastSec {
+          h4 {
+            position: relative;
+            display: inline-block;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 500;
+            color: #777777;
+          }
+          .pic1 {
+            line-height: 1.8;
+            padding-bottom: 175px;
+            background: url(../images/main/benefits/members/bg-benefit-welcome02.png) center bottom no-repeat;
+            font-size: 16px;
+            line-height: 24px;
+            color: #777777;
+          }
+          .pic2 {
+            line-height: 1.8;
+            padding-bottom: 175px;
+            background: url(../images/main/benefits/members/bg-benefit-welcome03.png) center bottom no-repeat;
+            font-size: 16px;
+            line-height: 24px;
+            color: #777777;
+          }
+        }
+      }
+
+      .purchase {
+        background: #fffaeb url(../images/main/benefits/members/bg-benefit-purchase.png) center 50px no-repeat;
+        float: left;
+        width: 476px;
+        height: 470px;
+        padding: 200px 10px 0 10px 0;
+        margin-left: 20px;
+
+        text-align: center;
+        letter-spacing: -1px;
+
+        .giftBox {
+          margin-bottom: 20px;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 20%;
+
+          strong {
+            font-size: 24px;
+            font-weight: 600;
+            color: #777777;
+            letter-spacing: 0;
+          }
+          span {
+            margin-top: 15px;
+            display: block;
+            font-size: 18px;
+            color: #777777;
+            font-weight: 500;
+          }
+        }
+        h4 {
+          position: relative;
+          display: inline-block;
+          margin-top: 330px;
+          font-size: 24px;
+          font-weight: 500;
+          color: #777777;
+          border-bottom: 5px solid #f9ce42;
+          opacity: 0.5;
+        }
+        p {
+          margin-top: 10px;
+          font-size: 16px;
+
+          color: #777777;
+        }
+      }
+      .friend {
+        background: #fffaeb url(../images/main/benefits/members/bg-benefit-friend.png) center 50px no-repeat;
+        float: left;
+        width: 476px;
+        height: 470px;
+        padding: 200px 10px 0 10px px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        letter-spacing: -1px;
+        background-color: #f2f7fa;
+        h3 {
+          margin-bottom: 220px;
+          position: absolute;
+          left: 83%;
+          transform: translateX(-50%);
+          top: 20%;
+          width: 100%;
+          strong {
+            display: block;
+
+            font-size: 24px;
+            font-weight: 600;
+            color: #777777;
+            letter-spacing: 0;
+          }
+          span {
+            margin-top: 15px;
+            display: block;
+            font-size: 18px;
+            color: #777777;
+            font-weight: 500;
+          }
+        }
+        h4 {
+          position: relative;
+          display: inline-block;
+          margin-top: 330px;
+          font-size: 24px;
+          font-weight: 500;
+          color: #777777;
+          border-bottom: 5px solid #f9ce42;
+          opacity: 0.5;
+        }
+        p {
+          margin-top: 10px;
+          font-size: 16px;
+
+          color: #777777;
+        }
+      }
+      .birth {
+        background: #fffaeb url(../images/main/benefits/members/bg-benefit-birthday.png) center 50px no-repeat;
+        float: left;
+        width: 476px;
+        height: 470px;
+        padding: 200px 10px 0 10px px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        letter-spacing: -1px;
+        background-color: #f2f1ed;
+        h3 {
+          margin-bottom: 220px;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 65%;
+          width: 100%;
+          strong {
+            display: block;
+            font-size: 24px;
+            font-weight: 600;
+            color: #777777;
+            letter-spacing: 0;
+          }
+          span {
+            margin-top: 15px;
+            display: block;
+            font-size: 18px;
+            color: #777777;
+            font-weight: 500;
+          }
+        }
+        h4 {
+          margin-top: 330px;
+          position: relative;
+          display: inline-block;
+          margin-bottom: 40px;
+          font-size: 24px;
+          font-weight: 500;
+          color: #777777;
+          border-bottom: 5px solid #f9ce42;
+          opacity: 0.5;
+        }
+        p {
+          margin-top: 10px;
+          font-size: 16px;
+
+          color: #777777;
+        }
+      }
+      .review {
+        background: #fffaeb url(../images/main/benefits/members/bg-benefit-review.png) center 50px no-repeat;
+        float: left;
+        width: 476px;
+        height: 470px;
+        padding: 200px 10px 0 10px px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        letter-spacing: -1px;
+        background-color: #f2f7fa;
+
+        h3 {
+          position: absolute;
+
+          left: 83%;
+          transform: translateX(-50%);
+          top: 65%;
+          width: 100%;
+          strong {
+            display: block;
+            font-size: 24px;
+            font-weight: 600;
+            color: #777777;
+            letter-spacing: 0;
+          }
+          span {
+            display: block;
+            font-size: 18px;
+            color: #777777;
+            font-weight: 500;
+          }
+        }
+        .normalReview {
+          margin-top: 300px;
+          position: relative;
+          display: inline-block;
+          margin-bottom: 40px;
+          font-size: 24px;
+          font-weight: 500;
+          border-bottom: 5px solid #f9ce42;
+          opacity: 0.5;
+          color: #777777;
+        }
+        .photoReview {
+          position: relative;
+          display: block;
+          margin-bottom: 40px;
+          font-size: 24px;
+          font-weight: 500;
+
+          color: #777777;
+        }
+        p {
+          margin-top: 10px;
+          font-size: 16px;
+
+          color: #777777;
+        }
+      }
+    }
+    ////////////
   }
   .pagination {
     text-align: center;

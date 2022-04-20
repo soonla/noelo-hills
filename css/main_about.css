@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .titleBox { line-height: 1.5; }
 
 .titleBox h2 { margin-bottom: 50px; font-size: 3.6rem; font-weight: 600; }
@@ -16,306 +17,178 @@
 
 .btns .large { height: 60px; padding: 0 50px; }
 
-#main { padding-top: 70px; border: 1px red; width: 100%; }
+#main { padding-top: 70px; width: 100%; }
 
-#main #mainVisual { width: 100%; border: 1px red; }
+#main #aboutVisual { /*who we are menu*/ }
 
-#main #mainVisual li .visual01 { margin: 0 auto; text-align: center; width: 100%; height: 910px; background-color: #ccc; background-repeat: no-repeat; background-position: 50%; background-size: cover; background-image: url("../images/main/banner/PC_main_1.png"); cursor: pointer; position: relative; }
+#main #aboutVisual li .aboutBanner { height: 260px; background-color: #ccc; background-position: 50%; background-size: cover; background-image: url("../images/main/banner/subimage_about.png"); cursor: pointer; position: relative; }
 
-#main #mainVisual li .visual01 .promiss { margin: 0 auto; border: 1px red; text-align: center; position: absolute; top: 600px; height: 310px; left: 35%; width: 500px; }
+#main #aboutVisual li .middleMenu { background-color: #faf8f2; }
 
-#main #mainVisual li .visual01 .promiss h2 { font-size: 3.6rem; font-weight: 900; margin-top: 40px; }
+#main #aboutVisual li .middleMenu p { padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; font-size: 18px; }
 
-#main #mainVisual li .visual01 .promiss .sub { font-size: 20px; font-weight: 600; margin-top: 40px; }
+#main #aboutVisual li .middleMenu ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-#main #mainVisual li .visual01 .promiss .sub p { line-height: 30px; }
+#main #aboutVisual li .middleMenu ul li a { display: block; padding: 30px; font-size: 14px; position: relative; z-index: 2; }
 
-#main #mainVisual li .visual01 .promiss button { width: 150px; height: 60px; margin-top: 40px; background-color: #ffcc00; color: #fff; font-size: 25px; }
+#main #aboutVisual .sec01 { letter-spacing: 0.5px; }
 
-#main .mainContents { width: 100%; margin-right: auto; margin-left: auto; padding-right: 15px; padding-right: 15px; }
+#main #aboutVisual .sec01 img { width: 777px; }
 
-#main .mainContents #business { margin: 0; }
+#main #aboutVisual .sec01 .mainBox { margin: 0 auto; width: 777px; }
 
-#main .mainContents #business .listBox { width: 1200px; margin: auto; }
+#main #aboutVisual .sec01 .mainBox .left { padding: 35px 0 40px 0; line-height: 24px; }
 
-#main .mainContents #business .listBox .list { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+#main #aboutVisual .sec01 .mainBox .left strong { color: #777777; font-size: 18px; padding-bottom: 10px; font-weight: 600; }
 
-#main .mainContents #business .listBox .list .leftBox { width: 590px; position: relative; overflow: hidden; }
+#main #aboutVisual .sec01 .mainBox .left div { font-size: 14px; color: #777777; }
 
-#main .mainContents #business .listBox .list .rightBox { width: 1000px; position: relative; overflow: hidden; }
+#main #aboutVisual .sec01 .mainBox .right { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; }
 
-#main .mainContents #business .listBox .list .leftTxtBox { width: 50%; position: relative; color: #777777; float: left; }
+#main #aboutVisual .sec01 .mainBox .right .pictureMenu { position: absolute; bottom: 50px; left: 0; width: 100%; text-align: center; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-#main .mainContents #business .listBox .list .leftTxtBox .btns { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+#main #aboutVisual .sec01 .mainBox .right .pictureMenu h3 { font-size: 18px; font-weight: 600; color: #ffffff; padding-bottom: 5px; }
 
-#main .mainContents #business .listBox .list .leftTxtBox .btns a { display: inline-block; height: 55px; margin-top: 30px; padding: 0 30px; text-align: center; font-size: 20px; font-weight: 600; line-height: 50px; border: 2px solid #777777; color: #777777; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: #fff; overflow: hidden; }
+#main #aboutVisual .sec01 .mainBox .right .pictureMenu h4 { font-size: 16px; font-weight: 500; color: #ffffff; }
 
-#main .mainContents #business .listBox .list .rightTxtBox { width: 50%; padding-left: 80px; color: #777777; float: right; width: 1200px; margin: auto; padding: 50px 0; }
+#main #aboutVisual .sec01 .mainBox .right .pictureMenu .meetTab { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 20px; padding-bottom: 0; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-#main .mainContents #business .listBox .list .rightTxtBox .btns { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+#main #aboutVisual .sec01 .mainBox .right .pictureMenu .meetTab li { margin: 0 10px 10px; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-#main .mainContents #business .listBox .list .rightTxtBox .btns a { display: inline-block; height: 55px; margin-top: 30px; padding: 0 30px; text-align: center; font-size: 20px; font-weight: 600; line-height: 50px; border: 2px solid #777777; color: #777777; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: #fff; overflow: hidden; }
+#main #aboutVisual .sec01 .mainBox .right .pictureMenu .meetTab li a { display: inline-block; -webkit-box-sizing: border-box; box-sizing: border-box; width: 160px; height: 50px; padding: 0 20px; text-align: center; font-size: 15px; font-weight: 600; color: #ffffff; line-height: 45px; border: 2px solid #ffffff; }
 
-#main .mainContents .test { background-color: blue; width: 500px; height: 300px; margin: 0 auto; }
+#main #aboutVisual .sec01 .mainBox .right .pictureMenu .meetTab li a:hover { color: #ffffff; background-color: #dfdfdc; }
 
-#main #mainVisual { width: 100%; border: 1px red; }
+#main #aboutVisual .sec02 { letter-spacing: 0.5px; font-size: 14px; /*작은글자 설정 여기하고*/ }
 
-#main #mainVisual li .aboutBanner { margin: 0 auto; width: 100%; height: 260px; background-color: #ccc; background-position: 50%; background-size: cover; background-image: url("../images/main/subimage_about.png"); cursor: pointer; position: relative; }
+#main #aboutVisual .sec02 .mainBox { margin: 0 auto; width: 777px; }
 
-#main #mainVisual li .middleMenu { background-color: #faf8f2; border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+#main #aboutVisual .sec02 .mainBox .left { padding: 35px 0 40px 0; line-height: 24px; }
 
-#main #mainVisual li .middleMenu p { padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; font-size: 18px; }
+#main #aboutVisual .sec02 .mainBox .left strong { color: #777777; font-size: 18px; /*큰글자 설정 여기했습니다.*/ padding-bottom: 10px; }
 
-#main #mainVisual li .middleMenu ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+#main #aboutVisual .sec02 .mainBox .left div { font-size: 14px; color: #777777; }
 
-#main #mainVisual li .middleMenu ul li:first-child a:before { display: none; }
+#main #aboutVisual .sec03 { letter-spacing: 0.5px; }
 
-#main #mainVisual li .middleMenu ul li a { display: block; padding: 30px; font-size: 14px; position: relative; }
+#main #aboutVisual .sec03 .mainBox { margin: 0 auto; width: 777px; }
 
-#main #mainVisual li .middleMenu ul li a:before { content: ""; display: block; position: absolute; width: 1px; height: 10px; background-color: #fff; left: 0; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+#main #aboutVisual .sec03 .mainBox .left { padding: 35px 0 40px 0; line-height: 24px; }
 
-#main #mainVisual li .sec0 { margin: 0; padding: 0; letter-spacing: 0.5px; }
+#main #aboutVisual .sec03 .mainBox .left strong { color: #777777; font-size: 18px; padding-bottom: 10px; }
 
-#main #mainVisual li .sec0 .smallContainer { margin: 0 auto; width: 777px; }
+#main #aboutVisual .sec03 .mainBox .left div { font-size: 14px; color: #777777; }
 
-#main #mainVisual li .sec0 .smallContainer .left { padding: 35px 0 40px 0; }
+#main #aboutVisual .sec03 .mainBox .left div a { color: #777777; }
 
-#main #mainVisual li .sec0 .smallContainer .left strong { color: #777777; font-size: 18px; padding-bottom: 10px; font-weight: 600; }
+#main #aboutVisual .sec03 .mainBox .left div a span { color: #fff; font-size: 10px; border-radius: 50px; padding: 3px; background-color: #ffcc00; vertical-align: top; }
 
-#main #mainVisual li .sec0 .smallContainer .left div { font-size: 14px; color: #777777; }
+#main #aboutVisual .sec03 .mainBox .left div .LearnMilk { color: #ffcc00; font-weight: 500; }
 
-#main #mainVisual li .sec0 .smallContainer .right { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; }
+#main #aboutVisual .whoSec01 { letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
 
-#main #mainVisual li .sec0 .smallContainer .right image { opacity: 0.5; }
+#main #aboutVisual .whoSec01 .smallContainer { margin: 0 auto; }
 
-#main #mainVisual li .sec0 .smallContainer .right .pictureMenu { position: absolute; bottom: 50px; left: 0; width: 100%; text-align: center; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#main #aboutVisual .whoSec02 { letter-spacing: 0.5px; margin: 20px auto; width: 777px; }
 
-#main #mainVisual li .sec0 .smallContainer .right .pictureMenu h3 { font-size: 18px; font-weight: 600; color: #ffffff; padding-bottom: 5px; }
+#main #aboutVisual .whoSec02 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/about/who/sub_whoweare_sec01.png); background-repeat: no-repeat; }
 
-#main #mainVisual li .sec0 .smallContainer .right .pictureMenu h4 { font-size: 16px; font-weight: 500; color: #ffffff; }
+#main #aboutVisual .whoSec02 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #mainVisual li .sec0 .smallContainer .right .pictureMenu .meetTab { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 20px; padding-bottom: 0; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+#main #aboutVisual .whoSec02 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #mainVisual li .sec0 .smallContainer .right .pictureMenu .meetTab li { margin: 0 10px 10px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#main #aboutVisual .whoSec03 { letter-spacing: 0.5px; margin: 20px auto; width: 777px; }
 
-#main #mainVisual li .sec0 .smallContainer .right .pictureMenu .meetTab li a { display: inline-block; width: 100px; height: 50px; padding: 0 20px; text-align: center; font-size: 15px; font-weight: 600; color: #ffffff; line-height: 45px; border: 2px solid #ffffff; }
+#main #aboutVisual .whoSec03 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/about/who/sub_whoweare_sec02.png); background-repeat: no-repeat; }
 
-#main #mainVisual li .sec0 .smallContainer .right .pictureMenu .meetTab li a:hover { color: #ffffff; background-color: #dfdfdc; }
+#main #aboutVisual .whoSec03 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #mainVisual li .sec01 { margin: 0; padding: 0; letter-spacing: 0.5px; }
+#main #aboutVisual .whoSec03 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #mainVisual li .sec01 img { width: 777px; }
+#main .whoSec04 { letter-spacing: 0.5px; margin: 20px auto; width: 777px; }
 
-#main #mainVisual li .sec01 .inner { margin: 0 auto; width: 777px; }
+#main .whoSec04 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/about/who/sub_whoweare_sec03.png); background-repeat: no-repeat; }
 
-#main #mainVisual li .sec01 .inner .left { padding: 35px 0 40px 0; }
+#main .whoSec04 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #mainVisual li .sec01 .inner .left strong { color: #777777; font-size: 18px; padding-bottom: 10px; font-weight: 600; }
+#main .whoSec04 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #mainVisual li .sec01 .inner .left div { font-size: 14px; color: #777777; }
+#main .whoSec05 { letter-spacing: 0.5px; margin: 20px auto; width: 777px; }
 
-#main #mainVisual li .sec01 .inner .right { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; }
+#main .whoSec05 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/about/who/sub_whoweare_sec04.png); background-repeat: no-repeat; }
 
-#main #mainVisual li .sec01 .inner .right image { opacity: 0.5; }
+#main .whoSec05 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #mainVisual li .sec01 .inner .right .pictureMenu { position: absolute; bottom: 50px; left: 0; width: 100%; text-align: center; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#main .whoSec05 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #mainVisual li .sec01 .inner .right .pictureMenu h3 { font-size: 18px; font-weight: 600; color: #ffffff; padding-bottom: 5px; }
+#main .whoSec06 { letter-spacing: 0.5px; margin: 20px auto; width: 777px; }
 
-#main #mainVisual li .sec01 .inner .right .pictureMenu h4 { font-size: 16px; font-weight: 500; color: #ffffff; }
+#main .whoSec06 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/about/who/sub_whoweare_sec05.png); background-repeat: no-repeat; }
 
-#main #mainVisual li .sec01 .inner .right .pictureMenu .meetTab { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 20px; padding-bottom: 0; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#main .whoSec06 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #mainVisual li .sec01 .inner .right .pictureMenu .meetTab li { margin: 0 10px 10px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#main .whoSec06 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #mainVisual li .sec01 .inner .right .pictureMenu .meetTab li a { display: inline-block; -webkit-box-sizing: border-box; box-sizing: border-box; width: 160px; height: 50px; padding: 0 20px; text-align: center; font-size: 15px; font-weight: 600; color: #ffffff; line-height: 45px; border: 2px solid #ffffff; }
+#main .whoSec07 { letter-spacing: 0.5px; margin: 20px auto; width: 777px; }
 
-#main #mainVisual li .sec01 .inner .right .pictureMenu .meetTab li a:hover { color: #ffffff; background-color: #dfdfdc; }
+#main .whoSec07 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/about/who/sub_whoweare_sec06.png); background-repeat: no-repeat; }
 
-#main #mainVisual li .sec02 { margin: 0; padding: 0; letter-spacing: 0.5px; }
+#main .whoSec07 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #mainVisual li .sec02 .inner { margin: 0 auto; width: 777px; }
+#main .whoSec07 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #mainVisual li .sec02 .inner .left { padding: 35px 0 40px 0; }
+#main .whoSec08 { letter-spacing: 0.5px; margin: 20px auto; width: 777px; }
 
-#main #mainVisual li .sec02 .inner .left strong { color: #777777; font-size: 18px; padding-bottom: 10px; }
+#main .whoSec08 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/about/who/sub_whoweare_sec07.png); background-repeat: no-repeat; }
 
-#main #mainVisual li .sec02 .inner .left div { font-size: 14px; color: #777777; }
+#main .whoSec08 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #mainVisual li .sec03 { margin: 0; padding: 0; letter-spacing: 0.5px; }
+#main .whoSec08 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #mainVisual li .sec03 .inner { margin: 0 auto; width: 777px; }
+#main .whoSec09 { letter-spacing: 0.5px; margin: 20px auto; width: 777px; }
 
-#main #mainVisual li .sec03 .inner .left { padding: 35px 0 40px 0; }
+#main .whoSec09 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/about/who/sub_whoweare_sec08.png); background-repeat: no-repeat; }
 
-#main #mainVisual li .sec03 .inner .left strong { color: #777777; font-size: 18px; padding-bottom: 10px; }
+#main .whoSec09 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #mainVisual li .sec03 .inner .left div { font-size: 14px; color: #777777; }
+#main .whoSec09 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #mainVisual li .sec03 .inner .left div a { color: #777777; }
+#main .whoSec10 { letter-spacing: 0.5px; margin: 20px auto; width: 777px; }
 
-#main #mainVisual li .sec03 .inner .left div a span { color: #fff; font-size: 10px; border-radius: 50px; padding: 3px; background-color: #ffcc00; vertical-align: top; }
+#main .whoSec10 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/about/who/sub_whoweare_sec09.png); background-repeat: no-repeat; }
 
-#main #mainVisual li .whoSec01 { padding: 0; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main .whoSec10 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #mainVisual li .whoSec01 .smallContainer { margin: 0 auto; width: 777px; }
+#main .whoSec10 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #mainVisual li .whoSec01 .smallContainer .left { padding: 35px 0 40px 0; }
+#main .aboutPress { margin: 0 auto; width: 777px; color: #ffffff; }
 
-#main #mainVisual li .whoSec01 .smallContainer .left strong { color: #777777; font-size: 18px; padding-bottom: 10px; font-weight: 600; }
+#main .aboutPress .pressBoard { margin: 0 auto; padding-top: 60px; padding-bottom: 60px; }
 
-#main #mainVisual li .whoSec01 .smallContainer .left div { font-size: 14px; color: #777777; }
+#main .aboutPress .pressBoard .responsiveTable { width: 100%; }
 
-#main #mainVisual li .whoSec01 .smallContainer .right { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; }
+#main .aboutPress .pressBoard .responsiveTable .table { border: 1px solid #c3cfd9; }
 
-#main #mainVisual li .whoSec01 .smallContainer .right image { opacity: 0.5; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody { text-align: center; }
 
-#main #mainVisual li .whoSec01 .smallContainer .right .pictureMenu { position: absolute; bottom: 50px; left: 0; width: 100%; text-align: center; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr { background-color: #ffffff; color: #333333; border-bottom: 1px solid #c3cfd9; }
 
-#main #mainVisual li .whoSec01 .smallContainer .right .pictureMenu h3 { font-size: 18px; font-weight: 600; color: #ffffff; padding-bottom: 5px; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr td { font-size: 16px; color: #676e73; border-color: #c3cfd9; background: #fbfafa; vertical-align: middle; width: 58px; }
 
-#main #mainVisual li .whoSec01 .smallContainer .right .pictureMenu h4 { font-size: 16px; font-weight: 500; color: #ffffff; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr .thumb { width: 148px; background: #fff; }
 
-#main #mainVisual li .whoSec01 .smallContainer .right .pictureMenu .meetTab { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 20px; padding-bottom: 0; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr .thumb li a { overflow: hidden; }
 
-#main #mainVisual li .whoSec01 .smallContainer .right .pictureMenu .meetTab li { margin: 0 10px 10px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr .thumb li a img { width: 90px; border-radius: 20px; }
 
-#main #mainVisual li .whoSec01 .smallContainer .right .pictureMenu .meetTab li a { display: inline-block; width: 100px; height: 50px; padding: 0 20px; text-align: center; font-size: 15px; font-weight: 600; color: #ffffff; line-height: 45px; border: 2px solid #ffffff; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr .rightTxtPart { position: relative; height: 106px; background: #fff; }
 
-#main #mainVisual li .whoSec01 .smallContainer .right .pictureMenu .meetTab li a:hover { color: #ffffff; background-color: #dfdfdc; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr .rightTxtPart .newsLink { width: 539px; text-align: left; line-height: 24px; }
 
-#main #mainVisual li .whoSec02 { padding: 0; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr .rightTxtPart .newsLink a { color: #777777; font-weight: 500; }
 
-#main #mainVisual li .whoSec02 .smallContainer { margin: 0 auto; width: 777px; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr .rightTxtPart .newsLink span { display: block; width: 84%; padding-top: 10px; font-size: 14px; font-weight: 400; }
 
-#main #mainVisual li .whoSec02 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/sub_whoweare_sec01.png); background-repeat: no-repeat; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr .rightTxtPart .newsLink span img { float: right; }
 
-#main #mainVisual li .whoSec02 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
-
-#main #mainVisual li .whoSec02 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
-
-#main #mainVisual li .whoSec03 { padding: 0; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
-
-#main #mainVisual li .whoSec03 .smallContainer { margin: 0 auto; width: 777px; }
-
-#main #mainVisual li .whoSec03 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/sub_whoweare_sec02.png); background-repeat: no-repeat; }
-
-#main #mainVisual li .whoSec03 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
-
-#main #mainVisual li .whoSec03 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
-
-#main #mainVisual .whoSec04 { padding: 0; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec04 .smallContainer { margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec04 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/sub_whoweare_sec03.png); background-repeat: no-repeat; }
-
-#main #mainVisual .whoSec04 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
-
-#main #mainVisual .whoSec04 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
-
-#main #mainVisual .whoSec05 { padding: 0; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec05 .smallContainer { margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec05 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/sub_whoweare_sec04.png); background-repeat: no-repeat; }
-
-#main #mainVisual .whoSec05 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
-
-#main #mainVisual .whoSec05 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
-
-#main #mainVisual .whoSec06 { padding: 0; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec06 .smallContainer { margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec06 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/sub_whoweare_sec05.png); background-repeat: no-repeat; }
-
-#main #mainVisual .whoSec06 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
-
-#main #mainVisual .whoSec06 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
-
-#main #mainVisual .whoSec07 { padding: 0; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec07 .smallContainer { margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec07 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/sub_whoweare_sec06.png); background-repeat: no-repeat; }
-
-#main #mainVisual .whoSec07 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
-
-#main #mainVisual .whoSec07 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
-
-#main #mainVisual .whoSec08 { padding: 0; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec08 .smallContainer { margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec08 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/sub_whoweare_sec07.png); background-repeat: no-repeat; }
-
-#main #mainVisual .whoSec08 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
-
-#main #mainVisual .whoSec08 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
-
-#main #mainVisual .whoSec09 { padding: 0; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec09 .smallContainer { margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec09 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/sub_whoweare_sec08.png); background-repeat: no-repeat; }
-
-#main #mainVisual .whoSec09 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
-
-#main #mainVisual .whoSec09 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
-
-#main #mainVisual .whoSec10 { padding: 0; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec10 .smallContainer { margin: 0 auto; width: 777px; }
-
-#main #mainVisual .whoSec10 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/sub_whoweare_sec09.png); background-repeat: no-repeat; }
-
-#main #mainVisual .whoSec10 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
-
-#main #mainVisual .whoSec10 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
-
-#main #mainVisual .inner { margin: 0 auto; width: 777px; color: #ffffff; }
-
-#main #mainVisual .inner .xansBoard { margin: 0 auto; padding-top: 60px; padding-bottom: 60px; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable { display: block; width: 100%; overflow-x: auto; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table { width: 100%; margin-top: 0; border: 1px solid #c3cfd9; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody { text-align: center; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr { background-color: #ffffff; color: #333333; width: 58px; height: 106px; border-bottom: 1px solid #c3cfd9; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr td { font-size: 16px; color: #676e73; border-color: #c3cfd9; border-left: none; border-right: none; background: #fbfafa; vertical-align: middle; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .thumb { width: 148px; background: #fff; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .thumb li { list-style: none; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .thumb li a { overflow: hidden; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .thumb li a img { width: 90px; border-radius: 20px; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .thumb li .writer { float: left; padding: 50px 30px 60px 8px; text-align: left; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak { position: relative; width: 570px; height: 106px; background: #fff; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak .hbBoardSubjectPrd { margin-bottom: 0; padding-right: 180px; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak .hbBoardSubjectPrd span { display: block; width: 84%; padding-top: 10px; font-size: 14px; font-weight: 400; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak .hbBoardSubjectPrd a { font-size: 16px; font-weight: 600; font: inherit; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak .hbBoardSubjectPrd a span { display: block; width: 84%; padding-top: 10px; font-size: 14px; font-weight: 400; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak .hbBoardSubjectPrd .txtWarn { display: block; width: 84%; padding-top: 10px; font-size: 14px; font-weight: 400; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak .hbBoardSubjectPrd .writer { display: block; width: 84%; padding-top: 10px; font-size: 14px; font-weight: 400; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak .hbBoardSubjectTit { width: 539px; text-align: left; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak .hbBoardSubjectTit span { display: block; width: 84%; padding-top: 10px; font-size: 14px; font-weight: 400; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak .hbBoardSubjectTit span img { float: right; }
-
-#main #mainVisual .inner .xansBoard .responsiveTable .table .xansBody tr .subjectLeftTxtBreak .hbBoardEtc { position: absolute; right: 50px; top: 80%; margin-top: -30px; }
+#main .aboutPress .pressBoard .responsiveTable .table .xansBody tr .rightTxtPart .hbBoardEtc { position: absolute; right: 30px; top: 80%; margin-top: -30px; }

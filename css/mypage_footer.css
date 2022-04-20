@@ -1,0 +1,245 @@
+.titleArea { padding: 70px 0; text-align: center; margin: 0 auto; width: 500px; color: #777777; }
+
+.titleArea h1 { padding: 10px 0; font-size: 36px; font-weight: 500; line-height: 50px; }
+
+.titleArea p { font-size: 18px; color: #939393; padding-top: 20px; }
+
+#main .wishlist { width: 1480px; margin: 0 auto; }
+
+#main .wishlist .consult_list_table table { width: 100%; border-top: 1px solid #c3cfd9 !important; vertical-align: middle; }
+
+#main .wishlist .consult_list_table table thead tr { border-bottom: 1px solid #c3cfd9; }
+
+#main .wishlist .consult_list_table table thead tr th { vertical-align: middle; font-size: 14px; font-weight: 500; color: #959ea6; padding: 20px 0; }
+
+#main .wishlist .consult_list_table table thead tr th:nth-child(1) input { width: 24px; height: 24px; -webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url("../images/common/bg-checkbox.png"); background-repeat: no-repeat; background-position: 50%; }
+
+#main .wishlist .consult_list_table table thead tr th:nth-child(1) input[type="checkbox"]:checked { background-image: url("../images/common/bg-checkbox-active.png"); }
+
+#main .wishlist .consult_list_table table tbody tr { border-bottom: 1px solid #c3cfd9; }
+
+#main .wishlist .consult_list_table table tbody tr td { text-align: center; vertical-align: middle; font-size: 14px; font-weight: 500; color: #959ea6; padding: 20px 0; }
+
+#main .wishlist .consult_list_table table tbody tr td .checkbox img { width: 100px; height: 100px; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(1) input { width: 24px; height: 24px; -webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url("../images/common/bg-checkbox.png"); background-repeat: no-repeat; background-position: 50%; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(1) input[type="checkbox"]:checked { background-image: url("../images/common/bg-checkbox-active.png"); }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) { text-align: left; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) ul li:nth-child(1) a { font-size: 18px; font-weight: 500; color: #777777; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) ul li:nth-child(2) { margin-top: 15px; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) ul li:nth-child(2) strong { color: #676e73; font-size: 20px; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) ul li:nth-child(3) { margin-top: 15px; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) ul li:nth-child(3) span { font-size: 16px; font-weight: 500; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) ul li .wish_btn { margin-top: 25px; margin-bottom: none; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) ul li .wish_btn a { width: 80px; text-align: center; display: inline-block; padding: 10px 15px; font-size: 18px; font-weight: 500; margin-right: 10px; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) ul li .wish_btn a:nth-child(1) { background-color: #ffcc00; color: #fff; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) ul li .wish_btn a:nth-child(2) { background-color: #777777; color: #fff; }
+
+#main .wishlist .consult_list_table table tbody tr td:nth-child(3) ul li .wish_btn a:nth-child(3) { border: 1px solid #c3cfd9; color: #777777; }
+
+#main .wishlist .consult_list_table .wish_bottom_btn { width: 100%; margin: 15px 0; }
+
+#main .wishlist .consult_list_table .wish_bottom_btn .gLeft { padding: 5px 10px; font-size: 16px; }
+
+#main .wishlist .consult_list_table .wish_bottom_btn .gLeft strong { font-weight: 500; }
+
+#main .wishlist .consult_list_table .wish_bottom_btn .gLeft a { text-align: center; display: inline-block; width: 100px; padding: 10px 5px; color: #777777; }
+
+#main .wishlist .consult_list_table .wish_bottom_btn .gLeft a:nth-child(2) { background-color: #777777; color: #fff; }
+
+#main .wishlist .consult_list_table .wish_bottom_btn .gCenter { text-align: center; margin: 0 auto; padding: 5px 10px; font-size: 16px; }
+
+#main .wishlist .consult_list_table .wish_bottom_btn .gCenter a { text-align: center; display: inline-block; width: 250px; height: 50px; line-height: 50px; padding: 0 25px; color: #777777; }
+
+#main .wishlist .consult_list_table .wish_bottom_btn .gCenter a:nth-child(2) { background-color: #ffcc00; color: #fff; }
+
+#main .saved_money { width: 1480px; margin: 0 auto; }
+
+#main .saved_money .save_m_Info { width: 100%; border: 1px solid #c3cfd9; padding: 20px 0; text-align: center; position: relative; }
+
+#main .saved_money .save_m_Info ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; text-align: left; }
+
+#main .saved_money .save_m_Info ul li { width: 47%; height: 30px; line-height: 30px; margin: 3px 0; padding: 0 20px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+#main .saved_money .save_m_Info ul li strong { font-size: 15px; font-weight: 500; color: #777777; }
+
+#main .saved_money .save_m_Info ul li a { display: inline-block; border: 1px solid #c3cfd9; padding: 0px 20px; height: 30px; }
+
+#main .saved_money .save_m_Info ul li:nth-child(1) { width: 100%; padding: 0 20px 10px; }
+
+#main .saved_money .save_m_Info ul li:nth-child(1) strong { font-size: 16px; font-weight: 500; }
+
+#main .saved_money .save_m_Info ul li:nth-child(1) span { font-size: 16px; font-weight: 500; color: #ffcc00; }
+
+#main .saved_money .save_m_Info ul:before { content: ""; display: block; padding: 30px 0; background-color: #c3cfd9; width: 1px; position: absolute; left: 50%; top: 45%; }
+
+#main .saved_money .basetab { border-bottom: 1px solid #777777; margin: 30px 0; }
+
+#main .saved_money .basetab ul li { width: 200px; display: inline-block; border: 1px solid #777777; border-bottom: none; padding: 10px 10px; text-align: center; border-radius: 15px 15px 0 0; z-index: 10; cursor: pointer; }
+
+#main .saved_money .basetab ul li a { display: block; }
+
+#main .saved_money .basetab ul li.selected { background-color: #777777; }
+
+#main .saved_money .basetab ul li.selected a { color: #fff; }
+
+#main .saved_money .s_money_list_table { margin: 0 auto; }
+
+#main .saved_money .s_money_list_table table { width: 100%; border-top: 1px solid #c3cfd9 !important; padding: 20px 20px; }
+
+#main .saved_money .s_money_list_table table thead tr { border-bottom: 1px solid #c3cfd9 !important; }
+
+#main .saved_money .s_money_list_table table thead tr th { padding: 15px 0; vertical-align: middle; }
+
+#main .saved_money .s_money_list_table table tbody { text-align: center; }
+
+#main .saved_money .s_money_list_table table tbody tr { border-bottom: 1px solid #c3cfd9 !important; }
+
+#main .saved_money .s_money_list_table table tbody tr td { padding: 15px 0; vertical-align: middle; }
+
+#main .saved_money .myshop-head { margin-bottom: 50px; }
+
+#main .saved_money .myshop-head h3 { font-size: 18px; color: #676e73; font-weight: 500; }
+
+#main .saved_money .myshop-head .info_inner ul { color: #959ea6; margin-top: 20px; padding-left: 20px; list-style: disc; line-height: 30px; }
+
+#main .myCupon { margin: 0 auto; width: 1480px; }
+
+#main .myCupon .myshop-cuponlist .tbltitle { margin: 20px 0; }
+
+#main .myCupon .myshop-cuponlist .tbltitle h3 { display: inline-block; font-size: 18px; color: #676e73; font-weight: 500; }
+
+#main .myCupon .myshop-cuponlist .tbltitle p { float: right; font-size: 14px; color: #777777; font-weight: 500; }
+
+#main .myCupon .myshop-cuponlist .tbltitle p span { color: #f9ce42; font-size: 14px; font-weight: 500; }
+
+#main .myCupon .myshop-cuponlist .cupon_list_table table { width: 100%; }
+
+#main .myCupon .myshop-cuponlist .cupon_list_table table thead { border-top: 1px solid #959ea6; }
+
+#main .myCupon .myshop-cuponlist .cupon_list_table table thead tr { border-bottom: 1px solid #959ea6; }
+
+#main .myCupon .myshop-cuponlist .cupon_list_table table thead tr th { vertical-align: middle; padding: 15px 0; font-weight: 500; color: #959ea6; }
+
+#main .myCupon .myshop-cuponlist .cupon_list_table table tbody tr { border-bottom: 1px solid #959ea6; }
+
+#main .myCupon .myshop-cuponlist .cupon_list_table table tbody tr td { text-align: center; vertical-align: middle; padding: 15px 0; font-size: 14px; font-weight: 500; color: #676e73; }
+
+#main .myCupon .myshop_cupon_serial .c_title { margin: 20px 0; }
+
+#main .myCupon .myshop_cupon_serial .c_title h3 { font-size: 18px; color: #676e73; font-weight: 500; }
+
+#main .myCupon .myshop_cupon_serial .cuponSerial { width: 100%; text-align: center; padding: 30px; background-color: #f9f9f9; border-radius: 25px; margin-bottom: 30px; }
+
+#main .myCupon .myshop_cupon_serial .cuponSerial fieldset legend { visibility: hidden; }
+
+#main .myCupon .myshop_cupon_serial .cuponSerial fieldset input { display: inline-block; width: 365px; height: 40px; border: 1px solid #c3cfd9; border-radius: 10px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#main .myCupon .myshop_cupon_serial .cuponSerial fieldset a { display: inline-block; margin-left: 10px; width: 120px; height: 40px; line-height: 40px; background: #f9ce42; color: #fff; border-radius: 10px; font-weight: 500; font-size: 16px; vertical-align: middle; }
+
+#main .myCupon .myshop_cupon_serial .cuponSerial fieldset p { padding-top: 15px; font-size: 14px; color: #959ea6; font-weight: 500; line-height: 22px; }
+
+#main .myCupon .myshop_cupon_serial .base_help { margin-bottom: 50px; }
+
+#main .myCupon .myshop_cupon_serial .base_help h3 { font-size: 18px; color: #676e73; font-weight: 500; }
+
+#main .myCupon .myshop_cupon_serial .base_help .cupon_inner ul { color: #959ea6; margin-top: 20px; padding-left: 20px; list-style: disc; line-height: 30px; }
+
+#main .board_list { width: 1480px; margin: 0 auto; }
+
+#main .board_list .board_listhead { text-align: right; }
+
+#main .board_list .board_listhead p { font-size: 16px; color: #777777; }
+
+#main .board_list .board_listhead p select { width: 130px; margin-left: 10px; height: 40px; padding: 0 10px; border-color: #c3cfd9; font-size: 16px; color: #777777; -webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url("../images/common/arr-select.png"); background-repeat: no-repeat; appearance: none; background-position: 95%; }
+
+#main .board_list .board_inputbox { margin-bottom: 250px; }
+
+#main .board_list .board_inputbox fieldset { margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#main .board_list .board_inputbox fieldset select { padding: 0 10px; width: 100px; height: 40px; display: inline-block; -webkit-box-sizing: border-box; box-sizing: border-box; border: 1px solid #c3cfd9; background-image: url("../images/common/arr-select.png"); background-repeat: no-repeat; -webkit-appearance: none; -moz-appearance: none; appearance: none; background-position: 95%; }
+
+#main .board_list .board_inputbox fieldset .board_search { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#main .board_list .board_inputbox fieldset .board_search input { display: inline-block; margin-left: 5px; border: 1px solid #c3cfd9; width: 300px; height: 40px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#main .board_list .board_inputbox fieldset .board_search a { margin-left: 5px; display: block; height: 40px; line-height: 40px; padding: 0 20px; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #f9ce42; color: #fff; }
+
+#main .my_address { width: 1480px; margin: 0 auto; }
+
+#main .my_address .address_Info { width: 100%; }
+
+#main .my_address .address_Info ul { border-top: 1px solid #777777; border-bottom: 1px solid #777777; }
+
+#main .my_address .address_Info ul li { padding: 20px 5px 20px 30px; line-height: 25px; position: relative; }
+
+#main .my_address .address_Info ul li div p .tnlBtn { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); right: 20px; display: inline-block; padding: 0 20px; height: 40px; line-height: 40px; font-size: 16px; color: #777777; -webkit-box-sizing: border-box; box-sizing: border-box; border: 1px solid #c3cfd9; }
+
+#main .my_address .address_Info ul li:nth-child(1) { border-bottom: 1px solid #959ea6; }
+
+#main .my_address .no_add { margin: 10px 0; }
+
+#main .my_address .no_add p { color: #777777; }
+
+#main .my_address .base_button { text-align: right; margin: 15px 0; }
+
+#main .my_address .base_button span a { padding: 10px 20px; background-color: #ffcc00; color: #fff; }
+
+#main .my_address .address_head { margin-top: 30px; margin-bottom: 150px; }
+
+#main .my_address .address_head h3 { font-size: 18px; color: #676e73; font-weight: 500; }
+
+#main .my_address .address_head .address_inner ul { color: #959ea6; margin-top: 20px; padding-left: 20px; list-style: disc; line-height: 30px; }
+
+#main .my_adr_register { width: 1480px; margin: 0 auto; }
+
+#main .my_adr_register .adr_regi_table table { width: 100%; border: 1px solid #c3cfd9; border-left: none; border-right: none; }
+
+#main .my_adr_register .adr_regi_table table tbody tr { border-bottom: 1px solid #c3cfd9; }
+
+#main .my_adr_register .adr_regi_table table tbody tr th { vertical-align: middle; width: 150px; background-color: #fbfafa; }
+
+#main .my_adr_register .adr_regi_table table tbody tr th span { color: #f9ce42; }
+
+#main .my_adr_register .adr_regi_table table tbody tr td { padding: 20px 20px; font-size: 14px; }
+
+#main .my_adr_register .adr_regi_table table tbody tr td input[type="text"], #main .my_adr_register .adr_regi_table table tbody tr td input[type="number"], #main .my_adr_register .adr_regi_table table tbody tr td select { height: 50px; border: none; outline: none; border-bottom: 1px solid #959ea6; padding: 5px 5px; font-size: 16px; color: #676e73; -webkit-box-sizing: border-box; box-sizing: border-box; width: 200px; margin-right: 10px; padding-left: 20px; }
+
+#main .my_adr_register .adr_regi_table table tbody tr td button { padding: 10px 15px; background-color: #f9ce42; color: #fff; font-size: 16px; font-weight: 500; cursor: pointer; }
+
+#main .my_adr_register .adr_regi_table table tbody tr:nth-child(3) input[type="number"] { width: 390px; -webkit-appearance: none; -moz-appearance: none; appearance: none; background: url("../images/common/arr-select.png") right 10px center no-repeat; }
+
+#main .my_adr_register .adr_regi_table table tbody tr:nth-child(3) input[type="text"] { width: 500px; }
+
+#main .my_adr_register .adr_regi_table table tbody tr:nth-child(4) select { -webkit-appearance: none; -moz-appearance: none; appearance: none; background: url("../images/common/arr-select.png") right 10px center no-repeat; }
+
+#main .my_adr_register .adr_regi_table table tbody .right td { vertical-align: middle; padding: 10px 10px; height: 44px; text-align: right; font-size: 16px; }
+
+#main .my_adr_register .adr_regi_table table tbody .right td input { -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+
+#main .my_adr_register .adr_regi_table table tbody .right td label { font-size: 16px; font-weight: 500; color: #777777; cursor: pointer; display: inline-block; padding-left: 33px; width: 150px; height: 34px; line-height: 34px; background: url("../images/common/bg-checkbox.png") right 135px center no-repeat; }
+
+#main .my_adr_register .adr_regi_table table tbody .right td :checked + label { background-image: url("../images/common/bg-checkbox-active.png"); }
+
+#main .my_adr_register .base_btn { text-align: right; padding: 20px 0; }
+
+#main .my_adr_register .base_btn a { display: inline-block; font-size: 16px; font-weight: 500; padding: 20px 50px; }
+
+#main .my_adr_register .base_btn a:nth-child(1) { color: #fff; background-color: #f9ce42; }
+
+#main .my_adr_register .address_head { margin-top: 30px; margin-bottom: 150px; }
+
+#main .my_adr_register .address_head h3 { font-size: 18px; color: #676e73; font-weight: 500; }
+
+#main .my_adr_register .address_head .address_inner ul { color: #959ea6; margin-top: 20px; padding-left: 20px; list-style: disc; line-height: 30px; }

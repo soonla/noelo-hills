@@ -1,0 +1,109 @@
+<? include("../include/header.html"); ?>
+<main id="main">
+  <div class="myCupon">
+    <div class="titleArea">
+      <h1>쿠폰</h1>
+    </div>
+    <form action="">
+      <div class="myshop-cuponlist">
+        <div class="tbltitle">
+          <h3>마이 쿠폰 목록</h3>
+          <p>사용가능 쿠폰 <span>3</span>장</p>
+        </div>
+        <div class="cupon_list_table">
+          <table border="1">
+            <colgroup>
+              <col style="width: 45px" />
+              <col style="width: auto" />
+              <col style="width: 130px" />
+              <col style="width: 130px" />
+              <col style="width: 130px" />
+              <col style="width: 130px" />
+              <col style="width: 170px" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th scope="col">번호</th>
+                <th scope="col">쿠폰명</th>
+                <th scope="col">쿠폰적용 상품</th>
+                <th scope="col">구매금액</th>
+                <th scope="col">결제수단</th>
+                <th scope="col">쿠폰 혜택</th>
+                <th scope="col">사용가능 기간</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">1</td>
+                <td scope="row">첫 구매 지원 2,000원 할인 쿠폰</td>
+                <td scope="row">전체상품</td>
+                <td scope="row">20000원</td>
+                <td scope="row">제한없음</td>
+                <td scope="row">할인 2,000원</td>
+                <td scope="row">2022-04-04 16:04:42 ~ 2022-07-03 16:04:42</td>
+              </tr>
+              <tr>
+                <td scope="row">2</td>
+                <td scope="row">첫 구매 지원 3,000원 할인 쿠폰</td>
+                <td scope="row">전체상품</td>
+                <td scope="row">30000원</td>
+                <td scope="row">제한없음</td>
+                <td scope="row">할인 3,000원</td>
+                <td scope="row">2022-04-04 16:04:42 ~ 2022-07-03 16:04:42</td>
+              </tr>
+              <tr>
+                <td scope="row">3</td>
+                <td scope="row">첫 구매 지원 5,000원 할인 쿠폰</td>
+                <td scope="row">전체상품</td>
+                <td scope="row">50000원</td>
+                <td scope="row">제한없음</td>
+                <td scope="row">할인 5,000원</td>
+                <td scope="row">2022-04-04 16:04:42 ~ 2022-07-03 16:04:42</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- 관심상픔 내역이이 없을 경우
+          <p class="message">관심상품 내역이 없습니다.</p> -->
+        </div>
+      </div>
+    </form>
+    <div class="order_page">
+      <a href=""><img src="../images/common/page_bottom/btn_page_first.png" alt="" /></a>
+      <a href=""><img src="../images/common/page_bottom/btn_page_prev.png" alt="" /></a>
+      <ol>
+        <li><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+      </ol>
+      <a href=""><img src="../images/common/page_bottom/btn_page_next.png" alt="" /></a>
+      <a href=""><img src="../images/common/page_bottom/btn_page_last.png" alt="" /></a>
+    </div>
+    <div class="myshop_cupon_serial">
+      <div class="c_title">
+        <h3>쿠폰인증번호 등록하기</h3>
+      </div>
+      <div class="cuponSerial">
+        <fieldset>
+          <!-- <legend>쿠폰번호 등록</legend> -->
+          <input type="text" />
+          <a href="">쿠폰번호 인증</a>
+          <p>반드시 쇼핑몰에서 발행한 쿠폰번호만 입력해주세요. (10~35자 일련번호 "-" 제외)</p>
+        </fieldset>
+      </div>
+      <div class="base_help">
+        <h3>쿠폰 이용 안내</h3>
+        <div class="cupon_inner">
+          <ul>
+            <li><strong>쿠폰인증번호 등록하기</strong>에서 쇼핑몰에서 발행한 종이쿠폰/시리얼쿠폰/모바일쿠폰 등의 인증번호를 등록하시면 온라인쿠폰으로 발급되어 사용이 가능합니다.</li>
+            <li>쿠폰은 주문 시 1회에 한해 적용되며, 1회 사용 시 재 사용이 불가능합니다.</li>
+            <li>쿠폰은 적용 가능한 상품이 따로 적용되어 있는 경우 해당 상품 구매 시에만 사용이 가능합니다.</li>
+            <li>특정한 종이쿠폰/시리얼쿠폰/모바일쿠폰의 경우 단 1회만 사용이 가능할 수 있습니다.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<? include("../include/footer.html"); ?>

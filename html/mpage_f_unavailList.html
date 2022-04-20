@@ -1,0 +1,111 @@
+<? include("../include/header.html"); ?>
+<main id="main">
+  <div class="saved_money">
+    <div class="titleArea">
+      <h1>적립금</h1>
+      <p>고객님의 사용가능 적립금 금액입니다.</p>
+    </div>
+    <div class="save_m_Info">
+      <ul>
+        <li>
+          <strong class="title">총 적립금</strong>
+          <span class="data">
+            <span id="price"> 0원</span>
+          </span>
+        </li>
+        <li>
+          <strong class="title">사용완료</strong>
+          <span class="data">
+            <span id="price"> 0원</span>
+          </span>
+        </li>
+        <li>
+          <strong class="title">사용가능</strong>
+          <span class="data">
+            <span id="price"> 0원</span>
+          </span>
+        </li>
+        <li>
+          <strong class="title">환불예정</strong>
+          <span class="data">
+            <span id="price"> 0원</span>
+          </span>
+        </li>
+        <li>
+          <strong class="title">미가용</strong>
+          <span class="data">
+            <span id="price"> 0원</span>
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div class="basetab">
+      <ul>
+        <li>
+          <a href="mpage_f_historyList.html"> 적립금 적립내역 </a>
+        </li>
+        <li class="selected">
+          <a href="mpage_f_unavailList.html"> 미가용 적립금내역 </a>
+        </li>
+        <li>
+          <a href="mpage_f_couponList.html"> 미가용쿠폰 회원등급적립내역 </a>
+        </li>
+      </ul>
+    </div>
+    <div class="s_money_list_table">
+      <table border="1">
+        <colgroup>
+          <col style="width: 15%" />
+          <col style="width: 15%" />
+          <col style="width: 20%" />
+          <col style="width: 20%" />
+          <col style="width: auto" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">주문날짜</th>
+            <th scope="col">적립금</th>
+            <th scope="col">관련 주문</th>
+            <th scope="col">사용가능 예정일</th>
+            <th scope="col">내용</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">2022.01.08</td>
+            <td scope="row">5000</td>
+            <td scope="row">로션</td>
+            <td scope="row">로션</td>
+            <td scope="row">로션 구매</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 주문내역이 없을 경우
+          <p class="message">적립금 내역이 없습니다.</p> -->
+    </div>
+    <div class="order_page">
+      <a href=""><img src="../images/common/page_bottom/btn_page_first.png" alt="" /></a>
+      <a href=""><img src="../images/common/page_bottom/btn_page_prev.png" alt="" /></a>
+      <ol>
+        <li><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+      </ol>
+      <a href=""><img src="../images/common/page_bottom/btn_page_next.png" alt="" /></a>
+      <a href=""><img src="../images/common/page_bottom/btn_page_last.png" alt="" /></a>
+    </div>
+    <div class="myshop-head">
+      <h3>적립금 안내</h3>
+      <div class="info_inner">
+        <ul>
+          <li>주문으로 발생한 적립금은 배송완료 후 20일 부터 실제 사용 가능한 적립금으로 전환됩니다. 배송완료 시점으로부터 20일 동안은 미가용 적립금으로 분류됩니다.</li>
+          <li>미가용 적립금은 반품, 구매취소 등을 대비한 임시 적립금으로 사용가능 적립금으로 전환되기까지 상품구매에 사용하실 수 없습니다.</li>
+          <li>사용가능 적립금(총적립금 - 사용된적립금 - 미가용적립금)은 상품구매 시 바로 사용가능합니다.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+<? include("../include/footer.html"); ?>

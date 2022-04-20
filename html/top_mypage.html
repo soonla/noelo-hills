@@ -1,0 +1,150 @@
+<? include("../include/header.html"); ?>
+<main id="main">
+  <div class="myPage">
+    <div class="titleArea">
+      <h1>마이 쇼핑</h1>
+    </div>
+    <div class="myshopInfo">
+      <ul>
+        <li>
+          <strong class="title">가용 적립금</strong>
+          <span class="data">
+            <span id="price"> 0원</span>
+            <a href="mpage_f_historyList.html">조회</a>
+          </span>
+        </li>
+        <li>
+          <strong class="title">총 적립금</strong>
+          <span id="price"> 0원</span>
+        </li>
+        <li>
+          <strong class="title">사용 적립금 </strong>
+          <span id="price"> 0원</span>
+        </li>
+        <li>
+          <strong class="title">총 주문</strong>
+          <span class="data">
+            <span id="price">0원</span>
+            <span id="count">(0회)</span>
+          </span>
+        </li>
+        <li>
+          <strong class="title">쿠폰</strong>
+          <span class="data">
+            <span> 0개</span>
+            <a href="mpage_f_couponList.html">조회</a>
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div class="orderstate">
+      <div class="title">
+        <h3>나의 주문 처리 현황<span class="desc">(최근 3개월 기준)</span></h3>
+      </div>
+      <div class="state">
+        <ul class="order">
+          <li>
+            <strong>입금전</strong>
+            <a href="mypage_order.html">
+              <span>0</span>
+            </a>
+          </li>
+          <li>
+            <strong>배송준비중</strong>
+            <a href="mypage_order.html">
+              <span>0</span>
+            </a>
+          </li>
+          <li>
+            <strong>배송중</strong>
+            <a href="mypage_order.html">
+              <span>0</span>
+            </a>
+          </li>
+          <li>
+            <strong>배송완료</strong>
+            <a href="mypage_order.html">
+              <span>0</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="cs">
+          <li>
+            <a href="mypage_order.html">취소<span>0</span></a>
+          </li>
+          <li>
+            <a href="mypage_order.html">교환<span>0</span></a>
+          </li>
+          <li>
+            <a href="mypage_order.html">반품<span>0</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 나의 주문 처리 현황 -->
+    <div class="myShopLink">
+      <ul>
+        <li>
+          <a href="mypage_order.html">
+            <div class="mypage_linkbox">
+              <h3>ORDER</h3>
+              <p>주문내역조회</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="mypage_m_update.html">
+            <div class="mypage_linkbox">
+              <h3>PROFILE</h3>
+              <p>회원정보관리</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="mypage_consult.html">
+            <div class="mypage_linkbox">
+              <h3>1:1 CONSULT</h3>
+              <p>1:1 맞춤상담</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 주문내역, 호원정보관리, 1:1 맞춤상담 -->
+    <div class="myshopMain">
+      <ul>
+        <li>
+          <a href="mpage_f_wishlist.html">
+            <strong>WISHLIST</strong>
+            <span>관심상품</span>
+          </a>
+        </li>
+        <li>
+          <a href="mpage_f_historyList.html">
+            <strong>MILEAGE</strong>
+            <span>적립급</span>
+          </a>
+        </li>
+        <li>
+          <a href="mpage_f_myCupon.html">
+            <strong>COUPON</strong>
+            <span>쿠폰</span>
+          </a>
+        </li>
+        <li>
+          <a href="mpage_f_board_list.html">
+            <strong>BOARD</strong>
+            <span>게시물 관리</span>
+          </a>
+        </li>
+        <li>
+          <a href="mpage_f_address.html">
+            <strong>ADDRESS</strong>
+            <span>배송 주소록 관리</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>
+<? include("../include/footer.html"); ?>

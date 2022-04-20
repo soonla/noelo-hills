@@ -1,0 +1,138 @@
+<? include("../include/header.html"); ?>
+<main id="main">
+  <div id="updateSection">
+    <div class="container">
+      <h2 class="title">회원 정보 수정</h2>
+      <div class="update_require">
+        <h3>기본정보</h3>
+        <p><span>*</span>필수입력사항</p>
+      </div>
+      <form method="post" action="JoinProcess.do" id="join" class="join">
+        <div class="tableBox">
+          <table>
+            <tbody>
+              <tr>
+                <th>아이디 <span>*</span></th>
+                <td>
+                  <input type="text" placeholder="아이디를 입력하세요." id="id" name="id" />
+                  <p>(영문소문자/숫자,4~16자)</p>
+                </td>
+              </tr>
+              <tr>
+                <th>현재 비밀번호 <span>*</span></th>
+                <td>
+                  <input type="password" placeholder="비밀번호를 입력하세요." id="current_pw" name="current_pw" />
+                  <p>(영문 대소문자/숫자/특수문자 중 2가지 이상 조합,10자~16자)</p>
+                </td>
+              </tr>
+              <tr>
+                <th>새 비밀번호 <span>*</span></th>
+                <td>
+                  <input type="password" placeholder="비밀번호를 입력하세요." id="pw" name="pw" />
+                  <p>(영문 대소문자/숫자/특수문자 중 2가지 이상 조합,10자~16자)</p>
+                </td>
+              </tr>
+              <tr>
+                <th>새 비밀번호 확인 <span>*</span></th>
+                <td>
+                  <input type="password" placeholder="비밀번호를 다시 입력하세요." id="pw_confirm" name="pw_confirm" />
+                </td>
+              </tr>
+              <tr>
+                <th>이름 <span>*</span></th>
+                <td>
+                  <input type="text" placeholder="이름을 입력하세요." id="name" name="name" />
+                </td>
+              </tr>
+              <tr>
+                <th>주소<span>*</span></th>
+                <td>
+                  <div class="addressInput">
+                    <input type="number" id="zipCode" placeholder="우편번호" id="zipCode" name="zipCode" />
+                    <button>주소검색</button>
+                  </div>
+                  <div>
+                    <input type="text" placeholder="기본주소" id="address01" name="address01" />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="나머지 주소(선택 입력 가능)" id="address02" name="address02" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th>전화번호 <span>*</span></th>
+                <td>
+                  <select name="phoneFirst" id="phoneFirst" class="short">
+                    <option value="010" selected="selected">010</option>
+                    <option value="011">011</option>
+                    <option value="017">017</option>
+                  </select>
+                  <input type="number" id="phoneMiddle" name="phoneMiddle" class="short" />
+                  <input type="number" id="phoneLast" name="phoneLast" class="short" />
+                </td>
+              </tr>
+              <tr>
+                <th>이메일<span>*</span></th>
+                <td><input type="text" placeholder="이메일을 입력하세요." id="email" name="email" /></td>
+              </tr>
+              <tr>
+                <th>이메일 수신여부</th>
+                <td>
+                  <label><input type="radio" name="email_agree" value="Yes" checked="checked" />수신함</label>
+                  <label><input type="radio" name="email_agree" value="No" />수신안함</label>
+                  <p>쇼핑몰에서 제공하는 유익한 이벤트 소식을 이메일로 받으실 수 있습니다.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>평생회원</th>
+                <td>
+                  <label><input type="radio" name="foreverMember" value="Yes" checked="checked" />동의함</label>
+                  <label><input type="radio" name="foreverMember" value="No" />동의안함</label>
+                  <p>평생회원으로 가입하시면 노엘로힐스 회원 탈퇴시까지는 휴면회원으로 전환되지 않으며, 고객님의 개인정보가 탈퇴시까지 안전하게 보관됩니다.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </form>
+      <div class="update_require">
+        <h3>추가정보</h3>
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <th>생년월일</th>
+            <td>
+              <div>
+                <input type="text" name="memberBirthYear" class="short" /> 년 <input type="text" name="memberBirthMonth" class="short" /> 월
+                <input type="text" name="memberBirthDay" class="short" /> 일
+                <label><input type="radio" name="lift" checked="checked" />양력</label>
+                <label><input type="radio" name="lunar" />음력</label>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>아기생일</th>
+            <td>
+              <div>
+                <input type="text" name="babyBirthYear" class="short" /> 년 <input type="text" name="babyBirthMonth" class="short" /> 월 <input type="text" name="babyBirthDay" class="short" /> 일
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>추천인 아이디</th>
+            <td>
+              <input type="text" name="recommendId" placeholder="추천인아이디를 입력하세요." />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="update_bottom">
+        <button class="btnSubmit" type="submit">회원정보수정</button>
+        <button>취소</button>
+        <button href="">회원탈퇴</button>
+      </div>
+    </div>
+  </div>
+</main>
+<? include("../include/footer.html"); ?>

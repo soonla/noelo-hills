@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>노엘로힐스</title>
+    <link rel="shortcut icon" href="../images/layout/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/main_shop.css" />
+    <link rel="stylesheet" href="../css/join_form.css" />
+    <link rel="stylesheet" href="../css/my_cart.css" />
+    <link rel="stylesheet" href="../css/mypage.css" />
+    <link rel="stylesheet" href="../css/mypage_order.css" />
+    <link rel="stylesheet" href="../css/mypage_footer.css" />
+    <link rel="stylesheet" href="../css/test_insert.css" /> <!--test inner css 추가-->
+    <!-- <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script> -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/splitting.min.js"></script>
+    <script src="../js/gsap/gsap.min.js"></script>
+    <script src="../js/main.js" defer></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <h1 id="logo">
+          <a href="../html/index.html"><img src="../images/header/logo_new.png" alt="노엘로힐스 로고" /></a>
+        </h1>
+        <nav id="gnb">
+          <ul class="list">
+            <li>
+              <a href="">SHOP</a>
+              <ul class="depth02">
+                <li><a href="../html/shop_All.html">ALL PRODUCTS</a></li>
+                <li><a href="../html/shop_baby.html">BABY</a></li>
+                <li><a href="../html/shop_kid.html">KIDS & FAMILY</a></li>
+                <li><a href="../html/shop_bath.html">BATH GOODS</a></li>
+                <li><a href="../html/shop_pre.html">PRESENTS</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">ABOUT</a>
+              <ul class="depth02">
+                <li><a href="">BRAND STORY</a></li>
+                <li><a href="">WHO WE ARE</a></li>
+                <li><a href="">MAKE A WISH</a></li>
+                <li><a href="">PRESS</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">TRUST</a>
+              <ul class="depth02">
+                <li><a href="">FOOD GRADE</a></li>
+                <li><a href="">PENTACERA™</a></li>
+                <li><a href="">CERTIFICATIONS</a></li>
+                <li><a href="">INGREDIENT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">STOCKISTS</a>
+            </li>
+            <li>
+              <a href="">REVIEW</a>
+            </li>
+            <li>
+              <a href="">BENEFITS</a>
+              <ul class="depth02">
+                <li><a href="">EVENTS</a></li>
+                <li><a href="">MEMBERS&복지</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="myWrap">
+          <div id="top-cart">
+            <a href="../html/top_cart.html"><span class ="tooltip" title="장바구니"><img src="../images/header/ico-cart.png"></span></a>
+          </div>
+          <div id="top-account">
+            <a href="../html/top_mypage.html" id="ico-user"><span class ="tooltip" title="마이페이지"><img src="../images/header/ico-user.png"></span></a>
+            <a href="../html/top_login.html" id="ico-login"><span class ="tooltip" title="로그인"><img src="../images/header/ico-login.png"></span></a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </header>
+
+<main id="main">
+	<div class="admin_insert_inner">
+		<div class="titleArea">
+		  <h1>제품 등록</h1>
+		</div>
+		<form class="form" method="POST" action="TestInsertProcess.do" enctype="multipart/form-data">
+		  <table>
+			<colgroup>
+			  <col style="width: 20%" />
+			  <col />
+			</colgroup>
+			<tbody>
+			  <tr>
+				<th>제목</th>
+				<td class="titleWrap">
+				  <input type="text" name="title" placeholder="제목을 입력하세요." id="title" />
+				  <div class="category">
+					<label>
+					  <input type="checkbox" name="category" value="baby" />
+					  <span>BABY</span>
+					</label>
+					<label>
+					  <input type="checkbox" name="category" value="kids" />
+					  <span>KIDS & FAMILY</span>
+					</label>
+					<label>
+					  <input type="checkbox" name="category" value="bath" />
+					  <span>BATH GOODS</span>
+					</label>
+					<label>
+					  <input type="checkbox" name="category" value="presents" />
+					  <span>PRESENTS</span>
+					</label>
+				  </div>
+				</td>
+			  </tr>
+			  <tr>
+				<th>내용</th>
+				<td><textarea name="info" placeholder="정보를 입력해 주세요."></textarea></td>
+			  </tr>
+			  <tr>
+				<th>가격</th>
+				<td>
+					<input type="number" name="cost" value=""placeholder="가격을 입력하세요." id="p_cost" />
+				</td>
+			  </tr>
+			  <tr>
+				<th>제품 사진</th>
+				<td><input type="file" name="multipartFile" placeholder="업로드할 이미지를 선택해주세요." /></td>
+			  </tr>
+			</tbody>
+		  </table>
+		  <div class="btns">
+			<button type="submit" class="btn btnConfirm">확인</button>
+			<a href=""><button type="reset" class="btn btnCancel">취소</button></a>
+		  </div>
+		</form>
+
+	</div>
+</main>
+<script></script>
+<? include("../include/footer.html"); ?>

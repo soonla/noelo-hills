@@ -1,52 +1,80 @@
 Splitting();
-
+//메인 페이지에서 슬라이드
 const mainVisualSlider = new Swiper("#mainVisual", {
   autoplay: true,
   speed: 1000,
   effect: "fade",
   loop: true,
-  navigation: {
-    prevEl: "#mainVisual .prev",
-    nextEl: "#mainVisual .next",
+  pagination: {
+    el: "#mainVisual .pagination",
+    type: "bullets",
+    clickable: true,
   },
 });
-//f(x,y) = x+y*3; f(3,5) = 18
-
-const gnbItem = document.querySelectorAll("#gnb .list > li");
-//document.querySelectorAll(찾는거) // 배열처럼 생긴 nodeList를 리턴한다.
-const header = document.querySelector("#header");
-console.log(gnbItem);
-console.log(gnbItem.length);
-for (let i = 0; i < gnbItem.length; i++) {
-  gnbItem[i].addEventListener("mouseenter", function () {
-    header.classList.add("open");
+// 마이페이지 -> 주문내역에서 달력 추가
+$(function () {
+  $("#history_start_date,#history_end_date").datepicker({
+    changeMonth: true,
+    changeYear: true,
+    showMonthAfterYear: true,
+    dayNamesMin: ["월", "화", "수", "목", "금", "토", "일"],
+    dateFormat: "yy-mm-dd",
   });
-  gnbItem[i].addEventListener("mouseleave", function () {
-    header.classList.remove("open");
+  $("#history_start_date").datepicker("option", "maxDate", $("#history_end_date").val());
+  $("#history_start_date").datepicker("option", "onClose", function (selectedDate) {
+    $("#history_end_date").datepicker("option", "minDate", selectedDate);
   });
-}
 
-gsap.from("#mainVisual .slogan .main .char", { opacity: 0, x: 150, ease: "power4", duration: 1, stagger: 0.1 });
-gsap.from("#mainVisual .slogan .sub .char", { opacity: 0, x: 150, ease: "power4", duration: 1, delay: 2, stagger: 0.02 });
+  $("#history_end_date").datepicker();
+  $("#history_end_date").datepicker("option", "minDate", $("#history_start_date").val());
+  $("#history_end_date").datepicker("option", "onClose", function (selectedDate) {
+    $("#history_start_date").datepicker("option", "maxDate", selectedDate);
+  });
+});
+// 마이페이지 -> 주문내역에서 li 클릭시 selected 클래서 넣고 색변하고 2번째 li 클릭시 select option 부분만 제거함
+$(document).ready(function () {
+  $("#first_li").click(function () {
+    $("#first_li").addClass("selected");
+    $("#first_li_2").removeClass("selected");
+    $(".state_select").removeClass("off");
+  });
+  $("#first_li_2").click(function () {
+    $("#first_li_2").addClass("selected");
+    $("#first_li").removeClass("selected");
+    $(".state_select").addClass("off");
+  });
+});
+//관심상품 Wish-list 체크박스 설정
+$(document).ready(function () {
+  $(".check-all").click(function () {
+    $(".w_ch").prop("checked", this.checked);
+  });
+});
 
-/**
-const iq = 182;
-let height = 180;
-height = height + 5; // 대입연산자...
-let 나의키 = 180; //특수문자는 두개만 _ , $ 허용한다. 띄어쓰기 안된다. 숫자는 뒤에만 쓸 수 있다. 예약어는 안됨.
-console.log(나의키);
+/*상품상세 썸네일  s_pd_moisture hover 시 이미지 확대*/
 
-console.log(10 + 10);
-console.log(10 - 10);
-console.log(10 * 10);
-console.log(10 / 3); // 실수 나누기...(중학생 나누기)
-console.log(10 % 3); // 마너지 구하기...(토등학생 나누기)
+$(".list_img .ThumbImage").on("mouseenter", function () {
+  $(".thumbnail img").attr("src", $(this).attr("src").replace("big", "big"));
+});
 
-//Number, Stringm, Boolean
-let isOk = false;
+// 상품상세페이지 리뷰 클릭
+const productSlider = new Swiper(".top_pd_menu02 .r_imgBox ", {
+  speed: 600,
+  slidesPerView: 5, //화면에 보여지는 갯수
+  slidesPerGroup: 5, //묶음
+  navigation: {
+    prevEl: ".top_pd_menu02 .imgR_count .prev ",
+    nextEl: ".top_pd_menu02 .imgR_count .next ",
+  },
+});
 
-//문 statement(조건, 반복)   expression
-if (isOk) {
-  console.log("나는 참이어서 출력됩니다.");
-}
-*/
+/*상품상세 아코디언*/
+$(".detail_accodion > div").on("click", function (e) {
+  e.preventDefault();
+  if (!$(this).hasClass("active")) {
+    $(".detail_accodion > div").removeClass("active");
+    $(this).addClass("active");
+  } else {
+    $(this).removeClass("active");
+  }
+});

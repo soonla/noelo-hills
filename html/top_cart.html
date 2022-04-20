@@ -1,0 +1,207 @@
+<? include("../include/header.html"); ?>
+<main id="main">
+  <div class="cart">
+    <div class="titleArea">
+      <h1>장바구니</h1>
+    </div>
+    <div class="order-Check">
+      <!--로그인 후 장바구니 비어 있을 때-->
+      <div class="login-Information">
+        <h3>혜택정보</h3>
+        <div class="description">
+          <ul>
+            <li>
+              <a href="">가용적립금<strong>0원</strong></a>
+            </li>
+            <li>
+              <a href="">쿠폰<strong>3개</strong></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--로그인 안했을 시에 장바구니 비어있을때-->
+      <!-- <div class="noCount">
+        <p>장바구니가 비어 있습니다.</p>
+      </div> -->
+      <!--로그인 후 장바구니에 상품이 담길때-->
+      <div class="orderList">
+        <h3>일반상품 (3)</h3>
+        <div class="cart-table">
+          <table border="1">
+            <tbody>
+              <tr>
+                <td class="cart-td1">
+                  <div>
+                    <input type="checkBox" id="basket_chk_id_1" />
+                    <label for="basket_chk_id_1"></label>
+                  </div>
+                  <div>
+                    <a href="">
+                      <img src="../images/shop_main/listAll/p1.jpg" alt="" />
+                    </a>
+                  </div>
+                </td>
+                <td class="cart-td2">
+                  <div>
+                    <strong>
+                      <a href="">마일드 젤 워시 300ml</a>
+                    </strong>
+                  </div>
+                  <div>
+                    <ul>
+                      <li>
+                        <span> <img src="../images/cart/ico_product_point.gif" alt="" class="a" /> 900원 </span>
+                      </li>
+                      <li>
+                        <span>기본배송</span>
+                      </li>
+                      <li class="d_count">
+                        <span> 배송비: </span>
+                        <p class="delmoney">0원</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="li-qty">
+                    <ul class="ul-qty">
+                      <li>
+                        <span class="base-qty">
+                          <input type="text" size="2" value="1" />
+                          <a href=""><img src="../images/cart/btn_quantity_up.png" alt="" class="up" /></a>
+                          <a href=""><img src="../images/cart/btn_quantity_down.png" alt="" class="down" /></a>
+                        </span>
+                        <a href="" class="qty-change">변경</a>
+                      </li>
+                      <li class="sum">합계: <strong>30,000원</strong></li>
+                    </ul>
+                  </div>
+                </td>
+                <td class="cart-td3">
+                  <div><a href="">주문하기</a></div>
+                  <div><a href="">관심상품</a></div>
+                  <div><a href="">삭제하기</a></div>
+                </td>
+              </tr>
+              <tr>
+                <td class="cart-td1">
+                  <div>
+                    <input type="checkBox" id="basket_chk_id_2" />
+                    <label for="basket_chk_id_2"></label>
+                  </div>
+                  <div>
+                    <a href=""> <img src=../images/shop_main/listAll/p2.jpg alt="" /> </a>
+                  </div>
+                </td>
+                <td class="cart-td2">
+                  <div>
+                    <strong>
+                      <a href="">모이스처라이징 로션 200ml</a>
+                    </strong>
+                  </div>
+                  <div>
+                    <ul>
+                      <li>
+                        <span> <img src="../images/cart/ico_product_point.gif" alt="" class="a" /> 960원 </span>
+                      </li>
+                      <li>
+                        <span>기본배송</span>
+                      </li>
+                      <li class="d_count">
+                        <span> 배송비: </span>
+                        <p class="delmoney">0원</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="li-qty">
+                    <ul class="ul-qty">
+                      <li>
+                        <span class="base-qty">
+                          <input type="text" size="2" value="1" />
+                          <a href=""><img src="../images/cart/btn_quantity_up.png" alt="" class="up" /></a>
+                          <a href=""><img src="../images/cart/btn_quantity_down.png" alt="" class="down" /></a>
+                        </span>
+                        <a href="" class="qty-change">변경</a>
+                      </li>
+                      <li class="sum">합계: <strong>32,000원</strong></li>
+                    </ul>
+                  </div>
+                </td>
+                <td class="cart-td3">
+                  <div><a href="">주문하기</a></div>
+                  <div><a href="">관심상품</a></div>
+                  <div><a href="">삭제하기</a></div>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="10">
+                  <span class="gLeft">[기본배송]</span>
+                  상품구매금액 :
+                  <strong>97,000</strong>
+                  + 배송비 0 (무료) = 합계 :
+                  <strong class="t-sum">97,000원</strong>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <div class="c-info">
+          <p>할인 적용 금액은 주문서작성의 결제예정금액에서 확인 가능합니다.</p>
+        </div>
+        <div class="cart-del">
+          <span class="gLeft">
+            <strong>선택상품을</strong>
+            <a href="">삭제하기</a>
+          </span>
+          <span class="gRight">
+            <a href="">장바구니 비우기</a>
+          </span>
+        </div>
+        <div class="second-table">
+          <table border="1">
+            <colgroup>
+              <col stype="width:17%" />
+              <col stype="width:17%" />
+              <col stype="width:66%" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th scope="col">총 상품금액</th>
+                <th scope="col">총 배송비</th>
+                <th scope="col">결제예정금액</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">97,000</td>
+                <td scope="row">0</td>
+                <td scope="row">=97,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="orderBox">
+        <a href="">전체상품주문</a>
+        <a href="">선택상품주문</a>
+      </div>
+    </div>
+    <div class="cart-Information">
+      <h3>이용안내</h3>
+      <div class="cart-inner">
+        <h4>장바구니 이용안내</h4>
+        <ul>
+          <li>선택하신 상품의 수량을 변경하시려면 수량변경 후 [변경] 버튼을 누르시면 됩니다.</li>
+          <li>장바구니와 관심상품을 이용하여 원하시는 상품만 주문하거나 관심상품으로 등록하실 수 있습니다.</li>
+        </ul>
+        <h4>무이자 이용안내</h4>
+        <ul>
+          <li>상품별 무이자할부 혜택을 받으시려면 무이자할부 상품만 선택하여 [주문하기] 버튼을 눌러 주문/결제 하시면 됩니다.</li>
+          <li>[전체 상품 주문] 버튼을 누르시면 장바구니의 구분없이 선택된 모든 상품에 대한 주문/결제가 이루어집니다.</li>
+          <li>단, 전체 상품을 주문/결제하실 경우, 상품별 무이자할부 혜택을 받으실 수 없습니다.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+<? include("../include/footer.html"); ?>

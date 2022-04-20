@@ -1,0 +1,494 @@
+body {
+  overflow-x: hidden;
+}
+#joinSection,
+#LoginSection,
+#updateSection,
+#findSection {
+  table {
+    tr {
+      border-top: 1px solid #959ea6;
+      border-bottom: 1px solid #959ea6;
+    }
+    td {
+      border-top: 1px solid #959ea6;
+      border-bottom: 1px solid #959ea6;
+    }
+  }
+  .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color: #777777;
+    margin-bottom: 50px;
+  }
+  input[type="text"],
+  input[type="number"],
+  input[type="password"] {
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid #959ea6;
+    padding: 5px;
+    width: 500px;
+    height: 30px;
+    outline: none;
+  }
+  .inner {
+    width: 500px;
+    margin: 0 auto;
+    h2 {
+      padding: 20px 0;
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+  .field {
+    display: flex;
+    justify-content: center;
+    fieldset {
+      border: none;
+      .save {
+        display: flex;
+        padding: 10px 0;
+        align-items: center;
+      }
+    }
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+  }
+}
+#joinSection,
+#LoginSection,
+#updateSection {
+  .container {
+    .title {
+      margin-top: 50px;
+    }
+    p {
+      margin-top: 15px;
+    }
+    .update_require {
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      h3 {
+        font-size: 24px;
+        color: #777777;
+      }
+      p {
+        font-size: 16px;
+        color: #777777;
+        margin: auto 0;
+        span {
+          color: #f9ce42;
+        }
+      }
+    }
+    width: 1470px;
+    margin: auto;
+    table {
+      width: 100%;
+      margin-bottom: 30px;
+      tr {
+        width: 100%;
+        th {
+          width: 150px;
+          padding: 20px;
+          background-color: #fbfafa;
+          vertical-align: middle;
+          text-align: center;
+        }
+        td {
+          padding: 30px;
+        }
+      }
+      #phoneFirst {
+        padding: 5px;
+        height: 30px;
+      }
+      .short {
+        width: 100px;
+        border: none;
+        border-bottom: 1px solid #959ea6;
+        font-size: 15px;
+      }
+    }
+    .baseTable {
+      margin-bottom: 50px;
+      .mobileCheckLink {
+        margin-top: 10px;
+        display: inline-block;
+        border: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(218, 214, 19);
+        padding: 0 20px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+      }
+    }
+    .agreeCheckBox {
+      background-color: #fbfafa;
+      padding: 30px;
+      .agreeBox {
+        margin-bottom: 20px;
+      }
+      .contents {
+        background-color: #fff;
+        padding: 20px;
+        height: 90px;
+        overflow-y: auto;
+        font-size: 13px;
+      }
+    }
+    .tableBox {
+      table {
+        tbody {
+          tr {
+            &:nth-child(6) {
+              input[type="number"] {
+                width: 400px !important;
+              }
+              input[type="text"] {
+                margin: 10px 0;
+              }
+              button {
+                background-color: #ffcc00;
+                color: #fff;
+                padding: 0 20px;
+                height: 40px;
+                line-height: 40px;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .update_bottom {
+    width: 100%;
+    margin: 0 auto 100px;
+    text-align: center;
+    button {
+      display: inline-block;
+      width: 200px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 16px;
+      padding: 0 25px;
+      &.btnSubmit {
+        background-color: #ffcc00;
+        color: #fff;
+      }
+    }
+  }
+}
+
+//로그인 섹션 과 아이디 찾기 섹션 에 마진탑 적용
+#LoginSection,
+#findSection {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+//비회원 주문조회 css
+#no_login_form {
+  h3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .login_nomember_wrap {
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    p {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #676e73;
+      letter-spacing: -1px;
+    }
+    #nomember_info {
+      width: 100%;
+      // padding: 20px 30px 0 30px;
+      background: #fff;
+      border-radius: 15px;
+      dd {
+        padding: 15px 10px;
+        input[type="text"] {
+          width: 400px;
+        }
+      }
+    }
+    button {
+      margin-top: 25px;
+      width: 100%;
+      padding: 10px 0;
+      background-color: #ffcc00;
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+}
+//로그인 폼
+#login_form {
+  margin: 50px 0;
+  .field_02 {
+    fieldset {
+      .login {
+        input[type="text"],
+        input[type="password"] {
+          padding: 0;
+          margin-top: 20px;
+        }
+      }
+      .security {
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        span {
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+          margin-right: 30px;
+          img {
+            display: none;
+          }
+          input {
+            appearance: none;
+          }
+          label {
+            padding-left: 20px;
+            box-sizing: border-box;
+            font-size: 18px;
+            display: inline-block;
+            width: 34px;
+            height: 24px;
+            background: url("../images/common/bg-checkbox.png") left center no-repeat;
+          }
+          :checked + label {
+            background-image: url("../images/common/bg-checkbox-active.png");
+          }
+          &:nth-child(2) {
+            padding-left: 22px;
+            background: url("../images/Login/ico-security.png") left center no-repeat;
+          }
+        }
+      } // 아이디저장, 보안접속
+      .findArea {
+        ul {
+          display: flex;
+          margin: 25px 0 0 0;
+          justify-content: center;
+          li {
+            a {
+              text-decoration: none;
+            }
+            padding-right: 15px;
+            &:nth-child(2) {
+              padding-left: 15px;
+              position: relative;
+            }
+            &::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 50%;
+              width: 1px;
+              height: 14px;
+              background-color: #c3cfd9;
+              transform: translateY(-50%);
+            }
+          }
+        }
+      } //아이디 비번 찾기
+      .btns {
+        margin-top: 25px;
+        .login_btn {
+          cursor: pointer;
+          font-size: 18px;
+          width: 100%;
+          padding: 15px 0;
+          background: #ffcc00;
+          border-color: #ffcc00;
+          color: #fff;
+          font-weight: 500;
+          height: 60px;
+        }
+      }
+      .snsAreaTit {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 18px;
+        color: #7e868c;
+        line-height: 1;
+      }
+      .snsArea {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        li {
+          margin: 0 5px;
+          width: 60px;
+          height: 60px;
+          a {
+            display: block;
+            background-color: #ccc;
+            width: 60px;
+            height: 60px;
+            background: url("../images/Login/btn-naver.png") center center no-repeat;
+            background-size: cover;
+          }
+          &:nth-child(2) {
+            a {
+              background: url("../images/Login/btn-kakao.png") center center no-repeat;
+              background-size: cover;
+            }
+          }
+          &:nth-child(3) {
+            a {
+              background: url("../images/Login/btn-facebook.png") center center no-repeat;
+              background-size: cover;
+            }
+          }
+        }
+      }
+      .no_id_q {
+        width: 100%;
+        margin-top: 20px;
+        border: 1px solid #ffcc00;
+        a {
+          display: block;
+          color: #ffc300;
+          height: 60px;
+          text-align: center;
+          line-height: 58px;
+          font-size: 18px;
+          span {
+            border-bottom: 1px solid #ffcc00;
+          }
+        }
+      }
+      .puchase_nomember {
+        width: 100%;
+        margin-top: 20px;
+        background: #fff5d6;
+        a {
+          display: block;
+          color: #ffc300;
+          height: 60px;
+          text-align: center;
+          line-height: 58px;
+          font-size: 18px;
+        }
+      }
+      .no_m_puch {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+          text-align: center;
+          width: 250px;
+          height: 50px;
+          line-height: 50px;
+          display: block;
+          background: #ffcc00;
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+//아이디 비미번호 찾기 css
+#findSection {
+  overflow: hidden;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 500px;
+
+  #find_form {
+    .field_03 {
+      margin-top: 40px;
+      fieldset {
+        width: 500px;
+        .id_find_checkBox {
+          width: 100%;
+          height: 25px;
+          input[type="radio"] {
+            appearance: none;
+          }
+          label {
+            padding-left: 30px;
+            box-sizing: border-box;
+            font-size: 18px;
+            height: 35px;
+            background: url("../images/Login/bg-radio.png") left center no-repeat;
+          }
+          :checked + label {
+            background-image: url("../images/Login/bg-radio-active.png");
+          }
+        }
+        input[type="text"] {
+          width: 500px;
+          padding: 5px 0;
+          margin: 15px 0;
+        }
+
+        .input_e_form {
+          margin: 30px 0;
+        }
+        .input_p_form {
+          display: none;
+          margin: 30px 0;
+          p {
+            margin-top: 20px;
+          }
+          input[type="number"] {
+            margin: 15px 0 15px;
+            width: 29%;
+          }
+        }
+        .input_pi_form {
+          overflow: hidden;
+          display: none;
+          margin: 30px 0;
+          .text_pimg {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+              font-size: 12px;
+              text-overflow: hidden;
+              line-height: 20px;
+              margin-top: 5px;
+            }
+            a {
+              display: block;
+            }
+          }
+        }
+        .login_btn {
+          width: 100%;
+          cursor: pointer;
+          padding: 15px 0;
+          background: #ffcc00;
+          font-size: 20px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+//text [number] 에서 화살표 제거
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

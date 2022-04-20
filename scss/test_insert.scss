@@ -1,0 +1,85 @@
+#main {
+  .admin_insert_inner {
+    width: 1480px;
+    margin: 0 auto;
+    // input type =text, number // textarea 등 공통 클래스
+    .titleArea {
+      padding: 40px 0;
+      text-align: center;
+      margin: 0 auto;
+      width: 500px;
+      height: 50px;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 50px;
+      color: #777777;
+    }
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+      height: 35px;
+      border: 1px solid #c3cfd9;
+      box-sizing: border-box;
+      padding-left: 10px;
+      font-size: 16px;
+      margin: 5px 0;
+      outline: none;
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+      box-sizing: border-box;
+      border: 1px solid #c3cfd9;
+      font-size: 16px;
+      resize: none;
+      outline: none;
+      resize: none;
+    }
+    table {
+      width: 100%;
+      border: 1px solid #c3cfd9;
+      tbody {
+        tr {
+          border-bottom: 1px solid #c3cfd9;
+          th {
+            vertical-align: middle;
+            width: 150px;
+            background-color: #fbfafa;
+          }
+          td {
+            padding: 20px 20px;
+            font-size: 14px;
+            .category {
+              label {
+                margin-right: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  } //table _end
+  .btns {
+    padding: 20px 0;
+    box-sizing: border-box;
+    text-align: right;
+    button {
+      display: inline-block;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 10px 30px;
+      background-color: #777777;
+    }
+    a {
+      button {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px 30px;
+        background-color: #ffcc00;
+      }
+    }
+  }
+}

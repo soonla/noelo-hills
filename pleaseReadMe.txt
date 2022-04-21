@@ -32,3 +32,12 @@ review 상품 후기 추가(미완),
 
 benefits member 수정
 review, 후기작성 까지 되었습니다.(내용 넣는 부분은 어떻게해야할지 몰라 비워놨습니다.)
+
+220420
+benefits member 완료했습니다.
+benefits members,events ctrl+휠 돌리면 오류나는거수정했습니다.
+review_review 추가중입니다.
+
+
+220421
+review_review 완성했습니다.

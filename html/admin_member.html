@@ -1,0 +1,100 @@
+<? include("../include/admin_header.html"); ?>
+<main id="admin_main">
+  <div class="inner">
+    <h2 class="subTitle">회원관리 LIST</h2>
+    <div id="contents">
+      <div class="tableBox">
+        <table>
+          <colgroup>
+            <col style="width: 30px" />
+            <col style="width: 100px" />
+            <col style="width: 100px" />
+            <col style="width: 200px" />
+            <col style="width: 150px" />
+            <col style="width: 100px" />
+            <col />
+            <col style="width: 200px" />
+            <col style="width: 100px" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>NO</th>
+              <th>ID</th>
+              <th>NAME</th>
+              <th>EMAIL</th>
+              <th>PHONE</th>
+              <th>우편번호</th>
+              <th>주소</th>
+              <th>DATE</th>
+              <th>삭제</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>12</td>
+              <td>torr</td>
+              <td>토르르</td>
+              <td>torr@torr.com</td>
+              <td>010-3333-2222</td>
+              <td>22250</td>
+              <td>서울 강동구 아리수로 46-6</td>
+              <td>2022-02-03 16-30-14</td>
+              <td>
+                <a href=""><span class="material-icons"> delete </span></a>
+              </td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>torr</td>
+              <td>헐크</td>
+              <td>torr@torr.com</td>
+              <td>010-3333-2222</td>
+              <td>22250</td>
+              <td>서울 강동구 아리수로 46-6</td>
+              <td>2022-02-03 16-30-14</td>
+              <td>
+                <a href=""><span class="material-icons"> delete </span></a>
+              </td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>torr</td>
+              <td>아이언맨</td>
+              <td>torr@torr.com</td>
+              <td>010-3333-2222</td>
+              <td>22250</td>
+              <td>서울 강동구 아리수로 46-6</td>
+              <td>2022-02-03 16-30-14</td>
+              <td>
+                <a href=""><span class="material-icons"> delete </span></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="pagination">
+          <ul>
+            <li>
+              <a href=""><span class="material-icons">chevron_left</span></a>
+            </li>
+            <li class=""><a href="">1</a></li>
+            <li>
+              <a href=""><span class="material-icons">chevron_right</span></a>
+            </li>
+          </ul>
+        </div>
+        <form action="BoardSearchList.do" class="form" method="GET">
+          <div class="searchBox">
+            <select name="search_select">
+              <option value="subject">제목</option>
+              <option value="name" selected>작성자</option>
+              <option value="contents">내용</option>
+            </select>
+            <input type="text" placeholder="검색할 내용을 입력해 주세요." name="search_word" />
+            <button class="btn btnBlack">검색</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+<? include("../include/admin_footer.html"); ?>

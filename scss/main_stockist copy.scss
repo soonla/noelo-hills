@@ -1,0 +1,514 @@
+@import "vars";
+@import "mixins";
+.titleBox {
+  line-height: 1.5;
+  h2 {
+    margin-bottom: 50px;
+    font-size: $h2;
+    font-weight: 600;
+  }
+  p {
+    font-size: $medium-size;
+  }
+}
+
+.btns {
+  display: flex;
+  &.center {
+    justify-content: center;
+  }
+  &.right {
+    justify-content: flex-end;
+  }
+  .btn {
+    border: 1px solid $border-color;
+    border-radius: 100px;
+    transition: 0.25s ease;
+    @include flexCenter();
+  }
+  .transition:hover {
+    background-color: $text-color;
+    border-color: $text-color;
+    color: #fff;
+  }
+  .large {
+    height: 60px;
+    padding: 0 50px;
+  }
+}
+
+#main {
+  padding-top: 70px;
+  width: 100%;
+  #stockistVisual {
+    width: 100%;
+    li {
+      .stockistBanner {
+        margin: 0 auto;
+        width: 100%;
+        height: 260px;
+        background-position: 50%;
+        background-size: cover;
+        background-image: url("../images/main/banner/subimage_stockist.png");
+      }
+      .middleMenu {
+        background-color: #faf8f2;
+        height: 120px;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        p {
+          font-size: 18px;
+          font-weight: 600;
+          color: #777777;
+        }
+      }
+      p {
+        display: flex;
+        justify-content: center;
+
+        font-size: 14px;
+      }
+      ul {
+        display: flex;
+        justify-content: center;
+        li {
+          a {
+            display: block;
+            padding: 30px;
+            font-size: 14px;
+            position: relative;
+            z-index: 2;
+          }
+        }
+      }
+    }
+  }
+  .shop {
+    width: 777px;
+    margin: 0 auto;
+    padding: 35px 0 20px 0px;
+    height: auto;
+    strong {
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: #777777;
+    }
+  }
+  .shop01 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec01.png);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop02 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec02.png);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop03 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec03.jpg);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop04 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec04.png);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop05 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec05.png);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop06 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec06.jpg);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+        float: left;
+      }
+    }
+  }
+  .shop07 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec07.png);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop08 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec08.png);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop09 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec09.jpg);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop10 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec10.jpg);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop11 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec11.jpg);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop12 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec12.jpg);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop13 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec13.jpg);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .shop14 {
+    width: 777px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    color: #777777;
+    align-items: center;
+    .mainBox {
+      height: 120px;
+      padding: 0px 0 0px 200px;
+      background: url(../images/main/stockist/stockist_sec14.jpg);
+      background-repeat: no-repeat;
+      h4 {
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        line-height: 1;
+        color: #777;
+        display: relative;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+
+  .stockistOnline {
+    width: 777px;
+    margin: 0 auto;
+    padding: 35px 0 20px 0px;
+    height: auto;
+    .logoBundle {
+      position: relative;
+      div {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: left;
+          li {
+            padding: 7px;
+            position: relative;
+          }
+        }
+      }
+    }
+  }
+}

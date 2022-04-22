@@ -56,11 +56,15 @@ body { overflow-x: hidden; }
 
 #joinSection .container .agreeCheckBox .contents, #LoginSection .container .agreeCheckBox .contents, #updateSection .container .agreeCheckBox .contents { background-color: #fff; padding: 20px; height: 90px; overflow-y: auto; font-size: 13px; }
 
-#joinSection .container .tableBox table tbody tr:nth-child(6) input[type="number"], #LoginSection .container .tableBox table tbody tr:nth-child(6) input[type="number"], #updateSection .container .tableBox table tbody tr:nth-child(6) input[type="number"] { width: 400px !important; }
+#joinSection .container .tableBox table tbody tr:nth-child(6) .address_width_change .addressInput input[type="number"], #LoginSection .container .tableBox table tbody tr:nth-child(6) .address_width_change .addressInput input[type="number"], #updateSection .container .tableBox table tbody tr:nth-child(6) .address_width_change .addressInput input[type="number"] { width: 400px !important; }
 
-#joinSection .container .tableBox table tbody tr:nth-child(6) input[type="text"], #LoginSection .container .tableBox table tbody tr:nth-child(6) input[type="text"], #updateSection .container .tableBox table tbody tr:nth-child(6) input[type="text"] { margin: 10px 0; }
+#joinSection .container .tableBox table tbody tr:nth-child(6) .address_width_change input[type="text"], #LoginSection .container .tableBox table tbody tr:nth-child(6) .address_width_change input[type="text"], #updateSection .container .tableBox table tbody tr:nth-child(6) .address_width_change input[type="text"] { margin: 10px 0; }
 
-#joinSection .container .tableBox table tbody tr:nth-child(6) button, #LoginSection .container .tableBox table tbody tr:nth-child(6) button, #updateSection .container .tableBox table tbody tr:nth-child(6) button { background-color: #ffcc00; color: #fff; padding: 0 20px; height: 40px; line-height: 40px; cursor: pointer; }
+#joinSection .container .tableBox table tbody tr:nth-child(6) .address_width_change button, #LoginSection .container .tableBox table tbody tr:nth-child(6) .address_width_change button, #updateSection .container .tableBox table tbody tr:nth-child(6) .address_width_change button { background-color: #ffcc00; color: #fff; padding: 0 20px; height: 40px; line-height: 40px; cursor: pointer; }
+
+#joinSection .container .tableBox table tbody tr:nth-child(7) td .phone_table, #LoginSection .container .tableBox table tbody tr:nth-child(7) td .phone_table, #updateSection .container .tableBox table tbody tr:nth-child(7) td .phone_table { vertical-align: middle; }
+
+#joinSection .container .tableBox table tbody tr:nth-child(7) td .phone_table input[type="number"], #joinSection .container .tableBox table tbody tr:nth-child(7) td .phone_table select, #LoginSection .container .tableBox table tbody tr:nth-child(7) td .phone_table input[type="number"], #LoginSection .container .tableBox table tbody tr:nth-child(7) td .phone_table select, #updateSection .container .tableBox table tbody tr:nth-child(7) td .phone_table input[type="number"], #updateSection .container .tableBox table tbody tr:nth-child(7) td .phone_table select { border-bottom: 1px solid #c3cfd9; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; height: 30px; outline: none; font-size: 14px; }
 
 #joinSection .update_bottom, #LoginSection .update_bottom, #updateSection .update_bottom { width: 100%; margin: 0 auto 100px; text-align: center; }
 

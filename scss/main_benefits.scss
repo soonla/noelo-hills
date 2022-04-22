@@ -63,29 +63,39 @@
         text-align: center;
         font-size: 18px;
       }
-
       ul {
         display: flex;
         justify-content: center;
         li {
           margin: 10px;
+          a {
+            font-size: 14px;
+            font-weight: 400;
+            color: #777777;
+          }
+          &.on {
+            a {
+              font-size: 14px;
+              font-weight: 400;
+              color: #ffcc00;
+            }
+          }
         }
       }
     }
     .eventsContainer {
-      position: relative;
-      letter-spacing: -0.45px;
+      width: 100%;
       .eventsBox {
         padding-top: 20px;
         ul {
-          justify-content: left;
+          overflow: hidden;
+          box-sizing: border-box;
           width: 100%;
-          margin: 20px 100px 50px;
-          font-size: 0;
+          // margin: 20px 100px 50px;   이거 주석처리 안하면 간격이 안맞음
           line-height: 2;
           text-align: center;
-          display: flex;
           li {
+            display: inline-block;
             width: 343px;
             padding: 0;
             margin: 0 20px 0 0;
@@ -195,14 +205,14 @@
             }
           }
           .prev strong {
-            background: #fafafa url("../images/event/ico_move_prev.png") 5px center no-repeat;
+            background: #fafafa url("../images/main/benefits/events/event_info/ico_move_prev.png") 5px center no-repeat;
             width: 10px;
             height: 10px;
             overflow: hidden;
             box-sizing: border-box;
           }
           .next strong {
-            background: #fafafa url("../images/event/ico_move_next.png") 5px center no-repeat;
+            background: #fafafa url("../images/main/benefits/events/event_info/ico_move_next.png") 5px center no-repeat;
             width: 10px;
             height: 10px;
             overflow: hidden;
@@ -241,6 +251,18 @@
         justify-content: center;
         li {
           margin: 10px;
+          a {
+            font-size: 14px;
+            font-weight: 400;
+            color: #777777;
+          }
+          &.on {
+            a {
+              font-size: 14px;
+              font-weight: 400;
+              color: #ffcc00;
+            }
+          }
         }
       }
     }

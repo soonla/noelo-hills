@@ -1,0 +1,52 @@
+<? include("../include/admin_header.html"); ?>
+<main id="admin_main">
+  <div class="inner">
+    <h2 class="subTitle">상품 등록</h2>
+    <div id="contents">
+      <div class="tableBox">
+        <form method="POST" action="LoginProcess.do" id="login" class="form">
+          <table>
+            <colgroup>
+              <col style="width: 20%" />
+              <col style="width: 80%" />
+            </colgroup>
+            <tbody>
+              <tr>
+                <th>상품이름 <span class="required">*</span></th>
+                <td><input type="text" name="goods_name" id="goods_name" placeholder="상품명을 입력하세요." /></td>
+              </tr>
+              <tr>
+                <th>상품정보 <span class="required">*</span></th>
+                <td><input type="text" name="goods_info" id="goods_info" placeholder="상품정보를 입력하세요." /></td>
+              </tr>
+              <tr>
+                <th>상품 금액 <span class="required">*</span></th>
+                <td><input type="number" name="goods_cost" id="goods_cost" placeholder="상품금액을 입력하세요." /></td>
+              </tr>
+              <tr>
+                <th>상품 이미지 <span class="required">*</span></th>
+                <td><input type="file" name="goods_img" id="goods_img" placeholder="상품금액을 입력하세요." /></td>
+              </tr>
+              <tr>
+                <th>상세페이지 이미지 1 <span class="required">*</span></th>
+                <td><input type="file" name="goods_introduce_01" id="goods_introduce_01" placeholder="상품금액을 입력하세요." /></td>
+              </tr>
+              <tr>
+                <th>상세페이지 이미지 2 <span class="required">*</span></th>
+                <td><input type="file" name="goods_introduce_02" id="goods_introduce_02" placeholder="상품금액을 입력하세요." /></td>
+              </tr>
+              <tr>
+                <th>상세페이지 이미지 3 <span class="required">*</span></th>
+                <td><input type="file" name="goods_introduce_03" id="goods_introduce_03" placeholder="상품금액을 입력하세요." /></td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+        <div class="btns">
+          <a href="" class="btn btnConfirm">상품등록</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<? include("../include/admin_footer.html"); ?>

@@ -47,28 +47,32 @@
               <tr>
                 <th>주소<span>*</span></th>
                 <td>
-                  <div class="addressInput">
-                    <input type="number" id="zipCode" placeholder="우편번호" id="zipCode" name="zipCode" />
-                    <button>주소검색</button>
-                  </div>
-                  <div>
-                    <input type="text" placeholder="기본주소" id="address01" name="address01" />
-                  </div>
-                  <div>
-                    <input type="text" placeholder="나머지 주소(선택 입력 가능)" id="address02" name="address02" />
+                  <div class="address_width_change">
+                    <div class="addressInput">
+                      <input type="number" id="zipCode" placeholder="우편번호" id="zipCode" name="zipCode" />
+                      <button>주소검색</button>
+                    </div>
+                    <div>
+                      <input type="text" placeholder="기본주소" id="address01" name="address01" />
+                    </div>
+                    <div>
+                      <input type="text" placeholder="나머지 주소(선택 입력 가능)" id="address02" name="address02" />
+                    </div>
                   </div>
                 </td>
               </tr>
               <tr>
                 <th>전화번호 <span>*</span></th>
                 <td>
-                  <select name="phoneFirst" id="phoneFirst" class="short">
-                    <option value="010" selected="selected">010</option>
-                    <option value="011">011</option>
-                    <option value="017">017</option>
-                  </select>
-                  <input type="number" id="phoneMiddle" name="phoneMiddle" class="short" />
-                  <input type="number" id="phoneLast" name="phoneLast" class="short" />
+                  <div class="phone_table">
+                    <select name="phoneFirst" id="phone_First" class="short">
+                      <option value="010" selected="selected">010</option>
+                      <option value="011">011</option>
+                      <option value="017">017</option>
+                    </select>
+                    <input type="number" id="phoneMiddle" name="phoneMiddle" class="short" />
+                    <input type="number" id="phoneLast" name="phoneLast" class="short" />
+                  </div>
                 </td>
               </tr>
               <tr>

@@ -30,13 +30,17 @@
 
 #main #eventsVisual .middleMenu ul li { margin: 10px; }
 
-#main #eventsVisual .eventsContainer { position: relative; letter-spacing: -0.45px; }
+#main #eventsVisual .middleMenu ul li a { font-size: 14px; font-weight: 400; color: #777777; }
+
+#main #eventsVisual .middleMenu ul li.on a { font-size: 14px; font-weight: 400; color: #ffcc00; }
+
+#main #eventsVisual .eventsContainer { width: 100%; }
 
 #main #eventsVisual .eventsContainer .eventsBox { padding-top: 20px; }
 
-#main #eventsVisual .eventsContainer .eventsBox ul { -webkit-box-pack: left; -ms-flex-pack: left; justify-content: left; width: 100%; margin: 20px 100px 50px; font-size: 0; line-height: 2; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; }
+#main #eventsVisual .eventsContainer .eventsBox ul { overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; width: 100%; line-height: 2; text-align: center; }
 
-#main #eventsVisual .eventsContainer .eventsBox ul li { width: 343px; padding: 0; margin: 0 20px 0 0; }
+#main #eventsVisual .eventsContainer .eventsBox ul li { display: inline-block; width: 343px; padding: 0; margin: 0 20px 0 0; }
 
 #main #eventsVisual .eventsContainer .eventsBox ul li a { overflow: hidden; width: 345px; height: 345px; }
 
@@ -80,9 +84,9 @@
 
 #main #eventsVisual .event_detail .e_prev_next ul li:nth-child(2) { border-bottom: none; }
 
-#main #eventsVisual .event_detail .e_prev_next ul .prev strong { background: #fafafa url("../images/event/ico_move_prev.png") 5px center no-repeat; width: 10px; height: 10px; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#main #eventsVisual .event_detail .e_prev_next ul .prev strong { background: #fafafa url("../images/main/benefits/events/event_info/ico_move_prev.png") 5px center no-repeat; width: 10px; height: 10px; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-#main #eventsVisual .event_detail .e_prev_next ul .next strong { background: #fafafa url("../images/event/ico_move_next.png") 5px center no-repeat; width: 10px; height: 10px; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#main #eventsVisual .event_detail .e_prev_next ul .next strong { background: #fafafa url("../images/main/benefits/events/event_info/ico_move_next.png") 5px center no-repeat; width: 10px; height: 10px; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 #main #memberVisual { width: 1480px; margin: 0 auto; }
 
@@ -95,6 +99,10 @@
 #main #memberVisual .middleMenu ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 #main #memberVisual .middleMenu ul li { margin: 10px; }
+
+#main #memberVisual .middleMenu ul li a { font-size: 14px; font-weight: 400; color: #777777; }
+
+#main #memberVisual .middleMenu ul li.on a { font-size: 14px; font-weight: 400; color: #ffcc00; }
 
 #main #memberVisual .membersContainer { margin-top: 50px; width: 100%; text-align: center; height: 1100px; position: relative; letter-spacing: -0.45px; }
 

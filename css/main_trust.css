@@ -30,6 +30,8 @@
 
 #main #trustVisual li .middleMenu ul li a { display: block; padding: 30px; font-size: 14px; position: relative; z-index: 2; }
 
+#main #trustVisual li .middleMenu ul li.on a { font-size: 14px; font-weight: 400; color: #ffcc00; }
+
 #main #trustVisual li .sec01 { letter-spacing: 0.5px; }
 
 #main #trustVisual li .sec01 img { width: 777px; }
@@ -52,116 +54,132 @@
 
 #main #trustVisual li .sec01 .mainBox h4 { margin: 50px 0 30px; font-size: 18px; color: #676e73; font-weight: 500; }
 
-#main #trustVisual li .sec02 { letter-spacing: 0.5px; }
+#main #trustVisual li .sec01 .mainBox .detail_accodion { margin-top: 50px; font-size: 14px; margin-bottom: 100px; width: 100%; }
 
-#main #trustVisual li .sec02 .mainBox { margin: 0 auto; width: 777px; }
+#main #trustVisual li .sec01 .mainBox .detail_accodion div { cursor: pointer; }
 
-#main #trustVisual li .sec02 .mainBox .left { padding: 35px 0 40px 0; }
+#main #trustVisual li .sec01 .mainBox .detail_accodion div h4 { margin: 10px 0; font-size: 14px; padding: 20px 20px; overflow: hidden; background-color: #f9f9f9; position: relative; display: block; padding-right: 11px; font-weight: 300; -ms-flex-negative: 0; flex-shrink: 0; }
 
-#main #trustVisual li .sec02 .mainBox .left strong { font-size: 18px; padding-bottom: 10px; color: #777777; font-weight: 600; }
+#main #trustVisual li .sec01 .mainBox .detail_accodion div h4 a { background-color: red; display: block; background: url("../images/common/icon_ingredientlist_off.png") right 10px center no-repeat; color: #777777; font-weight: 300; }
 
-#main #trustVisual li .sec02 .mainBox .left div { font-size: 14px; line-height: 24px; font-weight: 300; word-break: keep-all; word-wrap: break-word; }
+#main #trustVisual li .sec01 .mainBox .detail_accodion div div { line-height: 25px; color: #777777; font-size: 14px; -ms-flex-negative: 0; flex-shrink: 0; }
 
-#main #trustVisual li .sec03 { letter-spacing: 0.5px; }
+#main #trustVisual li .sec01 .mainBox .detail_accodion > div.active h4 a { background-image: url("../images/common/icon_ingredientlist_on.png"); }
 
-#main #trustVisual li .sec03 .mainBox { margin: 0 auto; width: 777px; }
+#main #trustVisual li .sec01 .mainBox .detail_accodion > div.active h4 + div { display: block; background-color: #f9f9f9; padding: 20px; font-size: 14px; color: #777777; line-height: 24px; font-weight: 300; }
 
-#main #trustVisual li .sec03 .mainBox .left { padding: 35px 0 20px 0; }
+#main #trustVisual li .sec01 .mainBox .detail_accodion > div h4 + div { display: none; background: #ffffff; }
 
-#main #trustVisual li .sec03 .mainBox .left strong { font-size: 18px; padding-bottom: 10px; color: #777777; font-weight: 600; }
+#main #trustVisual .sec02 { letter-spacing: 0.5px; }
 
-#main #trustVisual li .sec03 .mainBox .left div { font-size: 14px; line-height: 24px; font-weight: 300; word-wrap: break-word; }
+#main #trustVisual .sec02 .mainBox { margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .sec03 .mainBox .left div a { color: #777777; }
+#main #trustVisual .sec02 .mainBox .left { padding: 35px 0 40px 0; }
 
-#main #trustVisual li .sec03 .mainBox .left div a span { color: #fff; font-size: 10px; border-radius: 50px; padding: 3px; background-color: #ffcc00; vertical-align: top; }
+#main #trustVisual .sec02 .mainBox .left strong { font-size: 18px; padding-bottom: 10px; color: #777777; font-weight: 600; }
 
-#main #trustVisual li .secLogo01 { letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main #trustVisual .sec02 .mainBox .left div { font-size: 14px; line-height: 24px; font-weight: 300; word-break: keep-all; word-wrap: break-word; }
 
-#main #trustVisual li .secLogo01 .smallContainer { margin: 0 auto; width: 777px; }
+#main #trustVisual .sec03 { letter-spacing: 0.5px; }
 
-#main #trustVisual li .secLogo01 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec01.png); background-repeat: no-repeat; }
+#main #trustVisual .sec03 .mainBox { margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo01 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+#main #trustVisual .sec03 .mainBox .left { padding: 35px 0 20px 0; }
 
-#main #trustVisual li .secLogo01 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
+#main #trustVisual .sec03 .mainBox .left strong { font-size: 18px; padding-bottom: 10px; color: #777777; font-weight: 600; }
 
-#main #trustVisual li .secLogo02 { letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main #trustVisual .sec03 .mainBox .left div { font-size: 14px; line-height: 24px; font-weight: 300; word-wrap: break-word; }
 
-#main #trustVisual li .secLogo02 .smallContainer { margin: 0 auto; width: 777px; }
+#main #trustVisual .sec03 .mainBox .left div a { color: #777777; }
 
-#main #trustVisual li .secLogo02 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec02.png); background-repeat: no-repeat; }
+#main #trustVisual .sec03 .mainBox .left div a span { color: #fff; font-size: 10px; border-radius: 50px; padding: 3px; background-color: #ffcc00; vertical-align: top; }
 
-#main #trustVisual li .secLogo02 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+#main #trustVisual .secLogo01 { letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo02 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
+#main #trustVisual .secLogo01 .smallContainer { margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo03 { letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo01 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec01.png); background-repeat: no-repeat; }
 
-#main #trustVisual li .secLogo03 .smallContainer { margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo01 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #trustVisual li .secLogo03 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec03.png); background-repeat: no-repeat; }
+#main #trustVisual .secLogo01 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #trustVisual li .secLogo03 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+#main #trustVisual .secLogo02 { letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo03 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
+#main #trustVisual .secLogo02 .smallContainer { margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo04 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo02 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec02.png); background-repeat: no-repeat; }
 
-#main #trustVisual li .secLogo04 .smallContainer { margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo02 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #trustVisual li .secLogo04 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec04.png); background-repeat: no-repeat; }
+#main #trustVisual .secLogo02 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #trustVisual li .secLogo04 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+#main #trustVisual .secLogo03 { letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo04 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
+#main #trustVisual .secLogo03 .smallContainer { margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo05 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo03 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec03.png); background-repeat: no-repeat; }
 
-#main #trustVisual li .secLogo05 .smallContainer { margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo03 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #trustVisual li .secLogo05 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec05.png); background-repeat: no-repeat; }
+#main #trustVisual .secLogo03 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #trustVisual li .secLogo05 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+#main #trustVisual .secLogo04 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo05 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
+#main #trustVisual .secLogo04 .smallContainer { margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo06 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo04 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec04.png); background-repeat: no-repeat; }
 
-#main #trustVisual li .secLogo06 .smallContainer { margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo04 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #trustVisual li .secLogo06 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec06.png); background-repeat: no-repeat; }
+#main #trustVisual .secLogo04 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #trustVisual li .secLogo06 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+#main #trustVisual .secLogo05 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo06 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
+#main #trustVisual .secLogo05 .smallContainer { margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo07 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo05 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec05.png); background-repeat: no-repeat; }
 
-#main #trustVisual li .secLogo07 .smallContainer { margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo05 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #trustVisual li .secLogo07 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec07.png); background-repeat: no-repeat; }
+#main #trustVisual .secLogo05 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #trustVisual li .secLogo07 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+#main #trustVisual .secLogo06 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo07 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
+#main #trustVisual .secLogo06 .smallContainer { margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo08 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo06 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec06.png); background-repeat: no-repeat; }
 
-#main #trustVisual li .secLogo08 .smallContainer { margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo06 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #trustVisual li .secLogo08 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec08.png); background-repeat: no-repeat; }
+#main #trustVisual .secLogo06 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #trustVisual li .secLogo08 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+#main #trustVisual .secLogo07 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo08 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
+#main #trustVisual .secLogo07 .smallContainer { margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo09 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo07 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec07.png); background-repeat: no-repeat; }
 
-#main #trustVisual li .secLogo09 .smallContainer { margin: 0 auto; width: 777px; }
+#main #trustVisual .secLogo07 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
 
-#main #trustVisual li .secLogo09 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec09.png); background-repeat: no-repeat; }
+#main #trustVisual .secLogo07 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
 
-#main #trustVisual li .secLogo09 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+#main #trustVisual .secLogo08 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
 
-#main #trustVisual li .secLogo09 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
+#main #trustVisual .secLogo08 .smallContainer { margin: 0 auto; width: 777px; }
+
+#main #trustVisual .secLogo08 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec08.png); background-repeat: no-repeat; }
+
+#main #trustVisual .secLogo08 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+
+#main #trustVisual .secLogo08 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }
+
+#main #trustVisual .secLogo09 { padding: 14px; letter-spacing: 0.5px; margin: 0 auto; width: 777px; }
+
+#main #trustVisual .secLogo09 .smallContainer { margin: 0 auto; width: 777px; }
+
+#main #trustVisual .secLogo09 .smallContainer .menu { padding: 0px 0 0px 140px; background: url(../images/main/trust/certifications/sub_certifications_sec09.png); background-repeat: no-repeat; }
+
+#main #trustVisual .secLogo09 .smallContainer .menu h4 { font-size: 14px; font-weight: 600; line-height: 1; color: #777; margin-top: -5px; }
+
+#main #trustVisual .secLogo09 .smallContainer .menu p { margin-top: 20px; font-size: 14px; font-weight: 300; line-height: 26px; letter-spacing: -1px; }

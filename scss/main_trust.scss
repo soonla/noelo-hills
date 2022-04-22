@@ -74,6 +74,13 @@
               position: relative;
               z-index: 2;
             }
+            &.on {
+              a {
+                font-size: 14px;
+                font-weight: 400;
+                color: #ffcc00;
+              }
+            }
           }
         }
       }
@@ -127,331 +134,388 @@
             color: #676e73;
             font-weight: 500;
           }
+          .detail_accodion {
+            margin-top: 50px;
+            font-size: 14px;
+            margin-bottom: 100px;
+            width: 100%;
+            div {
+              // box-sizing: border-box;
+
+              h4 /*윗블럭 ex)정제수*/ {
+                margin: 10px 0;
+                font-size: 14px;
+                padding: 20px 20px;
+                overflow: hidden;
+                background-color: #f9f9f9;
+                position: relative;
+                display: block;
+                padding-right: 11px;
+                font-weight: 300;
+                flex-shrink: 0;
+
+                a {
+                  background-color: red;
+                  display: block;
+                  background: url("../images/common/icon_ingredientlist_off.png") right 10px center no-repeat;
+                  color: #777777;
+                  font-weight: 300;
+                }
+              }
+              cursor: pointer;
+              div {
+                //   display: none;
+                line-height: 25px;
+                color: #777777;
+                font-size: 14px;
+                flex-shrink: 0;
+              }
+            }
+          }
+          .detail_accodion > div.active h4 a {
+            background-image: url("../images/common/icon_ingredientlist_on.png");
+          } // 상세페이지 리뷰 리스트 클릭시 화살표 이미지 변경
+
+          .detail_accodion > div.active h4 + div {
+            display: block;
+            background-color: #f9f9f9;
+            padding: 20px;
+
+            font-size: 14px;
+            color: #777777;
+            line-height: 24px;
+            font-weight: 300;
+          }
+          // 상세페이지 리뷰 리스트 클릭시 세부내용 나타남
+          .detail_accodion > div h4 + div {
+            display: none;
+            background: #ffffff;
+          } // 상세페이지 다른 리뷰 리스트 클릭시 세부내용 사라짐
         }
       }
-      .sec02 {
-        letter-spacing: 0.5px;
+    }
+    .sec02 {
+      letter-spacing: 0.5px;
 
-        .mainBox {
-          margin: 0 auto;
-          width: 777px;
-          .left {
-            padding: 35px 0 40px 0;
-            strong {
-              font-size: 18px;
-              padding-bottom: 10px;
-              color: #777777;
-              font-weight: 600;
-            }
-            div {
-              font-size: 14px;
-              line-height: 24px;
-              font-weight: 300;
-              word-break: keep-all;
-              word-wrap: break-word;
-            }
+      .mainBox {
+        margin: 0 auto;
+        width: 777px;
+        .left {
+          padding: 35px 0 40px 0;
+          strong {
+            font-size: 18px;
+            padding-bottom: 10px;
+            color: #777777;
+            font-weight: 600;
+          }
+          div {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+            word-break: keep-all;
+            word-wrap: break-word;
           }
         }
       }
-      .sec03 {
-        letter-spacing: 0.5px;
+    }
+    .sec03 {
+      letter-spacing: 0.5px;
 
-        .mainBox {
-          margin: 0 auto;
-          width: 777px;
-          .left {
-            padding: 35px 0 20px 0;
-            strong {
-              font-size: 18px;
-              padding-bottom: 10px;
+      .mainBox {
+        margin: 0 auto;
+        width: 777px;
+        .left {
+          padding: 35px 0 20px 0;
+          strong {
+            font-size: 18px;
+            padding-bottom: 10px;
+            color: #777777;
+            font-weight: 600;
+          }
+          div {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+            word-wrap: break-word;
+
+            a {
               color: #777777;
-              font-weight: 600;
-            }
-            div {
-              font-size: 14px;
-              line-height: 24px;
-              font-weight: 300;
-              word-wrap: break-word;
-
-              a {
-                color: #777777;
-                span {
-                  color: #fff;
-                  font-size: 10px;
-                  border-radius: 50px;
-                  padding: 3px;
-                  background-color: #ffcc00;
-                  vertical-align: top;
-                }
+              span {
+                color: #fff;
+                font-size: 10px;
+                border-radius: 50px;
+                padding: 3px;
+                background-color: #ffcc00;
+                vertical-align: top;
               }
             }
           }
         }
       }
-      .secLogo01 {
-        letter-spacing: 0.5px;
+    }
+    .secLogo01 {
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
         margin: 0 auto;
         width: 777px;
-
-        .smallContainer {
-          margin: 0 auto;
-          width: 777px;
-          .menu {
-            padding: 0px 0 0px 140px;
-            background: url(../images/main/trust/certifications/sub_certifications_sec01.png);
-            background-repeat: no-repeat;
-            h4 {
-              font-size: 14px;
-              font-weight: 600;
-              line-height: 1;
-              color: #777;
-              margin-top: -5px;
-            }
-            p {
-              margin-top: 20px;
-              font-size: 14px;
-              font-weight: 300;
-              line-height: 26px;
-              letter-spacing: -1px;
-            }
+        .menu {
+          padding: 0px 0 0px 140px;
+          background: url(../images/main/trust/certifications/sub_certifications_sec01.png);
+          background-repeat: no-repeat;
+          h4 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            color: #777;
+            margin-top: -5px;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: -1px;
           }
         }
       }
-      .secLogo02 {
-        letter-spacing: 0.5px;
+    }
+    .secLogo02 {
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
         margin: 0 auto;
         width: 777px;
-
-        .smallContainer {
-          margin: 0 auto;
-          width: 777px;
-          .menu {
-            padding: 0px 0 0px 140px;
-            background: url(../images/main/trust/certifications/sub_certifications_sec02.png);
-            background-repeat: no-repeat;
-            h4 {
-              font-size: 14px;
-              font-weight: 600;
-              line-height: 1;
-              color: #777;
-              margin-top: -5px;
-            }
-            p {
-              margin-top: 20px;
-              font-size: 14px;
-              font-weight: 300;
-              line-height: 26px;
-              letter-spacing: -1px;
-            }
+        .menu {
+          padding: 0px 0 0px 140px;
+          background: url(../images/main/trust/certifications/sub_certifications_sec02.png);
+          background-repeat: no-repeat;
+          h4 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            color: #777;
+            margin-top: -5px;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: -1px;
           }
         }
       }
-      .secLogo03 {
-        letter-spacing: 0.5px;
+    }
+    .secLogo03 {
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
         margin: 0 auto;
         width: 777px;
-
-        .smallContainer {
-          margin: 0 auto;
-          width: 777px;
-          .menu {
-            padding: 0px 0 0px 140px;
-            background: url(../images/main/trust/certifications/sub_certifications_sec03.png);
-            background-repeat: no-repeat;
-            h4 {
-              font-size: 14px;
-              font-weight: 600;
-              line-height: 1;
-              color: #777;
-              margin-top: -5px;
-            }
-            p {
-              margin-top: 20px;
-              font-size: 14px;
-              font-weight: 300;
-              line-height: 26px;
-              letter-spacing: -1px;
-            }
+        .menu {
+          padding: 0px 0 0px 140px;
+          background: url(../images/main/trust/certifications/sub_certifications_sec03.png);
+          background-repeat: no-repeat;
+          h4 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            color: #777;
+            margin-top: -5px;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: -1px;
           }
         }
       }
-      .secLogo04 {
-        padding: 14px;
-        letter-spacing: 0.5px;
+    }
+    .secLogo04 {
+      padding: 14px;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
         margin: 0 auto;
         width: 777px;
-
-        .smallContainer {
-          margin: 0 auto;
-          width: 777px;
-          .menu {
-            padding: 0px 0 0px 140px;
-            background: url(../images/main/trust/certifications/sub_certifications_sec04.png);
-            background-repeat: no-repeat;
-            h4 {
-              font-size: 14px;
-              font-weight: 600;
-              line-height: 1;
-              color: #777;
-              margin-top: -5px;
-            }
-            p {
-              margin-top: 20px;
-              font-size: 14px;
-              font-weight: 300;
-              line-height: 26px;
-              letter-spacing: -1px;
-            }
+        .menu {
+          padding: 0px 0 0px 140px;
+          background: url(../images/main/trust/certifications/sub_certifications_sec04.png);
+          background-repeat: no-repeat;
+          h4 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            color: #777;
+            margin-top: -5px;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: -1px;
           }
         }
       }
-      .secLogo05 {
-        padding: 14px;
-        letter-spacing: 0.5px;
+    }
+    .secLogo05 {
+      padding: 14px;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
         margin: 0 auto;
         width: 777px;
-
-        .smallContainer {
-          margin: 0 auto;
-          width: 777px;
-          .menu {
-            padding: 0px 0 0px 140px;
-            background: url(../images/main/trust/certifications/sub_certifications_sec05.png);
-            background-repeat: no-repeat;
-            h4 {
-              font-size: 14px;
-              font-weight: 600;
-              line-height: 1;
-              color: #777;
-              margin-top: -5px;
-            }
-            p {
-              margin-top: 20px;
-              font-size: 14px;
-              font-weight: 300;
-              line-height: 26px;
-              letter-spacing: -1px;
-            }
+        .menu {
+          padding: 0px 0 0px 140px;
+          background: url(../images/main/trust/certifications/sub_certifications_sec05.png);
+          background-repeat: no-repeat;
+          h4 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            color: #777;
+            margin-top: -5px;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: -1px;
           }
         }
       }
-      .secLogo06 {
-        padding: 14px;
-        letter-spacing: 0.5px;
+    }
+    .secLogo06 {
+      padding: 14px;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
         margin: 0 auto;
         width: 777px;
-
-        .smallContainer {
-          margin: 0 auto;
-          width: 777px;
-          .menu {
-            padding: 0px 0 0px 140px;
-            background: url(../images/main/trust/certifications/sub_certifications_sec06.png);
-            background-repeat: no-repeat;
-            h4 {
-              font-size: 14px;
-              font-weight: 600;
-              line-height: 1;
-              color: #777;
-              margin-top: -5px;
-            }
-            p {
-              margin-top: 20px;
-              font-size: 14px;
-              font-weight: 300;
-              line-height: 26px;
-              letter-spacing: -1px;
-            }
+        .menu {
+          padding: 0px 0 0px 140px;
+          background: url(../images/main/trust/certifications/sub_certifications_sec06.png);
+          background-repeat: no-repeat;
+          h4 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            color: #777;
+            margin-top: -5px;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: -1px;
           }
         }
       }
-      .secLogo07 {
-        padding: 14px;
-        letter-spacing: 0.5px;
+    }
+    .secLogo07 {
+      padding: 14px;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
         margin: 0 auto;
         width: 777px;
-
-        .smallContainer {
-          margin: 0 auto;
-          width: 777px;
-          .menu {
-            padding: 0px 0 0px 140px;
-            background: url(../images/main/trust/certifications/sub_certifications_sec07.png);
-            background-repeat: no-repeat;
-            h4 {
-              font-size: 14px;
-              font-weight: 600;
-              line-height: 1;
-              color: #777;
-              margin-top: -5px;
-            }
-            p {
-              margin-top: 20px;
-              font-size: 14px;
-              font-weight: 300;
-              line-height: 26px;
-              letter-spacing: -1px;
-            }
+        .menu {
+          padding: 0px 0 0px 140px;
+          background: url(../images/main/trust/certifications/sub_certifications_sec07.png);
+          background-repeat: no-repeat;
+          h4 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            color: #777;
+            margin-top: -5px;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: -1px;
           }
         }
       }
-      .secLogo08 {
-        padding: 14px;
-        letter-spacing: 0.5px;
+    }
+    .secLogo08 {
+      padding: 14px;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
         margin: 0 auto;
         width: 777px;
-
-        .smallContainer {
-          margin: 0 auto;
-          width: 777px;
-          .menu {
-            padding: 0px 0 0px 140px;
-            background: url(../images/main/trust/certifications/sub_certifications_sec08.png);
-            background-repeat: no-repeat;
-            h4 {
-              font-size: 14px;
-              font-weight: 600;
-              line-height: 1;
-              color: #777;
-              margin-top: -5px;
-            }
-            p {
-              margin-top: 20px;
-              font-size: 14px;
-              font-weight: 300;
-              line-height: 26px;
-              letter-spacing: -1px;
-            }
+        .menu {
+          padding: 0px 0 0px 140px;
+          background: url(../images/main/trust/certifications/sub_certifications_sec08.png);
+          background-repeat: no-repeat;
+          h4 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            color: #777;
+            margin-top: -5px;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: -1px;
           }
         }
       }
-      .secLogo09 {
-        padding: 14px;
-        letter-spacing: 0.5px;
+    }
+    .secLogo09 {
+      padding: 14px;
+      letter-spacing: 0.5px;
+      margin: 0 auto;
+      width: 777px;
+
+      .smallContainer {
         margin: 0 auto;
         width: 777px;
-
-        .smallContainer {
-          margin: 0 auto;
-          width: 777px;
-          .menu {
-            padding: 0px 0 0px 140px;
-            background: url(../images/main/trust/certifications/sub_certifications_sec09.png);
-            background-repeat: no-repeat;
-            h4 {
-              font-size: 14px;
-              font-weight: 600;
-              line-height: 1;
-              color: #777;
-              margin-top: -5px;
-            }
-            p {
-              margin-top: 20px;
-              font-size: 14px;
-              font-weight: 300;
-              line-height: 26px;
-              letter-spacing: -1px;
-            }
+        .menu {
+          padding: 0px 0 0px 140px;
+          background: url(../images/main/trust/certifications/sub_certifications_sec09.png);
+          background-repeat: no-repeat;
+          h4 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            color: #777;
+            margin-top: -5px;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: -1px;
           }
         }
       }

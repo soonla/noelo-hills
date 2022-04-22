@@ -31,6 +31,8 @@
 
 #main #aboutVisual li .middleMenu ul li a { display: block; padding: 30px; font-size: 14px; position: relative; z-index: 2; }
 
+#main #aboutVisual li .middleMenu ul li.on a { font-size: 14px; font-weight: 400; color: #ffcc00; }
+
 #main #aboutVisual .sec01 { letter-spacing: 0.5px; }
 
 #main #aboutVisual .sec01 img { width: 777px; }
@@ -69,7 +71,7 @@
 
 #main #aboutVisual .sec02 .mainBox .left div { font-size: 14px; color: #777777; }
 
-#main #aboutVisual .sec03 { letter-spacing: 0.5px; }
+#main #aboutVisual .sec03 { letter-spacing: 0.5px; margin-bottom: 10px; }
 
 #main #aboutVisual .sec03 .mainBox { margin: 0 auto; width: 777px; }
 

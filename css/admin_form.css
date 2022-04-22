@@ -1,0 +1,69 @@
+#admin_main .form, #admin_main .tableBox { max-width: 1200px; margin: auto; }
+
+#admin_main .form .inputBox input[type="text"], #admin_main .form .inputBox input[type="password"], #admin_main .form .inputBox input[type="number"], #admin_main .form .inputBox select, #admin_main .tableBox .inputBox input[type="text"], #admin_main .tableBox .inputBox input[type="password"], #admin_main .tableBox .inputBox input[type="number"], #admin_main .tableBox .inputBox select { width: 100%; height: 40px; padding: 0 10px; -webkit-box-sizing: border-box; box-sizing: border-box; border: 1px solid #d9d9d9; }
+
+#admin_main .form .inputBox input[type="text"].short, #admin_main .form .inputBox input[type="password"].short, #admin_main .form .inputBox input[type="number"].short, #admin_main .form .inputBox select.short, #admin_main .tableBox .inputBox input[type="text"].short, #admin_main .tableBox .inputBox input[type="password"].short, #admin_main .tableBox .inputBox input[type="number"].short, #admin_main .tableBox .inputBox select.short { width: 200px; }
+
+#admin_main .form .inputBox.center, #admin_main .tableBox .inputBox.center { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#admin_main .form table, #admin_main .tableBox table { width: 100%; border-collapse: collapse; border-top: 1px solid #999; }
+
+#admin_main .form table .required, #admin_main .tableBox table .required { color: #ff0000; display: inline-block; vertical-align: middle; margin-left: 10px; }
+
+#admin_main .form table td, #admin_main .form table th, #admin_main .tableBox table td, #admin_main .tableBox table th { padding: 10px; border: none; border-bottom: 1px solid #999; text-align: center; vertical-align: middle; line-height: 25px; }
+
+#admin_main .form table th, #admin_main .tableBox table th { background-color: #d9d9d9; font-weight: 700; text-align: center; }
+
+#admin_main .form table .left, #admin_main .tableBox table .left { text-align: left; }
+
+#admin_main .form table input[type="text"], #admin_main .form table input[type="password"], #admin_main .form table input[type="number"], #admin_main .form table select, #admin_main .form table textarea, #admin_main .tableBox table input[type="text"], #admin_main .tableBox table input[type="password"], #admin_main .tableBox table input[type="number"], #admin_main .tableBox table select, #admin_main .tableBox table textarea { width: 100%; height: 40px; padding: 0 10px; -webkit-box-sizing: border-box; box-sizing: border-box; border: 1px solid #d9d9d9; }
+
+#admin_main .form table input[type="text"].short, #admin_main .form table input[type="password"].short, #admin_main .form table input[type="number"].short, #admin_main .form table select.short, #admin_main .form table textarea.short, #admin_main .tableBox table input[type="text"].short, #admin_main .tableBox table input[type="password"].short, #admin_main .tableBox table input[type="number"].short, #admin_main .tableBox table select.short, #admin_main .tableBox table textarea.short { width: 200px; }
+
+#admin_main .form table input[type="text"].readonly, #admin_main .form table input[type="password"].readonly, #admin_main .form table input[type="number"].readonly, #admin_main .form table select.readonly, #admin_main .form table textarea.readonly, #admin_main .tableBox table input[type="text"].readonly, #admin_main .tableBox table input[type="password"].readonly, #admin_main .tableBox table input[type="number"].readonly, #admin_main .tableBox table select.readonly, #admin_main .tableBox table textarea.readonly { background-color: #111 !important; color: #fff !important; }
+
+#admin_main .form table textarea, #admin_main .tableBox table textarea { min-height: 300px; resize: none; padding: 10px; }
+
+#admin_main .form table textarea:not(#summernote) button, #admin_main .form table textarea:not(#summernote) .sticker, #admin_main .tableBox table textarea:not(#summernote) button, #admin_main .tableBox table textarea:not(#summernote) .sticker { height: 40px; padding: 0 10px; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #111; border: 1px solid #d9d9d9; color: #fff; border-radius: 5px; min-width: 80px; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-left: 10px; font-size: 12px; }
+
+#admin_main .form table .addrBox, #admin_main .tableBox table .addrBox { margin: 5px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#admin_main .form table .addrBox input, #admin_main .tableBox table .addrBox input { width: 70%; }
+
+#admin_main .form .btns, #admin_main .tableBox .btns { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 50px; }
+
+#admin_main .form .btns .btn, #admin_main .tableBox .btns .btn { display: -webkit-box; display: -ms-flexbox; display: flex; width: 120px; height: 60px; border-radius: 5px; margin: 0 5px; color: #fff; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 16px; }
+
+#admin_main .form .btns .btn.btnConfirm, #admin_main .tableBox .btns .btn.btnConfirm { background-color: #037dce; }
+
+#admin_main .form .btns .btn.btnCancel, #admin_main .tableBox .btns .btn.btnCancel { background-color: #727272; }
+
+#admin_main .searchBox { padding: 50px 100px; border: 1px solid #d9d9d9; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 50px; background-color: #d9d9d9; }
+
+#admin_main .searchBox select, #admin_main .searchBox input, #admin_main .searchBox button { height: 50px; }
+
+#admin_main .searchBox select { width: 120px; margin-right: 10px; }
+
+#admin_main .searchBox button { background-color: #111; color: #fff; border-radius: 5px; width: 120px; margin-left: 10px; }
+
+#admin_main .searchBox input { width: calc(100% - 260px); }
+
+#admin_main .pagination { display: block; width: 100%; margin-top: 50px; }
+
+#admin_main .pagination ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#admin_main .pagination ul li { margin: 0 2px; }
+
+#admin_main .pagination ul li.active a { background-color: #0274d1; pointer-events: none; }
+
+#admin_main .pagination ul li a { display: -webkit-box; display: -ms-flexbox; display: flex; width: 30px; height: 30px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: #111; color: #fff; border-radius: 2px; }
+
+#admin_main .prevAndNext { margin: 50px 0; border-top: 1px solid #d9d9d9; }
+
+#admin_main .prevAndNext .inner { padding: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#admin_main .prevAndNext .inner .material-icons { margin-right: 20px; }
+
+#admin_main .prevAndNext a { margin-left: 50px; }
+
+#admin_main .prevAndNext .item { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 20px; border-bottom: 1px solid #d9d9d9; }

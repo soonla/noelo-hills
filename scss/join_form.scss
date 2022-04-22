@@ -149,19 +149,39 @@ body {
         tbody {
           tr {
             &:nth-child(6) {
-              input[type="number"] {
-                width: 400px !important;
+              .address_width_change {
+                .addressInput {
+                  input[type="number"] {
+                    width: 400px !important;
+                  }
+                }
+                input[type="text"] {
+                  margin: 10px 0;
+                }
+                button {
+                  background-color: #ffcc00;
+                  color: #fff;
+                  padding: 0 20px;
+                  height: 40px;
+                  line-height: 40px;
+                  cursor: pointer;
+                }
               }
-              input[type="text"] {
-                margin: 10px 0;
-              }
-              button {
-                background-color: #ffcc00;
-                color: #fff;
-                padding: 0 20px;
-                height: 40px;
-                line-height: 40px;
-                cursor: pointer;
+            }
+            &:nth-child(7) {
+              td {
+                .phone_table {
+                  vertical-align: middle;
+                  input[type="number"],
+                  select {
+                    border-bottom: 1px solid #c3cfd9;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                    height: 30px;
+                    outline: none;
+                    font-size: 14px;
+                  }
+                }
               }
             }
           }

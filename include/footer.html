@@ -18,6 +18,15 @@
     <script src="../js/main.js" defer></script>
   </head>
   <body>
+    <div id="tothetop">
+      <span id="topButton">△</span>
+      <script>
+        jQuery("#tothetop").click(function () {
+          var htmloffset = jQuery("html").offset();
+          jQuery("html, body").animate({ scrollTop: htmloffset.top }, 400);
+        });
+      </script>
+    </div>
     <footer>
       <div class="container">
         <div class="up_footer">
